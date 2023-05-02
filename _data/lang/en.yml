@@ -164,6 +164,10 @@ projects:
   button_name: Projects
   read_more_text: Read more
   read_less_text: Read less
+# for new layout
+news:
+  title: NewTitle
+  button_name: NewBTN
 
 # for privacy-policy layout
 privacy-policy:

@@ -37,7 +37,9 @@ img: ":about.jpg"
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
+<div>
+    <p>New about test text</p>
+</div>
 {%- include util/auto-content-generator.liquid -%}
 {{ website_info_text_first }}
 
