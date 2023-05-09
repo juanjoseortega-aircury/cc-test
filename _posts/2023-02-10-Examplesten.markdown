@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Examples
-title: Examples
+lng_pair: id_Examplesten
+title: Examplesten
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -16,7 +16,7 @@ img: ":post_pic1.jpg"
 #comments_disable: true
 
 # publish date
-date: 2022-02-10 08:11:06 +0900
+date: 2023-02-10 08:11:06 +0900
 
 # seo
 # if not specified, date will be used.
@@ -38,7 +38,7 @@ date: 2022-02-10 08:11:06 +0900
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
-<p>New example incremental 2</p>
+<p>New example incremental 2 tendos</p>
 <!-- outline-start -->
 
 This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
