@@ -168,6 +168,10 @@ projects:
 contacts:
   title: Contacts
   button_name: Contact
+# for offerings layout
+offerings:
+  title: Offering
+  button_name: Offering
 # for new layout
 news:
   title: NewTitle
