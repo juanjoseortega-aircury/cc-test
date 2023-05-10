@@ -39,7 +39,7 @@ img: ":about.jpg"
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 # Company
 CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. 
-We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed [here](/tabs/offering.html).
+We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed [here]({{ site.baseurl }}/tabs/offering.html).
 
 # Team
 [Studies - Career highlights - International experience - Languages]- use Acciona compilation
