@@ -164,6 +164,10 @@ projects:
   button_name: Projects
   read_more_text: Read more
   read_less_text: Read less
+# for contacts layout
+contacts:
+  title: Contacts
+  button_name: Contact
 # for new layout
 news:
   title: NewTitle
