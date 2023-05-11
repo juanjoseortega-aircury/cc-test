@@ -197,8 +197,8 @@ side_and_top_nav_buttons:
     icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
-  - news: 
-    icon: "fa fa-check"
+  - portfolios: 
+    icon: "fa fa-briefcase"
   - contacts: 
     icon: "fa fa-envelope"
   - offerings:
