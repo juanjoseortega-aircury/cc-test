@@ -23,29 +23,29 @@ date:
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  months: [En, Feb, Mar, Abr, May, Jun, Jul, Ag, Sept, Oct, Nov, Dic]
 
 not_found:
-  header: Page not found
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  header: Página no encontrada
+  line1: La página que ha solicitado no se encuentra disponible
+  line2: Utiliza el menú o la barra de búsqueda si se encuentra disponible
 
-no_translation_tooltip: No Translation
+no_translation_tooltip: Sin Traducción
 
 navigation:
-  contact_header: Contact
+  contact_header: Contactos
 
-color_scheme_switch_tooltip: Color scheme
+color_scheme_switch_tooltip: Apariencia
 
 search:
-  placeholder: Search
-  noResultText: No results were found.
+  placeholder: Búsqueda
+  noResultText: No se ha encontrado ningún resultado.
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: No se ha podido cargar la imagen.
 
 copyright:
-  additional_text: " All rights reserved."
+  additional_text: " Todos los derechos reservados."
 
 creative_commons:
   some_rights_reserved: Some rights reserved.
@@ -71,12 +71,12 @@ post:
     # char or words per minute
     per_minute: 200
   pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    older_post: "← Post Antiguos"
+    newer_post: "Post Nuevos →"
+    first_post: Primero
+    last_post: Último
   comments:
-    noscript: Please enable JavaScript to view the Comments.
+    noscript: Por favor activa JavaScript para ver los comentarios.
     disqus:
       count_title: Comments
       click_to_load: "Load comments"
@@ -115,9 +115,9 @@ post-list:
   upside_down_tabs:
     tab:
       all: All
-      categories: Categories
+      categories: Categorías
       tags: Tags
-      years: Years
+      years: Año
       clear: Clear
       close: Close
       tooltip:
@@ -134,10 +134,10 @@ post-list:
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  title: Bienvenido
+  button_name: Inicio
+  new_posts_title: Artículos nuevos
+  new_posts_show_more_button: Ver más ...
 
 # for archives layout
 archives:
@@ -147,23 +147,29 @@ archives:
 
 # for about layout
 about:
-  title: About
-  button_name: About
+  title: Sobre Nosotros
+  button_name: Sobre Nosotros
   email_title: email
-
-# for links layout
-links:
-  title: Links
-  button_name: Links
-  link_text: Web site
-  info_text: Info
 
 # for projects layout
 projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+  title: Proyectos
+  button_name: Proyectos
+  read_more_text: Leer más
+  read_less_text: Leer menos
+# for contacts layout
+contacts:
+  title: Contactos
+  button_name: Contactos
+# for portfolios layout
+portfolios:
+  title: Portafolio
+  button_name: Portafolio
+# for offerings layout
+offerings:
+  title: Que Ofrecemos
+  button_name: Que Ofrecemos
+
 
 # for privacy-policy layout
 privacy-policy:
@@ -171,23 +177,23 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
-  sample: Sample
+  greetings: Hola
+  welcome: Bienvenido
+  sample: Ejemplo
 
 # for contact form
 contact_form:
-  button_name: Contact Form
-  formLoadingText: Loading the Contact Form...
+  button_name: Formulario de contacto
+  formLoadingText: Cargando formulario de contacto...
 
 # for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Cookie settings
+  side_nav_setting_button_tooltip: &cookie_settings Configuración de Cookies
   panel_bar:
     msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval.
+      Este sitio web utiliza cookies para optimizar la funcionalidad del sitio.
+      Se activará con su aprobación.
     privacy_msg: Check $privacy_link.
     buttons:
       accept: &accept_button Allow all
@@ -195,42 +201,42 @@ cookie_consent:
       deny: &deny_button Deny
   panel_settings:
     title: *cookie_settings
-    msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval. Please click each item below for cookie policy.
-    privacy_msg: Check $privacy_link.
+    msg: >      
+      Este sitio web utiliza cookies para optimizar la funcionalidad del sitio.
+      Se activará con su aprobación. Haga clic en cada elemento a continuación para conocer la política de cookies.
+    privacy_msg: Comprueba $privacy_link.
     buttons:
       accept: *accept_button
-      save: Allow selection
+      save: Permitir selección
       deny: *deny_button
-    always_active: Always active
+    always_active: Siempre activo
     consent_types:
       necessary:
-        title: Strictly necessary cookies
+        title: Cookies estrictamente necesarias
         info: >
-          These cookies are essential for the website function and cannot be disable.
-          They are usually set when site function like color scheme etc. is changed.
-          These cookies do not store any personally identifiable information.
+          Estas cookies son esenciales para el funcionamiento del sitio web y no se pueden desactivar.
+          Por lo general, se configuran cuando se cambia la función del sitio, como el esquema de color, etc.
+          Estas cookies no almacenan ninguna información de identificación personal.
           $gtag_info
       analytics:
-        title: Performance cookies
+        title: Cookies de rendimiento
         info: $gtag_info
       preferences:
-        title: Functionality cookies
+        title: Cookies de funcionalidad
         info: $gtag_info
       advertising:
-        title: Targeting and advertising cookies
+        title: Cookies de segmentación y publicidad
         info: $gtag_info
     gtag_info:
       # from https://support.google.com/tagmanager/answer/10718549#consent-types
       ad_storage: >
-        Enables storage (such as cookies) related to advertising.
+        Habilita el almacenamiento (como las cookies) relacionado con la publicidad.
       analytics_storage: >
-        Enables storage (such as cookies) related to analytics e.g. visit duration.
+        Habilita el almacenamiento (como cookies) relacionado con análisis, p.e Duración de la visita.
       functionality_storage: >
-        Enables storage that supports the functionality of the website or app e.g. language settings.
+        Habilita el almacenamiento que admite la funcionalidad del sitio web o la aplicación, p.e Configuración de lenguaje.
       personalization_storage: >
-        Enables storage related to personalization e.g. video recommendations.
+        Habilita el almacenamiento relacionado con la personalización, p.e Recomendaciones de videos
       security_storage: >
-        Enables storage related to security such as authentication functionality,
-        fraud prevention, and other user protection.
+        Habilita el almacenamiento relacionado con la seguridad, como la funcionalidad de autenticación,
+        prevención de fraude y otra protección del usuario.
