@@ -4,21 +4,21 @@
 ###########################################################
 page_data:
   main:
-    header: "JU1"
-    info: "JU2。"
+    header: "Proyectos"
+    info: "Descripcion sobre los proyectos"
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
     back_color: "lightblue"
 
   category:
-    - title: "JU3"
+    - title: "Category1"
       type: id_example
       color: "gray"
-    - title: "JU4"
+    - title: "Category2"
       type: id_picture
       color: "#62b462"
-    - title: "JU5"
+    - title: "Category3"
       type: id_quote
       color: "#2FD0ED"
 
