@@ -11,6 +11,7 @@ page_data:
     img: ":projects-heading.jpg"
     back_color: "lightblue"
 
+  # TODO SH-30
   category:
     - title: "Example"
       type: id_example
@@ -29,7 +30,7 @@ page_data:
       color: "gray"
 
   list:
-    # example
+    # TODO SH-30
     - type: id_example
       project_name: "The Pathway to a Sustainable Exhibition"
       project_excerpt: "Ithra via Acciona Cultura"
@@ -40,7 +41,7 @@ page_data:
         # ‘The Pathway to a Sustainable Exhibition’ chapter in catalogue for Net Zero exhibition- King Abdulaziz Centre for World Culture-Ithra, Dharan, Saudi Arabia
         
 
-    # picture
+    # TODO SH-30 
     - type: id_picture
       project_name: "Cinema can also be read exhibition"
       project_excerpt: "CiBRA- Festival del Cine y de la Palabra (Cinema and Word Festival)"
@@ -50,16 +51,15 @@ page_data:
       post: |
         # El cine también se lee (Cinema can also be read) exhibition- Castilla La Mancha Library, Toledo, Spain
 
-    # quote
+    # TODO SH-30 
     - type: id_quote
       project_name: "‘Nuevas expografías: entre la tecnología y las experiencias’ seminar"
       project_excerpt: "Fundación Mainel"
-      #img: ":project1_thumb.jpg"
-      #img_title: "img title3"
       date: "2023-05-10"
       post: |
         # ‘Nuevas expografías: entre la tecnología y las experiencias’ seminar in Coloquios Cultura Visual Contemporaneo series- Fundación Mainel, Valencia, Spain
 
+    # TODO SH-30
     - type: id_quote
       project_name: "Rise-Rosa-Rage Archive of Socio-Political Graphics, Rome, Italy / Online"
       project_excerpt: "Rise Rosa Rage Archive"
@@ -69,6 +69,7 @@ page_data:
       post: |
         # Rise-Rosa-Rage Archive of Socio-Political Graphics, Rome, Italy / Online
 
+    # TODO SH-30
     - type: id_quote
       project_name: "Module on MA Course Barreira Higher School"
       project_excerpt: "Barreira Higher School of Art and Design"
@@ -77,4 +78,3 @@ page_data:
       date: "2023-05-10"
       post: |
         # Module on MA Course Barreira Higher School of Art and Design, Valencia, Spain
-        
