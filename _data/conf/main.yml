@@ -211,7 +211,7 @@ side_nav_toggle_button_no_top_nav_buttons: true
 side_nav_toggle_close_button: true
 
 # change visibility of brand text of side nav
-side_nav_brand_text_enable: true
+side_nav_brand_text_enable: false
 
 # change visibility of brand text of top nav
 top_nav_brand_text_enable: true

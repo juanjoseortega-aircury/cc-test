@@ -15,8 +15,15 @@
         {% if site.data.conf.main.side_nav_brand_text_enable -%}
           <a href="{{ site.baseurl }}{{ layout_page_obj.url }}" translate="no">{{ site.data.owner[lng].brand }}</a>
         {% endif -%}
+        {% if site.data.conf.main.side_nav_brand_text_enable == false -%}
+          <a href="{{ site.baseurl }}{{ layout_page_obj.url }}" translate="no">
+            <img src="{{ site.baseurl }}/assets/img/default/logo-name.png">
+          </a>
+        {% endif -%}
       </div>
-      <p>&nbsp;{{ site.data.owner[lng].brand_sub_text | replace: site.data.conf.main.sample_replace, site.data.lang[lng].constants.sample }}</p>
+      {% if site.data.conf.main.side_nav_brand_text_enable -%}
+        <p>&nbsp;{{ site.data.owner[lng].brand_sub_text | replace: site.data.conf.main.sample_replace, site.data.lang[lng].constants.sample }}</p>
+      {% endif -%}
       <br>
       {%- if site.data.lang.size > 1 and site.data.conf.main.language_switch_lang_list.size > 1 %}
         {% include default/nav/lang-switch.html -%}
