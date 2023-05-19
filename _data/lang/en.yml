@@ -173,7 +173,10 @@ offerings:
 news:
   title: NewTitle
   button_name: NewBTN
-
+# for workwithus layout
+workwithus:
+  title: Work With Us
+  button_name: Work With us
 # for privacy-policy layout
 privacy-policy:
   title: &privacy_policy_title Privacy policy
