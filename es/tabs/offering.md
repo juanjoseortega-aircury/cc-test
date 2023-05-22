@@ -1,0 +1,62 @@
+---
+layout: offerings
+lng_pair: id_offering
+---
+We offer a variety
+
+- Tipos de proyectos:
+    - Museos
+    - Exhibiciones
+    - Colaboraciones de arte contemporáneo
+    - Herramientas y programas de aprendizaje
+    - Programación cultural
+    - Eventos culturales
+    - Manifestación del patrimonio de empresas
+    - Escritura
+        - Capítulos de libros
+        - Artículos de revista
+        - Artículos de opinión
+        - Revistas online
+        - Blogs
+    - Discursos
+        - Conferencias 
+        - Charlas
+        - Alcance comunitario
+- Tipo de clientes con el que trabajamos:
+    - Museos y Archivos
+    - Organismos gubernamentales como Ministerios de Cultura
+    - Entidades administrativas como Ciudades y Ayuntamientos
+    - Colecciones privadas
+    - Galerías y la escena comercial
+    - Instituciones educacionales
+    - Empresas de diseño de exposiciones y otros contratistas principales en grandes proyectos
+    - Conferencias y Festivales
+    - Editoriales
+    - Empresas que buscan aportar valor a su historia y patrimonio
+    - ONGs
+    - Startups culturales
+    - Individuos con ideas inspiradoras
+- Habilidades de equipo
+    - Consultoría cultural
+    - Propuestas curatoriales
+    - Investigación
+    - Creación de concepto
+    - Desarrollo de contenido
+    - Escritura de textos y guiones (para gráficos, audiovisuales e interactivos)
+    - Coordinación de Producción de Contenidos
+    - Gestión de colecciones
+    - Idiomas extranjeros
+        - Todos los miembros del equipo son como mínimo bilingües en los siguientes idiomas:
+            - Inglés 
+            - Español
+            - Francés
+            - Italiano
+        - También hablamos o estamos aprendiendo:
+            - Alemán
+            - Árabe
+            - Griego moderno
+            - Portugues
+            - Ruso
+    - Habilidades interpersonales: fuerza, empatía, respeto y ​​amabilidad 
+
+Echa un vistazo a nuestro [Portfolio]({{ site.baseurl }}/tabs/portfolio.html) para ver algunos de nuestros compromisos actuales y anteriores.
