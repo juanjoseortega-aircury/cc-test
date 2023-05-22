@@ -23,12 +23,12 @@ date:
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [En, Feb, Mar, Abr, May, Jun, Jul, Ag, Sept, Oct, Nov, Dic]
+  months: [Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic]
 
 not_found:
   header: Página no encontrada
   line1: La página que ha solicitado no se encuentra disponible
-  line2: Utiliza el menú o la barra de búsqueda si se encuentra disponible
+  line2: Utilice el menú o la barra de búsqueda si se encuentra disponible
 
 no_translation_tooltip: Sin Traducción
 
@@ -192,7 +192,7 @@ cookie_consent:
   side_nav_setting_button_tooltip: &cookie_settings Configuración de Cookies
   panel_bar:
     msg: >
-      Este sitio web utiliza cookies para optimizar la funcionalidad del sitio.
+      Este sitio web utiliza cookies para optimizar su funcionalidad.
       Se activará con su aprobación.
     privacy_msg: Check $privacy_link.
     buttons:
