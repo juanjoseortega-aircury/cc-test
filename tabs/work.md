@@ -12,7 +12,7 @@ We respect your time and your interest, so we will always reply. If we don’t r
 
 <u>Skills we are particularly interested in:</u>
 
-- Any mentioned in our ‘Offering’ page [link](/tabs/offering.html).
+- Any mentioned in our ‘Offering’ page [link]({{ site.baseurl }}/tabs/offering.html).
 - Graphic Designers (exhibition artworking and/or publications)
 - Learning Specialists
 - Audiovisual and Technical Specialists
