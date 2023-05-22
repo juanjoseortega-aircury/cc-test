@@ -36,9 +36,18 @@ img: ":about.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+# Empresa
+CuraCultura S.L. se dedica a la creación, desarrollo e implementación de proyectos culturales, educativos y turísticos internacionales. Ofrecemos consultoría, asesoramiento y servicios para museos (nuevos y existentes), ciudades, entidades gubernamentales y una amplia gama de clientes, incluyendo empresas, proyectos independientes, individuales y de ONGs, así como proyectos propios. Nuestra misión es enriquecer las vidas de las personas que se benefician de estos proyectos.
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+# Equipo
+[Studies - Career highlights - International experience - Languages]- use Acciona compilation
+- Elisa Bailey- Fundadora/Directora; Curadora Principal 
+- Susana Miralles: Gerente de Negocio
+Colaboradoras:
+- Caroline Trotman: Curadora; Historiadora; Profesora
+- Jule Rubi: Curadora; Gerente de proyectos culturales 
+- Kitty Brandon-James: Curadora; Especialista en educación culturalr
 
-{{ website_info_text_second }}
+# Filosofía
+**"Curar es cuidar"**: Cuidar la cultura significa cuidar a las personas.
+Esta filosofía nos guía tanto en los proyectos que creamos o los que aceptamos, como también en nuestro comportamiento como individuos y como empresa, hacia nuestros colaboradores, clientes, compañeros y el público en general. Luchamos por una sociedad y un sector cultural más cálido y más empático para todos.

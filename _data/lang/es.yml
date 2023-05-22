@@ -169,7 +169,10 @@ portfolios:
 offerings:
   title: Que Ofrecemos
   button_name: Que Ofrecemos
-
+# for workwithus layout
+workwithus:
+  title: Trabaja con Nosotros
+  button_name: Work With us
 
 # for privacy-policy layout
 privacy-policy:
