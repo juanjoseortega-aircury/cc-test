@@ -7,11 +7,4 @@ layout: default
 <div class="multipurpose-container links-heading-container">
     <h1>{{ site.data.lang[lng].offerings.title }}</h1>
 <hr>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="about-msg markdown-style">
-        {{ content }}
-      </div>
-    </div>
-  </div>
-</div>
+{{ content }}
