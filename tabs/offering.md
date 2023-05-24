@@ -4,9 +4,8 @@ lng_pair: id_offering
 ---
 <script>
     function showContent(index){
-        var servicesItems = document.getElementsByClassName("services-item");
-            var servicesItems = document.getElementsByClassName("services-item");
-            servicesItems[index].classList.toggle("active");
+        const servicesItems = document.getElementsByClassName("services-item");
+        servicesItems[index].classList.toggle("active");
     }
 </script>
 <div class="row">

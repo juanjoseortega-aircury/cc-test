@@ -46,7 +46,7 @@ CuraCultura S.L. se dedica a la creación, desarrollo e implementación de proye
 Colaboradoras:
 - Caroline Trotman: Curadora; Historiadora; Profesora
 - Jule Rubi: Curadora; Gerente de proyectos culturales 
-- Kitty Brandon-James: Curadora; Especialista en educación culturalr
+- Kitty Brandon-James: Curadora; Especialista en educación cultural
 
 # Filosofía
 **"Curar es cuidar"**: Cuidar la cultura significa cuidar a las personas.

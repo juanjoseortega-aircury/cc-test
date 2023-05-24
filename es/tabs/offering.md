@@ -4,9 +4,8 @@ lng_pair: id_offering
 ---
 <script>
     function showContent(index){
-        var servicesItems = document.getElementsByClassName("services-item");
-            var servicesItems = document.getElementsByClassName("services-item");
-            servicesItems[index].classList.toggle("active");
+        const servicesItems = document.getElementsByClassName("services-item");
+        servicesItems[index].classList.toggle("active");
     }
 </script>
 <div class="row">
@@ -17,7 +16,7 @@ lng_pair: id_offering
                 <div class="services-item__content">
                     <ul>
                         <li>Museos</li>
-                        <li>Exhibiciones</li>
+                        <li>Exposiciones</li>
                         <li>Colaboraciones de arte contemporáneo</li>
                         <li>Herramientas y programas de aprendizaje</li>
                         <li>Programación cultural</li>
