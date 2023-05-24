@@ -4,7 +4,7 @@ In the files with .md or .markdown extension you can use multiple things to writ
 
 ### Warning
 
-If any of these syntax doesn't works maybe you need to add an empty line above or below
+If any of these mark don't work maybe you need to add an empty line above or below
 
 ### Text bold and bigger (like tag h1, h2, etc.)
 
@@ -34,7 +34,7 @@ At the file:
 
     **William Shakespeare**, Let me not to the marriage of true minds
 
-    For bolding some text you need to put it between **text here** 
+    For bolding some text you need to put it between **text here**
 
 ### Cursive, quoted and dark quotes texts
 
@@ -89,7 +89,7 @@ At the file:
     -For adding a link you should add the text for linking [text here](link here)
     -If you want to redirect to a page of your website you can link like that [text here](/tabs/about.html)
 
-### Adding pictures(like tag img) 
+### Adding pictures(like tag img)
 
 ![pictures](./img-syntax-md/img.png)
 
@@ -107,7 +107,7 @@ At the file:
 ![lists](./img-syntax-md/lists.png)
 
 At the file:
-	
+
     - Apple
     - Banana
     - Orange
