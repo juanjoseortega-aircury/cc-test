@@ -10,7 +10,7 @@ lng_pair: id_offering
 </script>
 <div class="row">
     <div class="col-md-12">
-        <div class="services-items">
+        <div class="position-relative">
             <div class="services-item" onclick="showContent(0)">
                 <div class="services-item__head">Tipos de proyectos<span></span></div>
                 <div class="services-item__content">
