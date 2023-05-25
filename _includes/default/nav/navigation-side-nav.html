@@ -9,15 +9,14 @@
     <div class="side-nav-brand">
       {% include multi_lng/get-page-by-layout.liquid layout = 'home' -%}
       {% if site.data.conf.main.side_nav_profile_img_path -%}
-        <img src="{{ site.baseurl }}{{ site.data.conf.main.side_nav_profile_img_path }}" alt="">
+        <img src="{{ site.baseurl }}{{ site.data.conf.main.side_nav_profile_img_path }}" alt="Curacultura logo">
       {% endif -%}
       <div class="brand-holder">
         {% if site.data.conf.main.side_nav_brand_text_enable -%}
           <a href="{{ site.baseurl }}{{ layout_page_obj.url }}" translate="no">{{ site.data.owner[lng].brand }}</a>
-        {% endif -%}
-        {% if site.data.conf.main.side_nav_brand_text_enable == false -%}
+        {% else -%}
           <a href="{{ site.baseurl }}{{ layout_page_obj.url }}" translate="no">
-            <img src="{{ site.baseurl }}/assets/img/default/logo-name.png">
+            <img src="{{ site.baseurl }}/assets/img/default/logo-name.png" alt="Curacultura logo name">
           </a>
         {% endif -%}
       </div>
