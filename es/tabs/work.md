@@ -15,7 +15,7 @@ Respetamos tu tiempo y tu interés, por lo que siempre te responderemos. Si no r
 <u>Habilidades que nos interesan especialmente:</u>
 
 - Cualquiera de las mencionadas en nuestra página de [Ofertas](./offering.html).
-- Diseñadores gráficos (elaboración de obras de arte para exposiciones y/o publicaciones)
+- Diseñadores gráficos (elaboración de materiales gráficos para exposiciones y/o publicaciones)
 - Especialistas en aprendizaje
 - Especialistas Técnicos y Audiovisuales
 - Especialistas en PI y Derechos de Imagen
