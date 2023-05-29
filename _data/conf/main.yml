@@ -194,15 +194,15 @@ side_and_top_nav_buttons:
   - projects:
     icon: "fa fa-cog"
   - about:
-    icon: "fa fa-user-o"
+    icon: "fa fa-info"
   - portfolios: 
     icon: "fa fa-briefcase"
   - contacts: 
     icon: "fa fa-envelope"
   - offerings:
-    icon: "fa fa-check"
+    icon: "fa fa-tags"
   - workwithus:
-    icon: "fa fa-check"
+    icon: "fa fa-users"
 # side nav toggle feature
 # when side nav is not visible and if you click top nav toggle button, side nav slides from left to right (disables top nav buttons)
 side_nav_toggle_button_no_top_nav_buttons: true
