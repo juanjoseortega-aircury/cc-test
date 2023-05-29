@@ -49,11 +49,11 @@ meta_common_description: "Your meta description."
 # comment to remove any contact item
 contacts:
   #- github: ""
-  - email: "juanjose.ortega@aircury.com"
-  #- linkedin: ""
-  - twitter: "@testuser"
+  - email: "hola@curacultura.art"
+  - linkedin: "curacultura"
+  #- twitter: ""
   #- mastodon: ""
-  - instagram: "@test"
+  - instagram: "cura.cultura"
   #- youtube: ""
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
