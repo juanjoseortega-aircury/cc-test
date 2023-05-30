@@ -6,8 +6,10 @@ lng_pair: workwithus
 We have no formal opportunities open at this time, but our goal is for CuraCultura, as a company and a philosophy, to grow and continue spreading kindness through culture. As such, we’re always happy to meet new people to join our network of trusted companions with whom we can share some of the beautiful opportunities that come our way.
 
 # Interested?
-No matter what stage you are at in your career (including the very beginning!) or in your personal life (changes and crises are normal and accepted!), whatever your background (it goes without saying, everyone is welcome and valid) or location (we largely work remotely), if you feel you have something to offer, please send your CV, and a portfolio if you have one, to: 
-{{contacts.email}}
+No matter what stage you are at in your career (including the very beginning!) or in your personal life (changes and crises are normal and accepted!), whatever your background (it goes without saying, everyone is welcome and valid) or location (we largely work remotely), if you feel you have something to offer, please send your CV, and a portfolio if you have one, to:
+
+[jobs@curacultura.art](mailto:jobs@curacultura.art){:data-align="center"}
+
 We respect your time and your interest, so we will always reply. If we don’t reply within ten days, please nudge us! It will only be because we are particularly engrossed in a project.
 
 <u>Skills we are particularly interested in:</u>
