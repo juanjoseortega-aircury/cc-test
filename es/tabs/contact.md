@@ -10,5 +10,5 @@ img: ":about.jpg"
 # Contacto
 Nuestro equipo tiene su sede entre España, Reino Unido y Francia. De acuerdo con nuestra política de Sostenibilidad, realizamos gran parte de nuestro negocio fuera de Europa en línea, pero nunca dudamos en viajar a cualquier lugar cuando sea beneficioso para el proyecto.
 
-Ponte en contacto con nosotros en [greetings@curacultura.art](mailto:greetings@curacultura.art)
+Ponte en contacto con nosotros en [hola@curacultura.art](mailto:hola@curacultura.art)
 
