@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_home
 
@@ -38,11 +38,27 @@ img: ":home-heading.jpg"
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-<div>
-<p>contenido de mi pagina prueba</p>
-<p>Hello new test</p>
-</div>
-{%- include util/auto-content-generator.liquid -%}
+<h1 id="title"> Welcome CuraCultura </h1>
+
+
+# Company
+CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. 
+We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed [here]({{ site.baseurl }}/tabs/offering.html).
+
+# Team 
+- Elisa- Founding Director, Head Curator
+    - Who I’ve worked with [logos]- V&A, BFI, Peggy Guggenheim Collection, Ben Uri Gallery, Sotheby’s, Carabinieri, Oman Across Ages Museum, Dubai Expo 2020, Shindagha, Ithra, Acciona, Event, The Guardian, BBC, Associated Press 
+- Susana- Business Manager
+- Occasional Collaborators
+    - Jule Rubi- Cultural Projects Manager and Curator
+    - Caroline Trotman- Historian and Curator 
+    - Chelsey Henderson- Cultural Travel Manager and Curator
+    - Laura Garrido- AV and New Technologies Specialist
+
+# Philosophy
+#### - Curating is Caring 
+
+
 {{ website_info_text_first }}
 
 {{ website_info_text_second }}
