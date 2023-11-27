@@ -24,7 +24,7 @@ layout: util/compress_js
     /* get userColorScheme opt */
     const userColorScheme = defaultColorSchemeDark ? globals.mode.dark : null;
     /* get Browser dark color scheme */
-    const browserColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? globals.mode.dark : null;
+    const browserColorScheme = window.matchMedia('(prefers-color-scheme: light)').matches ? globals.mode.light : null;
     /* get Stored color scheme */
     const storedColorScheme = localStorage.getItem(globals.storageKey);
     /* if no color scheme setting is stored nor userColorScheme set, use Browser color scheme if it's set to dark */
