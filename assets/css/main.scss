@@ -32,7 +32,7 @@
 
 @import "colors/scheme";
 @mixin get_scheme($name) {
-  @include get_scheme_opt($name, {{ site.data.conf.main.color_scheme_dark }});
+  @include get_scheme_opt($name, {{ site.data.conf.main.color_scheme_light}});
 }
 
 @import "default/body-main-styles";
