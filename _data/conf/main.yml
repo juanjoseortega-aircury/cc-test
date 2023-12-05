@@ -187,20 +187,14 @@ side_nav_close_limit: 767px
 side_and_top_nav_buttons:
   - about:
     icon: "fa fa-info"
-  - post-list:
-    icon: "fa fa-pencil-square-o"
-  - archives:
-    icon: "fa fa-archive"
   - projects:
     icon: "fa fa-cog"
-  - portfolios: 
-    icon: "fa fa-briefcase"
-  - contacts: 
-    icon: "fa fa-envelope"
   - offerings:
     icon: "fa fa-tags"
   - workwithus:
     icon: "fa fa-users"
+  - contacts: 
+    icon: "fa fa-envelope"
 # side nav toggle feature
 # when side nav is not visible and if you click top nav toggle button, side nav slides from left to right (disables top nav buttons)
 side_nav_toggle_button_no_top_nav_buttons: true
