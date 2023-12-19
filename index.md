@@ -3,11 +3,13 @@ layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_home
 
+
 # image for page specific usage
 img: ":home-heading.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
+
 
 # for override items in _data/lang/[language].yml
 #title: My title
@@ -15,11 +17,13 @@ img: ":home-heading.jpg"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
 #icon: "fa fa-bath"
 
+
 # seo
 # if not specified, date will be used.
 #meta_modify_date: 2022-03-03 12:32:00 +0000
 # check the meta_common_description in _data/owner/[language].yml
 #meta_description: ""
+
 
 # optional
 # please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
@@ -37,28 +41,70 @@ img: ":home-heading.jpg"
 #published: false
 ---
 
+
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-<h1 id="title"> Welcome CuraCultura </h1>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+<div class="containertitle">
+       <h1 id="title"> Welcome to </h1>
+       <img id="imagename" src="/assets/img/default/name logo.png">
+</div>
 
 
-# Company
-CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. 
-We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed [here]({{ site.baseurl }}/tabs/offering.html).
-
-# Team 
-- Elisa- Founding Director, Head Curator
-    - Who I’ve worked with [logos]- V&A, BFI, Peggy Guggenheim Collection, Ben Uri Gallery, Sotheby’s, Carabinieri, Oman Across Ages Museum, Dubai Expo 2020, Shindagha, Ithra, Acciona, Event, The Guardian, BBC, Associated Press 
-- Susana- Business Manager
-- Occasional Collaborators
-    - Jule Rubi- Cultural Projects Manager and Curator
-    - Caroline Trotman- Historian and Curator 
-    - Chelsey Henderson- Cultural Travel Manager and Curator
-    - Laura Garrido- AV and New Technologies Specialist
-
-# Philosophy
-#### - Curating is Caring 
-
-
+<h1 id="title2"> Company </h1>
+<div class="containerCompany">
+   <div class="boxCompany">
+       <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a id="link" href="/tabs/offering.html">here</a>.</p>
+   </div>
+</div>
+<h1 id="title2"> Philosophy  </h1>
+<div id="curating">
+<p>Curating is Caring. This is the basis from which we work on all our projects, and with each other. We’re currently putting together a Manifesto about what this means in practice, and as this is a collaborative philosophy, we’d like to invite you to contribute your idea to <a id="link">this working Google doc</a>.</p>
+</div>
+<h1 id="title2"> Team</h1>
+<div class="containerTeam">
+   <div class="containerMember">
+       <img class="imgMembers" id="imgMember" src="/assets/img/home//Elisa.jpg" />
+       <h4>Elisa Bailey </h4>
+       <h2 class="job">Founding Director, Head Curator</h2>
+       <p id="desc">Elisa has worked as a Curator, Researcher and Interpreter in Museums across Europe and the Middle East since 2010. She also mentors people interested in cultural careers, contributes to films and conferences, and teaches on museology and culture at University College London, UK, and at the Barreira Higher School of Art & Design in Valencia, Spain. Currently based in Madrid, she has also lived in Italy, the UK, Russia, France, Oman, Cyprus and Austria, and speaks six languages with smatterings of others. Her main research interests and publications cover solidarity, memorials, and the role of artists in communities undergoing or emerging from oppression or conflict, for which she founded a visual culture archive in 2016.
+       Elisa has a BA in Modern Languages from the University of Cambridge, an MA in Contemporary Art & Politics from the Courtauld Institute of Art, University of London, received a scholarship to the University of Harvard’s Centre for Hellenic Studies in Nafplio, Greece and also studied at the University of Cyprus.</p>
+   </div>
+   <div class="containerMember">
+       <img class="imgMembers" id="imgMember2" src="/assets/img/home/kittyRes.jpg" />
+       <h4>Kitty Brandon-James</h4>
+       <h2 class="job">Educational Consultant & Curator</h2>
+       <p id="desc">Kitty is an experienced researcher, university lecturer, and curator with a special interest in multisensory pedagogies, play, and thinking through doing. She runs action research about teaching for creativity, and firmly believes that thinking through objects, exhibitions, and curating contains great potential to escape digital silos, enhance empathy, problem solve, and connect multiple social, political, and cultural perspectives. Trained as an art historian and carpenter, her specialism is art produced in Moscow in 2012–21. She teaches at University College London.
+       Kitty has a BA in History from King’s College London, an MA in Contemporary Art & Politics from the Courtauld Institute of Art, University of London, a Post-Graduate Certificate in Education from the University of Cambridge, and is currently working towards her PhD in Russian Art and Politics at the School of Slavonic Studies, UCL.
+</p>
+   </div>
+   <div class="containerMember">
+       <img src="/assets/img/home/icon.png" />
+       <h4>Jule Rubi</h4>
+       <h2 class="job">Cultural Projects Manager and Curator</h2>
+        <p id="desc">Description</p>
+   </div>
+   <div class="containerMember">
+       <img class="imgMembers" id="imgMember3" src="/assets/img/home/caroRes.jpg" />
+       <h4>Caroline Trotman</h4>
+       <h2 class="job">Historian and Curator</h2>
+        <p id="desc">Caroline is a motivating and analytical teacher of History, Geography, Geopolitics and Political Science in Paris, France. In 2009-15, she was based between Florida and California, USA, then London and Oxford, UK, where she worked as an Assistant Curator and Registrar at various museums, which is how she met Elisa. Together, they went on to collaborate on a research project on the Buzludzha monument in Bulgaria in 2014-16, from which a book, articles and an exhibition emerged.
+        Caroline has a BA in History, Art History & Geography from the Sorbonne, Paris, and three MAs: in Modern Art & English from Oxford Brookes University, in Museum Studies from the University of Leicester, and Contemporary Art Theory from Goldsmiths, University of London (all UK).
+</p>
+   </div>
+   <div class="containerMember">
+       <img src="/assets/img/home/icon.png" />
+       <h4>Laura Garrido</h4>
+       <h2 class="job">AV & New Technologies Specialist</h2>
+        <p id="desc">Description</p>
+   </div>
+   <div class="containerMember">
+       <img class="imgMembers" id="imgMember4" src="/assets/img/home/susana.jpg" />
+       <h4>Susana Miralles</h4>
+       <h2 class="job">Business Manager</h2>
+        <p id="desc">Description</p>
+   </div>
+</div>
 {{ website_info_text_first }}
-
 {{ website_info_text_second }}
