@@ -211,3 +211,17 @@ $border-color: #a1a1a1;
   text-align: center;
   margin: 0 auto;
 }
+#link{
+  color: #000000;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 2.4rem;
+}
+#center{
+  display: flex;
+  justify-content: center;
+}
+#titleWWU{
+  color:rgb(80, 80, 80);
+  font-size: 50px;
+}
