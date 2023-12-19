@@ -1,6 +1,6 @@
 /* Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
- * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
- * Licensed under MIT
+* Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+* Licensed under MIT
 */
 
 :root {
@@ -25,6 +25,7 @@
   top: 0;
   border-right: solid 1px var(--side-nav-right-border-color);
   text-align: center;
+  overflow: hidden;
 }
 
 .side-nav {
