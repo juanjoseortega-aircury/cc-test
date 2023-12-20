@@ -11,7 +11,7 @@ No matter what stage you are at in your career (including the very beginning!) o
 
 
 <div id="center">
-<a id="link" href="ailto:jobs@curacultura.art">jobs@curacultura.art</a>
+<a id="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a>
 </div>
 
 

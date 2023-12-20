@@ -13,6 +13,7 @@ lng_pair: id_offering
         <div class="position-relative">
             <div class="services-item" onclick="showContent(0)">
                 <div class="services-item__head">Types of Projects and Clients we work with<span></span>
+</div>
                     <div class="services-item__content">
                         <ul>
                             <li>Museums and Archives</li>
@@ -41,6 +42,7 @@ lng_pair: id_offering
             </div>
             <div class="services-item" onclick="showContent(1)">
                 <div class="services-item__head">Team Skills<span></span>
+    </div>
                     <div class="services-item__content">
                         <ul>
                             <li>Cultural Consultancy</li>
@@ -71,5 +73,4 @@ lng_pair: id_offering
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    

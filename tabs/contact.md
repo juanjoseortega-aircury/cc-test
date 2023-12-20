@@ -5,7 +5,6 @@ lng_pair: id_contact
 # image for page specific usage
 img: ":about.jpg"
 ---
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 # CONTACT
 Our team is currently based between Spain, the UK and France principally.  In line with our Sustainability policy, we conduct much of our business outside of Europe online, but never hesitate to travel anywhere when it is beneficial to the project.
 

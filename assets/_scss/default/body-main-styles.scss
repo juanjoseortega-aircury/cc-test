@@ -235,25 +235,17 @@ $border-color: #a1a1a1;
   margin: 0 auto;
 }
 #title {
-  font-size: 80px;
+  font-size: 5vw;
   margin: 0 auto;
   color: var(--title-color);
   text-align: center;
 }
 #title2 {
   color: var(--title-color);
-  font-size: 50px;
-}
-.containerCompany {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
+  font-size: 2.6rem;
 }
 .boxCompany {
-  width: 95%;
   text-align: left;
-  font-size: 20px;
 }
 .containerTeam {
   display: flex;
@@ -270,13 +262,13 @@ $border-color: #a1a1a1;
   font-weight: 300;
   font-size: 2.4rem;
 }
-.imgMembers{
+.imgMembers {
   height: 400px;
   width: 350px;
   object-fit: cover;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
-#imgMember{
+#imgMember {
   border-radius: 50% 20% / 10% 40%;
 }
 #imgMember2 {
@@ -296,5 +288,25 @@ $border-color: #a1a1a1;
 .job {
   font-size: 2rem;
   font-weight: 900;
-  color: #756f6f;
+  color: var(--job-color);
+}
+@media (max-width: 1500px) {
+  .containerTeam {
+    justify-content: center;
+    align-items: center;
+  }
+  .containerMember {
+    width: 800px;
+  }
+  #desc {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  #title {
+    font-size: 7.5vw;
+  }
+  #titleWWU{
+    font-size: 35px;
+  }
 }
