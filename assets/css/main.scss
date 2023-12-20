@@ -25,6 +25,7 @@
   --multipurpose-container-margin-bottom: 20px;
   --footer-height: 27px;
   --title-color: rgb(17, 0, 0);
+  --job-color: #756f6f;
 }
 
 {% if site.data.conf.main.google_font_load_in_head == nil or site.data.conf.main.google_font_load_in_head == false %}

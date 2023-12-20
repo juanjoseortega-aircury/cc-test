@@ -3,13 +3,11 @@ layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_home
 
-
 # image for page specific usage
 img: ":home-heading.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
-
 
 # for override items in _data/lang/[language].yml
 #title: My title
@@ -17,13 +15,11 @@ img: ":home-heading.jpg"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
 #icon: "fa fa-bath"
 
-
 # seo
 # if not specified, date will be used.
 #meta_modify_date: 2022-03-03 12:32:00 +0000
 # check the meta_common_description in _data/owner/[language].yml
 #meta_description: ""
-
 
 # optional
 # please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
@@ -40,9 +36,6 @@ img: ":home-heading.jpg"
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
-
-
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
@@ -51,12 +44,9 @@ img: ":home-heading.jpg"
        <img id="imagename" src="/assets/img/default/name logo.png">
 </div>
 
-
 <h1 id="title2"> Company </h1>
-<div class="containerCompany">
-   <div class="boxCompany">
-       <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a id="link" href="/tabs/offering.html">here</a>.</p>
-   </div>
+<div class="boxCompany">
+    <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a id="link" href="/tabs/offering.html">here</a>.</p>
 </div>
 <h1 id="title2"> Philosophy  </h1>
 <div id="curating">
