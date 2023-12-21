@@ -70,10 +70,10 @@ img: ":home-heading.jpg"
 </p>
    </div>
    <div class="containerMember">
-       <img src="/assets/img/home/icon.png" />
+       <img  class="imgMembers" id="imgMember" src="/assets/img/home/jule.jpg" />
        <h4>Jule Rubi</h4>
-       <h2 class="job">Cultural Projects Manager and Curator</h2>
-        <p id="desc">Description</p>
+       <h2 class="job">Cultural Projects Manager & Curator</h2>
+        <p id="desc">As a curator, fervent reader and traveller, Jule’s passion is to tell stories of the world as it is today through objects and artworks. After her training at the Ecole du Louvre and the Musée des Arts et traductions Populaires (today the MuCEM in Marseille), she travelled to Montreal as a student, before continuing her career in London and Muscat, Oman. Previously a curator and producer of exhibitions at the Victoria and Albert Museum in London, she went on to tell musical stories at the Royal Opera House in Oman, and then joined the British design agency Cassonmann for the conception of the Musée national de la Marine in Paris. Fascinated by languages and the bridge across cultures that is translation, she also worked with the non-profit ATLAS and the Institut Français to promote the translation of Arabic literature in Europe, where she discovered the nourishing world of artistic residencies. Her diverse skills enrich international cultural structures working at the intersection between arts, music and literature.</p>
    </div>
    <div class="containerMember">
        <img class="imgMembers" id="imgMember3" src="/assets/img/home/caroRes.jpg" />
@@ -93,7 +93,7 @@ img: ":home-heading.jpg"
        <img class="imgMembers" id="imgMember4" src="/assets/img/home/susana.jpg" />
        <h4>Susana Miralles</h4>
        <h2 class="job">Business Manager</h2>
-        <p id="desc">Description</p>
+        <p id="desc">Susana brings great experience in business management, employment law, payroll and social security. She studied IT Systems Management at the University of Granada and worked as an administrative officer for the University of Almería. She enjoys carrying out research and learning new things so as to enrich whichever type of company she happens to be working with. She is currently studying for a Masters in Management and Administration of Companies in the Granada Chamber of Commerce.</p>
    </div>
 </div>
 {{ website_info_text_first }}

@@ -13,25 +13,25 @@ page_data:
 
   # TODO SH-30
   category:
-    - title: "Example"
-      type: id_example
+    - title: "Writing"
+      type: id_writing
       color: "gray"
-    - title: "Picture"
-      type: id_picture
+    - title: "Curation"
+      type: id_curation
       color: "#62b462"
-    - title: "Quote"
-      type: id_quote
+    - title: "Speaking"
+      type: id_speak
       color: "#2FD0ED"
-    - title: "Test1"
-      type: id_test
+    - title: "Archives"
+      type: id_archives 
       color: "#62b462"
-    - title: "Test2"
-      type: id_test2
+    - title: "Education"
+      type: id_education 
       color: "gray"
 
   list:
     # TODO SH-30
-    - type: id_example
+    - type: id_writing
       project_name: "The Pathway to a Sustainable Exhibition"
       project_excerpt: "Ithra via Acciona Cultura"
       img: ":project1_thumb.jpg"
@@ -42,7 +42,7 @@ page_data:
         
 
     # TODO SH-30 
-    - type: id_picture
+    - type: id_curation
       project_name: "Cinema can also be read exhibition"
       project_excerpt: "CiBRA- Festival del Cine y de la Palabra (Cinema and Word Festival)"
       img: ":project2_thumb.jpg"
@@ -52,7 +52,7 @@ page_data:
         # El cine también se lee (Cinema can also be read) exhibition- Castilla La Mancha Library, Toledo, Spain
 
     # TODO SH-30 
-    - type: id_quote
+    - type: id_speak
       project_name: "‘Nuevas expografías: entre la tecnología y las experiencias’ seminar"
       project_excerpt: "Fundación Mainel"
       date: "2023-05-10"
@@ -60,7 +60,7 @@ page_data:
         # ‘Nuevas expografías: entre la tecnología y las experiencias’ seminar in Coloquios Cultura Visual Contemporaneo series- Fundación Mainel, Valencia, Spain
 
     # TODO SH-30
-    - type: id_quote
+    - type: id_archives
       project_name: "Rise-Rosa-Rage Archive of Socio-Political Graphics, Rome, Italy / Online"
       project_excerpt: "Rise Rosa Rage Archive"
       img: ":project2_thumb.jpg"
@@ -70,7 +70,7 @@ page_data:
         # Rise-Rosa-Rage Archive of Socio-Political Graphics, Rome, Italy / Online
 
     # TODO SH-30
-    - type: id_quote
+    - type: id_education 
       project_name: "Module on MA Course Barreira Higher School"
       project_excerpt: "Barreira Higher School of Art and Design"
       img: ":project1_thumb.jpg"
