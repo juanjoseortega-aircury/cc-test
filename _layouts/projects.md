@@ -17,21 +17,60 @@ layout: default
 {%- elsif project_data.main.back_color %}
   {%- capture project_container_style -%} style="background-color:{{ project_data.main.back_color }};" {%- endcapture -%}
 {%- endif %}
-
-<div class="multipurpose-container project-heading-container" {{project_container_style}}>
-{%- assign color_style = nil -%}
-{%- if project_data.main.text_color -%}
-  {%- capture color_style -%} style="color:{{ project_data.main.text_color }};" {%-endcapture-%}
-{%- endif %}
-  <h1 {{ color_style }}>{{ project_data.main.header | default: "Projects" }}</h1>
-  <p {{ color_style }}>{{ project_data.main.info | default: "No data, check page_data in [language]/tabs/projects.md front matter or _data/content/projects/[language].yml" }}</p>
-  <div class="multipurpose-button-wrapper">
-  {% for category in project_data.category %}
-    <a href="#{{ category.type }}" role="button" class="multipurpose-button project-buttons" style="background-color:{{ category.color }};">{{ category.title }}</a>
-  {% endfor %}
-  </div>
+<div class="containertitle">
+  <h1 id="titleAux">Projects</h1>
 </div>
-
+  <br>
+<div class="projectsFormat">
+  <h1 class="projectstitle">We have worked with:</h1>
+  <hr>
+<div class="companiesProjectsContainer">
+    <div class="boxCompaniesPR">
+    <h3 id="companiesTitle">Companies:</h3>
+      <div class="projectsImagesContainer">
+        <img id="marginTOP"  class="projectsImageWide" src="/assets/img/logos/lord logo.png">
+        <img id="acciona" class="projectsImageWide" src="/assets/img/logos/accionacultura.png">
+      </div>
+    </div>
+    <div class="boxCompaniesPR">
+    <h3 id="musTitle">Museums, Archives & Exhibitions: </h3>
+      <div class="projectsImagesContainerAux">
+        <img class="projectsImageNarrow" id="riseRosaRage" src="/assets/img/logos/rise_rosa_rage.png">
+        <img class="projectsImageNarrow" src="/assets/img/logos/ithra.png">
+        <img class="projectsImageNarrow" src="/assets/img/logos/National.png">
+      </div>
+    </div>
+  <div class="companiesProjectsContainer">
+    <div class="boxCompaniesPR2">
+    <h3 id="festivalsTitle">Festivals: </h3>
+      <div class="projectsImagesContainer">
+        <img id="marginTOP" class="projectsImageWide" src="/assets/img/logos/Cibra.png">
+      </div>
+    </div>
+    <div class="boxCompaniesPR2">
+    <h3 id="privateTitle">Private Foundations: </h3>
+      <div class="projectsImagesContainer">
+        <img id="marginTOP" class="projectsImageWide" src="/assets/img/logos/mainel.png">
+      </div>
+    </div>
+    <div class="boxCompaniesPR">
+     <h3 id="unvTitle">Universities:</h3>
+      <div class="projectsImagesContainer">
+        <img id="barreira" class="projectsImageWide" src="/assets/img/logos/barreira.png">
+        <img class="projectsImageNarrow" id="unv" src="/assets/img/logos/Cambridge.png">
+      </div>
+    </div>
+        <div class="boxCompaniesPR3">
+    <h3 id="publicationsTitle">Publications: </h3>
+      <div class="projectsImagesContainer">
+        <img class="projectsImageWide" src="/assets/img/logos/NuartJournal-logo-2021-stacked.png">
+      </div>
+    </div>
+</div>
+</div>
+</div>
+  <h1 class="projectstitle">Project list:</h1>
+  <br>
 {% for category in project_data.category -%}
   {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
   {% for list in project_data.list -%}
