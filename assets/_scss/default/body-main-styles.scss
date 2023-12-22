@@ -336,7 +336,7 @@ $border-color: #a1a1a1;
   width: 27%;
 }
 .boxCompaniesPR3{
-  width: 20%;
+  width: 52%;
 }
 #marginTOP{
   margin-top: 40px;
@@ -347,7 +347,11 @@ $border-color: #a1a1a1;
 #barreira{
   margin-top: 50px;
   margin-right: 10px;
-  height: 70px;
+  height: 3.5vw;
+}
+#unv{
+  width: 8vw;
+  height: 8vw;
 }
 #riseRosaRage{
   margin-right: 50px;
@@ -425,12 +429,7 @@ $border-color: #a1a1a1;
   }
   #barreira{
     margin-top: 50px;
-    margin-right: 36px;
     height: 5vw;
-  }
-  #unv{
-    width: 14vw;
-    height: 14vw
   }
   #marginTOP{
     margin-top: 45px;

@@ -6,6 +6,7 @@
 layout: default
 # projects page
 ---
+
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
 
@@ -13,10 +14,11 @@ layout: default
 
 {%- assign project_container_style = nil -%}
 {%- if project_data.main.img -%}
-  {%- capture project_container_style -%} style="background-image:url('{{ project_data.main.img }}');" {%- endcapture -%}
+{%- capture project_container_style -%} style="background-image:url('{{ project_data.main.img }}');" {%- endcapture -%}
 {%- elsif project_data.main.back_color %}
-  {%- capture project_container_style -%} style="background-color:{{ project_data.main.back_color }};" {%- endcapture -%}
+{%- capture project_container_style -%} style="background-color:{{ project_data.main.back_color }};" {%- endcapture -%}
 {%- endif %}
+
 <div class="containertitle">
   <h1 id="titleAux">Projects</h1>
 </div>
@@ -53,19 +55,21 @@ layout: default
         <img id="marginTOP" class="projectsImageWide" src="/assets/img/logos/mainel.png">
       </div>
     </div>
-    <div class="boxCompaniesPR">
-     <h3 id="unvTitle">Universities:</h3>
-      <div class="projectsImagesContainer">
-        <img id="barreira" class="projectsImageWide" src="/assets/img/logos/barreira.png">
-        <img class="projectsImageNarrow" id="unv" src="/assets/img/logos/Cambridge.png">
-      </div>
-    </div>
-        <div class="boxCompaniesPR3">
+    <div class="boxCompaniesPR2">
     <h3 id="publicationsTitle">Publications: </h3>
       <div class="projectsImagesContainer">
         <img class="projectsImageWide" src="/assets/img/logos/NuartJournal-logo-2021-stacked.png">
       </div>
     </div>
+    <div class="boxCompaniesPR3">
+     <h3 id="unvTitle">Universities:</h3>
+      <div class="projectsImagesContainer">
+        <img id="barreira" class="projectsImageWide" src="/assets/img/logos/barreira.png">
+        <img class="projectsImageNarrow" id="unv" src="/assets/img/logos/Cambridge.png">
+        <img class="projectsImageNarrow" id="unv" src="/assets/img/logos/UCL-Logo.jpg">
+      </div>
+    </div>
+
 </div>
 </div>
 </div>
