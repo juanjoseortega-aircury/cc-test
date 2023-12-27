@@ -11,7 +11,7 @@ $brand-color-light: #416289;
 $main-background-light: #E8DED4;
 $button-color-light: #a19e9e;
 $menu-background-light: #FFF8F0;
-$header-color-light: #5f5e5e;
+$header-color-light: #6a6666;
 $container-background-light: #FFF8F0;
 $hr-color-light: #eee;
 $anchor-text-color-light: #3389de;
@@ -21,7 +21,7 @@ $anchor-text-color-light: #3389de;
 %body-main-styles-colors-light {
   --body-anchor-text-color: #{$anchor-text-color-light};
   --body-anchor-hover-text-color: #2f6597;
-  --body-text-color: black;
+  --body-text-color: rgb(73, 70, 70);
   --body-header-text-color: #{$header-color-light};
   --body-background-color: #{$main-background-light};
   --body-hr-color: #{$hr-color-light};
