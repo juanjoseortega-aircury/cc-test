@@ -75,7 +75,7 @@ p {
 ul,
 ol {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 img {
   height: auto;
@@ -84,6 +84,9 @@ img {
 
 hr {
   border-top-color: var(--body-hr-color);
+}
+#hrBlack{
+  border-top-color: black;
 }
 /*
   Styles for sections in Offering page
@@ -187,6 +190,7 @@ $border-color: #a1a1a1;
     list-style: none;
     &:last-child {
       margin-bottom: 0;
+      font-size: 1.7rem;
     }
     ul.sub-item li:before {
       content: "- ";
@@ -195,7 +199,7 @@ $border-color: #a1a1a1;
     li {
       padding-left: 20px;
       padding-bottom: 8px;
-      font-size: 20px;
+      font-size: 1.7rem;
       position: relative;
       &:before {
         position: absolute;
@@ -212,15 +216,20 @@ $border-color: #a1a1a1;
   color: #000000;
   text-decoration: underline;
   font-style: italic;
-  font-size: 2.4rem;
+  font-size: 1.7rem;
 }
 #center {
   display: flex;
   justify-content: center;
 }
 #titleWWU {
-  color: rgb(80, 80, 80);
+  color: #f5835a;
   font-size: 50px;
+}
+.photoTitle{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .containertitle {
   display: flex;
@@ -230,15 +239,14 @@ $border-color: #a1a1a1;
   width: 65%;
   margin: 0 auto;
 }
+#imgTitles{
+  height: 50px;
+  width: 76px;
+  margin-top: 8px;
+}
 #imagename {
   width: 700px;
   margin: 0 auto;
-}
-#title {
-  font-size: 5vw;
-  margin: 0 auto;
-  color: var(--title-color);
-  text-align: center;
 }
 #titleAux {
   font-size: 5vw;
@@ -284,10 +292,13 @@ $border-color: #a1a1a1;
   border-radius: 25% 15%;
 }
 #imgMember4 {
+  border-radius: 15% 15%;
+}
+#imgMember5 {
   border-radius: 15% 25%;
 }
 #desc {
-  font-size: 19px;
+  font-size: 1.7rem;
   font-weight: 900;
   text-align: left;
 }
@@ -295,11 +306,7 @@ $border-color: #a1a1a1;
   font-size: 2rem;
   font-weight: 900;
   color: var(--job-color);
-  margin-top: -7px;
-}
-.projectstitle{
-  font-size: 3vw;
-  color: var(--title-color);
+  margin-top: -6px;
 }
 .projectsFormat{
   margin-left: 5%;
@@ -324,35 +331,40 @@ $border-color: #a1a1a1;
 .projectsImageWide{
   height: 100px;
   margin: 10px;
+  margin-right: 50px;
 }
 .projectsImageNarrow{
   width: 150px;
   height: 150px;
   margin: 10px;
 }
+.projectlistimg{
+  height: 4vw;
+  width: 4vw;
+}
 .boxCompaniesPR{
   width: 40%;
 }
 .boxCompaniesPR2{
   width: 27%;
+  padding-left: 50px;
 }
 .boxCompaniesPR3{
-  width: 52%;
-}
-#marginTOP{
-  margin-top: 40px;
+  width: 63%;
 }
 #acciona{
   height: 150px;
+  margin-left: -9px;
+  margin-top: -14px;
 }
 #barreira{
-  margin-top: 50px;
-  margin-right: 10px;
   height: 3.5vw;
+  margin-right: 50px;
 }
 #unv{
   width: 8vw;
   height: 8vw;
+  margin-right: 50px;
 }
 #riseRosaRage{
   margin-right: 50px;
@@ -372,11 +384,11 @@ $border-color: #a1a1a1;
 #publicationsTitle{
   margin-left: 28px;
 }
+.offlist{
+  font-size: 1.7rem;
+  margin-left: 25px;
+}
 @media (max-width: 1500px) {
-  .projectstitle{
-    font-size: 4vw;
-    color: var(--title-color);
-  }
   #titleAux {
     font-size: 6vw;
     margin: 0 auto;
@@ -421,19 +433,16 @@ $border-color: #a1a1a1;
   }
   .projectsImageNarrow{
     width: 13vw;
-    height: 11vw;
+    height: 13vw;
     margin: 10px;
   }
   #acciona{
-    margin-top: 17px;
     height: 12vw;
+    margin-left: 50px;
   }
   #barreira{
-    margin-top: 50px;
+    margin-top: 31px;
     height: 5vw;
-  }
-  #marginTOP{
-    margin-top: 45px;
   }
   #companiesTitle{
     margin-left: 0px;
@@ -482,9 +491,6 @@ $border-color: #a1a1a1;
   }
 }
 @media (max-width: 767px) {
-  #title {
-    font-size: 7.5vw;
-  }
   #titleWWU{
     font-size: 35px;
   }
@@ -524,9 +530,6 @@ $border-color: #a1a1a1;
   #unv{
     width: 20vw;
     height: 20vw
-  }
-  #marginTOP{
-      margin-top: 38px;
   }
 }
 @media (max-width: 500px) {

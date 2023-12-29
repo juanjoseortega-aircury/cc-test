@@ -40,11 +40,13 @@ img: ":home-heading.jpg"
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
 <div class="containertitle">
-       <h1 id="title"> Welcome to </h1>
        <img id="imagename" src="/assets/img/default/name logo.png">
 </div>
-
+<br>
+<div class="photoTitle">
+<img id="imgTitles" src="/assets/img/default/logo.png">
 <h1 id="title2"> Company </h1>
+</div>
 <div class="boxCompany">
     <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a id="link" href="/tabs/offering.html">here</a>.</p>
 </div>
@@ -84,13 +86,13 @@ img: ":home-heading.jpg"
 </p>
    </div>
    <div class="containerMember">
-       <img src="/assets/img/home/icon.png" />
+       <img class="imgMembers" id="imgMember4" src="/assets/img/home/Laura.png" />
        <h4>Laura Garrido</h4>
        <h2 class="job">AV & New Technologies Specialist</h2>
-        <p id="desc">Description</p>
+        <p id="desc">Laura Garrido is a Visual Director and Digital Media Producer with more than 15 years of experience in audiovisual and interactive productions for museums, exhibitions, events and brands. With extensive experience in managing audiovisual projects in the Middle East, Spain and Latin America, Laura develops digital experiences from the concept, script, planning and execution phase, also working in media and interactive tenders for museums as a consultant. She teaches on motion graphics and mapping, among other related subjects, and has been in charge of the Post-Production of films, documentaries and series for the last three years.</p>
    </div>
    <div class="containerMember">
-       <img class="imgMembers" id="imgMember4" src="/assets/img/home/susana.jpg" />
+       <img class="imgMembers" id="imgMember5" src="/assets/img/home/Susana.png" />
        <h4>Susana Miralles</h4>
        <h2 class="job">Business Manager</h2>
         <p id="desc">Susana brings great experience in business management, employment law, payroll and social security. She studied IT Systems Management at the University of Granada and worked as an administrative officer for the University of Almería. She enjoys carrying out research and learning new things so as to enrich whichever type of company she happens to be working with. She is currently studying for a Masters in Management and Administration of Companies in the Granada Chamber of Commerce.</p>

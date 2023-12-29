@@ -21,7 +21,7 @@ $anchor-text-color-light: #3389de;
 %body-main-styles-colors-light {
   --body-anchor-text-color: #{$anchor-text-color-light};
   --body-anchor-hover-text-color: #2f6597;
-  --body-text-color: rgb(73, 70, 70);
+  --body-text-color: #514f4f;
   --body-header-text-color: #{$header-color-light};
   --body-background-color: #{$main-background-light};
   --body-hr-color: #{$hr-color-light};
@@ -151,7 +151,7 @@ $anchor-text-color-light: #3389de;
 // layout: projects, post, post-list
 // common/markdown-style
 %markdown-style-colors-light {
-  --markdown-styles-header-text-color: #{$header-color-light};
+  --markdown-styles-header-text-color: #f5835a;
   --markdown-styles-table-border-color: #ddd;
   --markdown-styles-blockquote-background-color: #eee;
   --markdown-styles-blockquote-side-color: #{$brand-color-light};

@@ -2,6 +2,7 @@
 layout: offerings
 lng_pair: id_offering
 ---
+<script src="https://kit.fontawesome.com/9293cabefc.js" crossorigin="anonymous"></script>
 <script>
     function showContent(index){
         const servicesItems = document.getElementsByClassName("services-item");
@@ -11,39 +12,30 @@ lng_pair: id_offering
 <div class="row">
     <div class="col-md-12">
         <div class="position-relative">
-            <div class="services-item" onclick="showContent(0)">
-                <div class="services-item__head">Types of Projects and Clients we work with<span></span>
-</div>
-                    <div class="services-item__content">
-                        <ul>
-                            <li>Museums and Archives</li>
-                            <li>Exhibitions</li>
-                            <li>Contemporary Art engagements</li>
-                            <li>Learning Tools and Programmes</li>
-                            <li>Cultural Programming</li>
-                            <li>Cultural Events</li>
-                            <li>Writing for publications and web</li>
-                            <li>Public Speaking engagements</li>
-                            <li>Conferences</li>
-                            <li>Governmental bodies such as Ministries of Culture</li>
-                            <li>Administrative entities such as Cities</li>
-                            <li>Private Collections</li>
-                            <li>Galleries and the commercial scene</li>
-                            <li>Educational institutions</li>
-                            <li>Exhibition Design companies and other Main Contractors in large projects</li>
-                            <li>Conferences and Festivals</li>
-                            <li>Companies looking to provide value into their history and heritage </li>
-                            <li>NGOs</li>
-                            <li>Cultural Startups</li>
-                            <li>Individuals with inspiring ideas</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="services-item" onclick="showContent(1)">
-                <div class="services-item__head">Team Skills<span></span>
-    </div>
-                    <div class="services-item__content">
+                 <h1 id="title2">Types of Projects and Clients we work with</h1>
+                 <div class="offlist">
+                    <p><i class="fa-solid fa-building-columns"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Museums and Archives</p>
+                            <p><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exhibitions</p>
+                            <p><i class="fa-solid fa-palette"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contemporary Art engagements</p>
+                            <p><i class="fa-solid fa-pen"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Tools and Programmes</p>
+                            <p><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cultural Programming</p>
+                            <p><i class="fa-solid fa-masks-theater"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cultural Events</p>
+                            <p><i class="fa-solid fa-pen-nib"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Writing for publications and web</p>
+                            <p><i class="fa-solid fa-comments"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Public Speaking engagements</p>
+                            <p><i class="fa-solid fa-users"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conferences</p>
+                            <p><i class="fa-solid fa-building"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Governmental bodies such as Ministries of Culture</p>
+                            <p><i class="fa-solid fa-city"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administrative entities such as Cities</p>
+                            <p><i class="fa-solid fa-paintbrush"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Private Collections</p>
+                            <p><i class="fa-solid fa-handshake"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Galleries and the commercial scene</p>
+                            <p><i class="fa-solid fa-school"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Educational institutions</p>
+                            <p><i class="fa-solid fa-list-check"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exhibition Design companies and other Main Contractors in large projects</p>
+                            <p><i class="fa-solid fa-hourglass-start"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conferences and Festivals</p>
+                            <p><i class="fa-solid fa-sitemap"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Companies looking to provide value into their history and heritage </p>
+                            <p><i class="fa-solid fa-building-ngo"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NGOs</p>
+                            <p><i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cultural Startups</p>
+                            <p><i class="fa-solid fa-lightbulb"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Individuals with inspiring ideas</p>
+                        </div>
+                 <h1 id="title2">Team Skills</h1>
                         <ul>
                             <li>Cultural Consultancy</li>
                             <li>Curatorial Proposals</li>
@@ -54,7 +46,7 @@ lng_pair: id_offering
                             <li>Content Production Coordination</li>
                             <li>Collections Management</li>
                             <li>Foreign Languages:
-                                <ul class="sub-item">&nbsp;&nbsp;&nbsp;&nbsp;All team members are at a minimum bilingual or more:
+                                <ul class="sub-item">&nbsp;&nbsp;&nbsp;&nbsp;All team members are at a minimum bilingual or more in:
                                     <li>English</li>
                                     <li>Spanish</li>
                                     <li>French</li>
@@ -67,10 +59,9 @@ lng_pair: id_offering
                                     <li>Russian</li>
                                 </ul>
                             </li>
-                            <li>Strength, empathy, respect and kindness (Interpersonal Skills)</li>
+                            <li> Interpersonal Skills: Strength, empathy, respect and kindness</li>
                         </ul>
-                    </div>
-                </div>
             </div>
-        </div>
-    
+         </div>
+    </div> 
+   <p>Take a look at our <a id="link" href="/tabs/projects.md">Projects</a> to see some of our current and prior engagements.</p>
