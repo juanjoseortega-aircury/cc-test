@@ -22,9 +22,8 @@ layout: default
 <div class="containertitle">
   <h1 id="titleAux">Projects</h1>
 </div>
-  <br>
-  <h1 class="projectstitle">We have worked with:</h1>
   <hr>
+  <h1 id="title2">We have worked with:</h1>
 <div class="projectsFormat">
 <div class="companiesProjectsContainer">
     <div class="boxCompaniesPR">
@@ -43,10 +42,11 @@ layout: default
       </div>
     </div>
   <div class="companiesProjectsContainer">
-    <div class="boxCompaniesPR2">
+    <div class="boxCompaniesPR">
     <h3 id="festivalsTitle">Festivals: </h3>
       <div class="projectsImagesContainer">
         <img id="marginTOP" class="projectsImageWide" src="/assets/img/logos/Cibra.png">
+        <img class="projectsImageNarrow" src="/assets/img/logos/rosa-lago.jpg">
       </div>
     </div>
     <div class="boxCompaniesPR2">
@@ -73,8 +73,7 @@ layout: default
 </div>
 </div>
 </div>
-  <h1 class="projectstitle">Project list:</h1>
-  <hr>
+  <h1 id="title2">Selected projects:</h1>
   <br>
 {% for category in project_data.category -%}
   {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
