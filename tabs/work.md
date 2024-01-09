@@ -16,7 +16,7 @@ No matter what stage you are at in your career (including the very beginning) or
 
 We respect your time and your interest, so will always reply. If we delay, please nudge us! It will only be because we are particularly engrossed in a project.
 
-# Skills
+# What we're looking for
 <ul>
 <li>Any mentioned in our  <a id="link" href="/tabs/offering.html"> Offering page </a> </li>
 <li> Graphic Designers (exhibition artworking and/or publications)</li>
