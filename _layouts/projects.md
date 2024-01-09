@@ -23,9 +23,9 @@ layout: default
   <h1 id="titleAux">Projects</h1>
 </div>
   <br>
-<div class="projectsFormat">
   <h1 class="projectstitle">We have worked with:</h1>
   <hr>
+<div class="projectsFormat">
 <div class="companiesProjectsContainer">
     <div class="boxCompaniesPR">
     <h3 id="companiesTitle">Companies:</h3>
@@ -74,6 +74,7 @@ layout: default
 </div>
 </div>
   <h1 class="projectstitle">Project list:</h1>
+  <hr>
   <br>
 {% for category in project_data.category -%}
   {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
