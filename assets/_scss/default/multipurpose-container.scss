@@ -20,8 +20,6 @@
 
 .multipurpose-container {
   @include get_scheme(default-colors-);
-  background-color: var(--multipurpose-container-background-color);
-  box-shadow: var(--multipurpose-container-shadow);
   border-radius: 10px;
   padding: var(--text-spacing);
   margin-bottom: var(--multipurpose-container-margin-bottom);
