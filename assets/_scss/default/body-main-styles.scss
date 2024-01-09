@@ -487,6 +487,16 @@ $border-color: #a1a1a1;
   #titleWWU{
     font-size: 35px;
   }
+  #titleAux{
+    font-size: 9vw;
+    margin: 0 auto;
+    color: var(--title-color);
+    text-align: center;
+  }
+  .projectstitle{
+    font-size: 6vw;
+    color: var(--title-color);
+  }
   .projectsImageNarrow {
     width: 25%;
     margin: 20px;
