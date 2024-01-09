@@ -1,7 +1,7 @@
 ---
 layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_home
+lng_pair: id_about
 
 # image for page specific usage
 img: ":home-heading.jpg"
