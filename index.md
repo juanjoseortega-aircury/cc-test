@@ -52,7 +52,7 @@ img: ":home-heading.jpg"
 </div>
 <h1 id="title2"> Philosophy  </h1>
 <div id="curating">
-<p>Curating is Caring. This is the basis from which we work on all our projects, and with each other. We’re currently putting together a Manifesto about what this means in practice, and as this is a collaborative philosophy, we’d like to invite you to contribute your idea to <a id="link">this working Google doc</a>.</p>
+<p>Curating is Caring. This is the basis from which we work on all our projects, and with each other. We’re currently putting together a Manifesto about what this means in practice, and as caring also means listening and sharing, we’d like to invite you to contribute your ideas via our page <a id="link">A Collaborative Manifesto for Curating with Care</a>. You can see all the points collated to date on this non-editable <a id="link">Google doc</a>, where yours will be added after review to ensure we keep a safe space.</p>
 </div>
 <h1 id="title2"> Team</h1>
 <div class="containerTeam">
@@ -80,7 +80,7 @@ img: ":home-heading.jpg"
    <div class="containerMember">
        <img class="imgMembers" id="imgMember3" src="/assets/img/home/caroRes.jpg" />
        <h4>Caroline Trotman</h4>
-       <h2 class="job">Historian and Curator</h2>
+       <h2 class="job">Historian & Curator</h2>
         <p id="desc">Caroline is a motivating and analytical teacher of History, Geography, Geopolitics and Political Science in Paris, France. In 2009-15, she was based between Florida and California, USA, then London and Oxford, UK, where she worked as an Assistant Curator and Registrar at various museums, which is how she met Elisa. Together, they went on to collaborate on a research project on the Buzludzha monument in Bulgaria in 2014-16, from which a book, articles and an exhibition emerged.
         Caroline has a BA in History, Art History & Geography from the Sorbonne, Paris, and three MAs: in Modern Art & English from Oxford Brookes University, in Museum Studies from the University of Leicester, and Contemporary Art Theory from Goldsmiths, University of London (all UK).
 </p>
