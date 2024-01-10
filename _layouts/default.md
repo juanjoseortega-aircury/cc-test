@@ -61,9 +61,7 @@ layout: util/compress
       {%- endif -%}
     </div>
 
-    {% if site.data.conf.main.search_enable -%}
-      {%- include default/search.html -%}
-    {%- endif %}
+    
 
     {% include default/scripts-include.html -%}
   </body>
