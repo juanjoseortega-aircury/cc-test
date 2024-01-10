@@ -35,6 +35,9 @@
       </a>
     {% endif -%}
     <hr>
+    {% if site.data.conf.main.search_enable -%}
+      {%- include default/search.html -%}
+    {%- endif %}
     <br>
     <div class="side-nav-buttons">
       <ul class="nav nav-pills nav-stacked">

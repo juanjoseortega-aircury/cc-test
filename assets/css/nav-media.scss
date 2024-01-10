@@ -42,19 +42,7 @@
 {% endif %}
 
 {% if site.data.conf.main.search_enable == true %}
-  .searchbox-container {
-    /* fixed to top nav */
-    position: absolute;
-    top: 10px;
-    left: unset;
-    right: var(--main-container-margin);
-  }
-
-  /* right to left opening */
-  #search-box {
-    --searchbox-expand-width: calc(100vw - (var(--main-container-margin) * 2));
-  }
-
+  
   #search-results {
     max-width: calc(100vw - (var(--side-nav-width) + (var(--main-container-margin) * 2) + var(--search-results-margin-left)));
   }
