@@ -10,7 +10,7 @@
 
 .close-button > i{
   color: var(--close-button-color);
-  font-size: 1.7rem;
+  font-size: var(--text-size);
 }
 
 .close-button > i:hover {

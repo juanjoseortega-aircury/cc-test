@@ -39,7 +39,7 @@
 }
 
 .side-nav-buttons li > a > i {
-  font-size: 1.7rem;
+  font-size: var(--text-size);
   margin-right: 10px;
 }
 
@@ -54,7 +54,7 @@
 
 /* icon size */
 .top-nav-buttons li > a > i {
-  font-size: 1.7rem;
+  font-size: var(--text-size);
   padding-right: 8px;
 }
 

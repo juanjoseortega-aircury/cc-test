@@ -20,7 +20,7 @@
 }
 
 .color-scheme-switch span {
-  font-size: 1.7rem;
+  font-size: var(--text-size);
   display: inline;
   position: relative;
   width: 18px;
