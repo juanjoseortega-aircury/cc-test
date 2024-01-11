@@ -44,7 +44,7 @@
 
 .contact-container > ul > li {
   display: inline-block;
-  font-size: 1.7rem;
+  font-size: var(--text-size);
 }
 
 .contact-container > ul > li:not(:last-child) > a {

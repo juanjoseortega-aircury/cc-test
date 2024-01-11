@@ -5,6 +5,7 @@
 
 :root {
   @include get_scheme(body-main-styles-colors-);
+  --text-size:1.7rem;
 }
 html {
   /* for comment page_bottom_Check */
@@ -75,7 +76,7 @@ p {
 ul,
 ol {
   font-weight: 300;
-  font-size: 1.7rem;
+  font-size: var(--text-size);
 }
 img {
   height: auto;
@@ -190,7 +191,7 @@ $border-color: #a1a1a1;
     list-style: none;
     &:last-child {
       margin-bottom: 0;
-      font-size: 1.7rem;
+      font-size: var(--text-size);
     }
     ul.sub-item li:before {
       content: "- ";
@@ -199,7 +200,7 @@ $border-color: #a1a1a1;
     li {
       padding-left: 20px;
       padding-bottom: 8px;
-      font-size: 1.7rem;
+      font-size: var(--text-size);
       position: relative;
       &:before {
         position: absolute;
@@ -216,7 +217,7 @@ $border-color: #a1a1a1;
   color: #000000;
   text-decoration: underline;
   font-style: italic;
-  font-size: 1.7rem;
+  font-size: var(--text-size);
 }
 #center {
   display: flex;
@@ -298,7 +299,7 @@ $border-color: #a1a1a1;
   border-radius: 15% 25%;
 }
 #desc {
-  font-size: 1.7rem;
+  font-size: var(--text-size);
   font-weight: 900;
   text-align: left;
 }
@@ -385,7 +386,7 @@ $border-color: #a1a1a1;
   margin-left: 28px;
 }
 .offlist{
-  font-size: 1.7rem;
+  font-size: var(--text-size);
   margin-left: 25px;
 }
 @media (max-width: 1500px) {
