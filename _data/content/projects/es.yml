@@ -27,8 +27,7 @@ page_data:
     - type: id_example
       project_name: "El camino hacia una exposición sostenible"
       project_excerpt: "Ithra via Acciona Cultura"
-      img: ":project1_thumb.jpg"
-      img_title: "img title1"
+      img: ":Ithra.jpg"
       date: "2023-05-10"
       post: |
         # ‘El camino hacia una exposición sostenible’ capítulo en el catálogo de la exposición Net Zero - King Abdulaziz Centre for World Culture-Ithra - Ithra, Dharan, Arabia Saudita
@@ -38,8 +37,7 @@ page_data:
     - type: id_picture
       project_name: "El cine también se lee Exposición"
       project_excerpt: "CiBRA- Festival del Cine y de la Palabra"
-      img: ":project2_thumb.jpg"
-      img_title: "img title2"
+      img: ":8ymedio.jpg"
       date: "2023-05-10"
       post: |
         # El cine también se lee Exposición - Biblioteca de Castilla La Mancha, Toledo, España
@@ -48,6 +46,7 @@ page_data:
     - type: id_quote
       project_name: "Nuevas expografías: entre la tecnología y las experiencias"
       project_excerpt: "Fundación Mainel"
+      img: ":22_Fundacion-Mainel_Coloquio-de-Cultura-Visual_Web.png"
       date: "2023-05-10"
       post: |
         # ‘Nuevas expografías: entre la tecnología y las experiencias’ seminario en  Coloquios Cultura Visual Contemporaneo series- Fundación Mainel, Valencia, España
@@ -56,8 +55,7 @@ page_data:
     - type: id_quote
       project_name: "Rise-Rosa-Rage Archivo de Gráficos Sociopolíticos, Roma, Italia / Online"
       project_excerpt: "Rise Rosa Rage Archive"
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
+      img: ":Rise_Rosa_Rage.png"
       date: "2023-05-10"
       post: |
         # Rise-Rosa-Rage Archivo de Gráficos Sociopolíticos, Roma, Italia / Online
@@ -66,8 +64,7 @@ page_data:
     - type: id_quote
       project_name: "Módulo del Curso MA Escuela Superior de Arte y Diseño"
       project_excerpt: "Barreira Higher School of Art and Design"
-      img: ":project1_thumb.jpg"
-      img_title: "img title5"
+      img: ":Barreira MA.jpg"
       date: "2023-05-10"
       post: |
         # Módulo del Curso MA Escuela Superior de Arte y Diseño de Barreira, Valencia, España
