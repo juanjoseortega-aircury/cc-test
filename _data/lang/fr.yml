@@ -165,6 +165,14 @@ projects:
   button_name: Projets
   read_more_text: En savoir plus
   read_less_text: Réduire
+  worked: Nous avons travaillé avec
+  companies: Entreprises
+  museums: Musées, Archives et Expositions
+  festivals: Festivals
+  private_foundations: Fondations privées
+  publications: Publications
+  universities: Universités
+  selected: Projets sélectionnés
 
 # for privacy-policy layout
 privacy-policy:

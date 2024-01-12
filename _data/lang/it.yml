@@ -157,6 +157,14 @@ projects:
   button_name: Progetti
   read_more_text: Lire plus
   read_less_text: Lire moins
+  worked: Abbiamo lavorato con
+  companies: Aziende
+  museums: Musei, Archivi e Esposizioni
+  festivals: Festival
+  private_foundations: Fondazioni private
+  publications: Pubblicazioni
+  universities: Università
+  selected: Progetti selezionati
 # for contacts layout
 contacts:
   title: Contatti
