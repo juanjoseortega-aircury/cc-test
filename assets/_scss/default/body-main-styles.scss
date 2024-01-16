@@ -389,6 +389,9 @@ $border-color: #a1a1a1;
   font-size: var(--text-size);
   margin-left: 25px;
 }
+#offering-services div {
+  display: flex;
+}
 @media (max-width: 1500px) {
   #titleAux {
     font-size: 6vw;
