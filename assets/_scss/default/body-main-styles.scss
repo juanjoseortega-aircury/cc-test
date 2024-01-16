@@ -6,6 +6,9 @@
 :root {
   @include get_scheme(body-main-styles-colors-);
   --text-size:1.7rem;
+  --popup-size-mobile: 4vw;
+  --popup-border-radius: 2vw;
+  --popup-margin: 2vw;
 }
 html {
   /* for comment page_bottom_Check */
