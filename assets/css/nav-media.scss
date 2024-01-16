@@ -42,7 +42,6 @@
 {% endif %}
 
 {% if site.data.conf.main.search_enable == true %}
-  
   #search-results {
     max-width: calc(100vw - (var(--side-nav-width) + (var(--main-container-margin) * 2) + var(--search-results-margin-left)));
   }
