@@ -57,6 +57,16 @@ img: ":home-heading.jpg"
 <h1 id="title2"> Team</h1>
 <div class="containerTeam">
    <div class="containerMember">
+        <div class="showPopUp">
+            <div class="overlay"></div>
+                <div class="img-show">
+                    <span>X</span>
+                    <img src="">
+                    <h4 id="namePopUp"></h4>
+                    <h4 id="jobPopUp"></h4>
+                    <p id="descPopUp"></p>
+                </div>
+        </div>
        <img class="imgMembers" id="imgMember" src="/assets/img/home//Elisa.jpg" />
        <h4>Elisa Bailey </h4>
        <h2 class="job">Founding Director, Head Curator</h2>
