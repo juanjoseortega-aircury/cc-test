@@ -93,28 +93,6 @@ hr {
   Styles for sections in Offering page
  */
 $border-color: #a1a1a1;
-.section-services {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 300px;
-}
-.section-services__item {
-  position: relative;
-  &:first-child {
-    border-top: 1px solid $border-color;
-    .section-services__item-inner {
-      border-top: none;
-    }
-  }
-}
-.section-services__item-inner {
-  border-top: 1px solid $border-color;
-  padding: 20px 0;
-}
-.section-services__item-heading {
-  text-transform: uppercase;
-  font-size: 24px;
-}
 .services-item {
   position: relative;
   margin-bottom: 20px;
@@ -543,3 +521,4 @@ $border-color: #a1a1a1;
     height: 16vw;
   }
 }
+
