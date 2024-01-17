@@ -59,13 +59,13 @@ img: ":home-heading.jpg"
    <div class="containerMember">
         <div class="showPopUp">
             <div class="overlay"></div>
-                <div class="img-show">
-                    <span>X</span>
-                    <img src="">
-                    <h4 id="namePopUp"></h4>
-                    <h4 id="jobPopUp"></h4>
-                    <p id="descPopUp"></p>
-                </div>
+            <div class="img-show">
+                <span>X</span>
+                <img src="">
+                <h4 id="namePopUp"></h4>
+                <h4 id="jobPopUp"></h4>
+                <p id="descPopUp"></p>
+            </div>
         </div>
        <img class="imgMembers" id="imgMember" src="/assets/img/home//Elisa.jpg" />
        <h4>Elisa Bailey </h4>
