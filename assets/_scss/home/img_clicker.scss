@@ -27,8 +27,8 @@
         background: var(--body-background-color);
         position: fixed;
         top: 50%;
-        left: 50%;
-        transform: translate(-39%, -50%);
+        left: calc(50% + var(--side-nav-width-def)/2);
+        transform: translate(-50%, -50%);
         overflow: auto
     }
 }
@@ -65,9 +65,9 @@
     margin: var(--popup-margin) auto var(--popup-margin) auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     .img-show {
-        transform: translate(-50%, -50%);
+        left: 50% !important;
         img {
             width: 45%;
             margin: var(--popup-size-mobile) 0vw;
@@ -79,6 +79,6 @@
         }
     }
     #descPopUp {
-        font-size: 14px;
+        font-size: var(--text-size);
     }
 }
