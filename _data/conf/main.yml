@@ -179,7 +179,7 @@ top_nav_buttons_hover_effect: "hover-effect"
 side_nav_buttons_hover_effect: "hover-effect"
 
 # 767px, 850px (nil will set to 767px)
-side_nav_close_limit: 767px
+side_nav_close_limit: 1000px
 
 # side nav and top nav buttons
 # button order is linked to key(layout name)
