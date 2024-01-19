@@ -25,56 +25,52 @@ layout: default
   <hr>
   <h1 id="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
 <div class="projectsFormat">
-<div class="companiesProjectsContainer">
-    <div class="boxCompaniesPR">
-    <h3 id="companiesTitle">{{ site.data.lang[lng].projects.companies }}:</h3>
-      <div class="projectsImagesContainer">
-        <img id="marginTOP"  class="projectsImageWide" src="/assets/img/logos/lord logo.png">
-        <img id="acciona" class="projectsImageWide" src="/assets/img/logos/accionacultura.png">
-      </div>
-    </div>
-    <div class="boxCompaniesPR">
-    <h3 id="musTitle">{{ site.data.lang[lng].projects.museums }}: </h3>
-      <div class="projectsImagesContainerAux">
-        <img class="projectsImageNarrow" id="riseRosaRage" src="/assets/img/logos/rise_rosa_rage.png">
-        <img class="projectsImageNarrow" src="/assets/img/logos/ithra.png">
-        <img class="projectsImageNarrow" src="/assets/img/logos/National.png">
-      </div>
-    </div>
   <div class="companiesProjectsContainer">
     <div class="boxCompaniesPR">
-    <h3 id="festivalsTitle">{{ site.data.lang[lng].projects.festivals }}: </h3>
+      <h3>{{ site.data.lang[lng].projects.companies }}:</h3>
       <div class="projectsImagesContainer">
-        <img id="marginTOP" class="projectsImageWide" src="/assets/img/logos/Cibra.png">
-        <img class="projectsImageNarrow" src="/assets/img/logos/rosa-lago.jpg">
+        <img src="/assets/img/logos/lord logo.png">
+        <img src="/assets/img/logos/accionacultura.png">
       </div>
     </div>
-    <div class="boxCompaniesPR2">
-    <h3 id="privateTitle">{{ site.data.lang[lng].projects.private_foundations }}: </h3>
+    <div class="boxCompaniesPR">
+      <h3>{{ site.data.lang[lng].projects.museums }}: </h3>
       <div class="projectsImagesContainer">
-        <img id="marginTOP" class="projectsImageWide" src="/assets/img/logos/mainel.png">
+        <img src="/assets/img/logos/rise_rosa_rage.png">
+        <img src="/assets/img/logos/ithra.png">
+        <img src="/assets/img/logos/National.png">
       </div>
     </div>
-    <div class="boxCompaniesPR2">
-    <h3 id="publicationsTitle">{{ site.data.lang[lng].projects.publications }}: </h3>
+    <div class="boxCompaniesPR">
+      <h3>{{ site.data.lang[lng].projects.festivals }}: </h3>
       <div class="projectsImagesContainer">
-        <img class="projectsImageWide" src="/assets/img/logos/NuartJournal-logo-2021-stacked.png">
+        <img src="/assets/img/logos/Cibra.png">
+        <img src="/assets/img/logos/rosa-lago.jpg">
       </div>
     </div>
-    <div class="boxCompaniesPR3">
-     <h3 id="unvTitle">{{ site.data.lang[lng].projects.universities }}:</h3>
+    <div class="boxCompaniesPR">
+      <h3>{{ site.data.lang[lng].projects.private_foundations }}: </h3>
       <div class="projectsImagesContainer">
-        <img id="barreira" class="projectsImageWide" src="/assets/img/logos/barreira.png">
-        <img class="projectsImageNarrow" id="unv" src="/assets/img/logos/Cambridge.png">
-        <img class="projectsImageNarrow" id="unv" src="/assets/img/logos/UCL-Logo.jpg">
+        <img class="projectsImageWide" src="/assets/img/logos/mainel.png">
       </div>
     </div>
-
+    <div class="boxCompaniesPR">
+      <h3>{{ site.data.lang[lng].projects.publications }}: </h3>
+      <div class="projectsImagesContainer">
+        <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.png">
+      </div>
+    </div>
+    <div class="boxCompaniesPR">
+      <h3>{{ site.data.lang[lng].projects.universities }}:</h3>
+      <div class="projectsImagesContainer">
+        <img src="/assets/img/logos/barreira.png">
+        <img src="/assets/img/logos/Cambridge.png">
+        <img src="/assets/img/logos/UCL-Logo.jpg">
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-  <h1 id="title2">{{ site.data.lang[lng].projects.selected }}:</h1>
-  <br>
+<h1 id="title2">{{ site.data.lang[lng].projects.selected }}:</h1><br>
 {% for category in project_data.category -%}
   {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
   {% for list in project_data.list -%}

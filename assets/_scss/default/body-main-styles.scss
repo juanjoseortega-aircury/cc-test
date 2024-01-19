@@ -300,69 +300,30 @@ $border-color: #a1a1a1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-align: center;
+  img {
+    width: 35%;
+  }
+  .boxCompaniesPR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid #bf9f80;
+    border-radius: 2vh;
+    margin: 2vh;
+    padding: 2vh;
+    width: 40vh;
+    background-color: rgba(229, 222, 216, 0.75);
+    h3 {
+      margin-top: 0;
+    }
+  }
 }
 .projectsImagesContainer{
   display: flex;
   align-items: center;
-}
-.projectsImagesContainerAux{
-  display: flex;
-}
-.projectsImageWide{
-  height: 100px;
-  margin: 10px;
-  margin-right: 50px;
-}
-.projectsImageNarrow{
-  width: 150px;
-  height: 150px;
-  margin: 10px;
-}
-.projectlistimg{
-  height: 4vw;
-  width: 4vw;
-}
-.boxCompaniesPR{
-  width: 40%;
-}
-.boxCompaniesPR2{
-  width: 27%;
-  padding-left: 50px;
-}
-.boxCompaniesPR3{
-  width: 63%;
-}
-#acciona{
-  height: 150px;
-  margin-left: -9px;
-  margin-top: -14px;
-}
-#barreira{
-  height: 3.5vw;
-  margin-right: 50px;
-}
-#unv{
-  width: 8vw;
-  height: 8vw;
-  margin-right: 50px;
-}
-#riseRosaRage{
-  margin-right: 50px;
-}
-#companiesTitle{
-  margin-left: 7px;
-}
-#musTitle{
-  margin-left: 20px;
-}
-#festivalsTitle{
-  margin-left: 12px;
-}
-#unvTitle{
-  margin-left: 7px;
-}
-#publicationsTitle{
-  margin-left: 28px;
+  justify-content: space-around;
 }
 .offlist{
   font-size: var(--text-size);
@@ -385,137 +346,4 @@ $border-color: #a1a1a1;
   #desc {
     margin: 0 auto;
   }
-  .boxCompaniesPR{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .boxCompaniesPR2{
-    width: 50%;
-    margin: 0 auto;
-  }
-  .boxCompaniesPR3{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .projectsImagesContainer{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  .projectsImagesContainerAux{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  .projectsImageWide{
-    height: 8vw;
-    margin: 10px;
-  }
-  .projectsImageNarrow{
-    width: 13vw;
-    height: 13vw;
-    margin: 10px;
-  }
-  #acciona{
-    height: 12vw;
-    margin-left: 50px;
-  }
-  #barreira{
-    margin-top: 31px;
-    height: 5vw;
-  }
-  #companiesTitle{
-    margin-left: 0px;
-    text-align: center;
-  }
-  #musTitle{
-    margin-left: 0px;
-    text-align: center;
-  }
-  #festivalsTitle{
-    margin-left: 0px;
-    text-align: center;
-  }
-  #unvTitle{
-    margin-left: 0px;
-    text-align: center;
-  }
-  #publicationsTitle{
-    margin-left: 0px;
-    text-align: center;
-  }
-  #privateTitle{
-    text-align: center;
-  }
 }
-@media (max-width: 1000px) {
-  .projectsImageNarrow{
-    width: 43%;
-    margin: 20px;
-    height: 60%;
-  }
-  .projectsImagesContainer{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
-  #acciona{
-    margin-top: 22px;
-    height: 12vw;
-  }
-  .boxCompaniesPR2{
-    width: 99%;
-    flex-wrap: wrap;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 767px) {
-  #titleWWU{
-    font-size: 35px;
-  }
-  #titleAux{
-    font-size: 9vw;
-    margin: 0 auto;
-    color: var(--title-color);
-    text-align: center;
-  }
-  .projectstitle{
-    font-size: 6vw;
-    color: var(--title-color);
-  }
-  .projectsImageNarrow {
-    width: 25%;
-    margin: 20px;
-    margin-right: 20px;
-    height: 60%;
-  }
-  .boxCompaniesPR2{
-    width: 50%;
-    margin: 0 auto;
-  }
-  .projectsImageWide{
-    height: 12vw;
-    margin: 10px;
-  }  
-  #barreira{
-    margin-top: 50px;
-    margin-right: 10px;
-    height: 9vw;
-  }
-  #acciona{
-    margin-top: 22px;
-    height: 16vw;
-  }
-  #unv{
-    width: 20vw;
-    height: 20vw
-  }
-}
-@media (max-width: 500px) {
-  #acciona {
-    margin-top: 30px;
-    height: 16vw;
-  }
-}
-
