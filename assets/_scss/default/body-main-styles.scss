@@ -191,6 +191,18 @@ $border-color: #a1a1a1;
     }
   }
 }
+ul.sub-item {
+  text-align: center;
+  li {
+    list-style-type: none;
+    font-weight: bold;
+  
+  }
+  :first-child {
+    border-top: 0.3rem solid rgba(255,255,255,0.5);
+  }
+  
+}
 .services-item.active .services-item__content {
   display: block;
 }
@@ -328,9 +340,13 @@ $border-color: #a1a1a1;
 .offlist{
   font-size: var(--text-size);
   margin-left: 25px;
+  i {
+    margin-right: 2rem;
+  }
 }
 #offering-services div {
   display: flex;
+  margin: 1rem 0;
 }
 @media (max-width: 1500px) {
   #titleAux {
