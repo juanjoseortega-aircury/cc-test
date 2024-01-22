@@ -41,6 +41,8 @@
   float: left;
   z-index: 1;
   padding-left: 0;
+  padding-right: 0;
+  text-align: right;
 }
 
 .project-container .project-img img {
@@ -120,7 +122,6 @@
 /* date */
 .project-container .project-header > .meta-container > p.date {
   text-align: left;
-  width: 35%;
   color: var(--project-date-text-color);
 }
 
@@ -132,5 +133,15 @@
   .project-container {
     margin-left: unset;
     margin-right: unset;
+  }
+}
+.project-header {
+  width: 73%;
+  float: left;
+}
+@media (max-width: 1000px) {
+  .project-img img {
+    height: 16.2vw !important;
+    width: 20vw !important;
   }
 }
