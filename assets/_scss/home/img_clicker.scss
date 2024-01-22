@@ -68,8 +68,9 @@
 @media (max-width: 1000px) {
     .img-show {
         left: 50% !important;
+        width: 90%;
         img {
-            width: 45%;
+            width: 40%;
             margin: var(--popup-size-mobile) 0vw;
         }
         span {
