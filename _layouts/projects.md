@@ -26,14 +26,14 @@ layout: default
   <h1 id="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
 <div class="projectsFormat">
   <div class="companiesProjectsContainer">
-    <div class="boxCompaniesPR">
+    <div>
       <h3>{{ site.data.lang[lng].projects.companies }}:</h3>
       <div class="projectsImagesContainer">
         <img src="/assets/img/logos/lord logo.png">
         <img src="/assets/img/logos/accionacultura.png">
       </div>
     </div>
-    <div class="boxCompaniesPR">
+    <div>
       <h3>{{ site.data.lang[lng].projects.museums }}: </h3>
       <div class="projectsImagesContainer">
         <img src="/assets/img/logos/rise_rosa_rage.png">
@@ -41,26 +41,26 @@ layout: default
         <img src="/assets/img/logos/National.png">
       </div>
     </div>
-    <div class="boxCompaniesPR">
+    <div>
       <h3>{{ site.data.lang[lng].projects.festivals }}: </h3>
       <div class="projectsImagesContainer">
         <img src="/assets/img/logos/Cibra.png">
         <img src="/assets/img/logos/rosa-lago.jpg">
       </div>
     </div>
-    <div class="boxCompaniesPR">
+    <div>
       <h3>{{ site.data.lang[lng].projects.private_foundations }}: </h3>
       <div class="projectsImagesContainer">
         <img class="projectsImageWide" src="/assets/img/logos/mainel.png">
       </div>
     </div>
-    <div class="boxCompaniesPR">
+    <div>
       <h3>{{ site.data.lang[lng].projects.publications }}: </h3>
       <div class="projectsImagesContainer">
         <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.png">
       </div>
     </div>
-    <div class="boxCompaniesPR">
+    <div>
       <h3>{{ site.data.lang[lng].projects.universities }}:</h3>
       <div class="projectsImagesContainer">
         <img src="/assets/img/logos/barreira.png">
