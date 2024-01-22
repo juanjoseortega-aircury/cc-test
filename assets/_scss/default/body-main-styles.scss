@@ -9,6 +9,9 @@
   --popup-size-mobile: 4vw;
   --popup-border-radius: 2vw;
   --popup-margin: 2vw;
+  --border-content-color: #bf9f80;
+  --background-content-color: rgba(229, 222, 216, 0.75);
+  --top-border-separator: 0.3rem solid rgba(255,255,255,0.5);
 }
 html {
   /* for comment page_bottom_Check */
@@ -196,12 +199,10 @@ ul.sub-item {
   li {
     list-style-type: none;
     font-weight: bold;
-  
   }
   :first-child {
-    border-top: 0.3rem solid rgba(255,255,255,0.5);
+    border-top: var(--top-border-separator);
   }
-  
 }
 .services-item.active .services-item__content {
   display: block;
@@ -316,17 +317,17 @@ ul.sub-item {
   img {
     width: 35%;
   }
-  .boxCompaniesPR {
+  > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.2rem solid #bf9f80;
+    border: 0.2rem solid var(--border-content-color);
     border-radius: 2vh;
     margin: 2vh;
     padding: 2vh;
     width: 40vh;
-    background-color: rgba(229, 222, 216, 0.75);
+    background-color: var(--background-content-color);
     h3 {
       margin-top: 0;
     }
