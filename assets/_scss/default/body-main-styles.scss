@@ -347,3 +347,7 @@ $border-color: #a1a1a1;
     margin: 0 auto;
   }
 }
+.date-container {
+  display: flex;
+  justify-content: space-between;
+}
