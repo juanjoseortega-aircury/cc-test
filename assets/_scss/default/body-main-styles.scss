@@ -331,12 +331,12 @@ ul.sub-item {
     h3 {
       margin-top: 0;
     }
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
   }
-}
-.projectsImagesContainer{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 .offlist{
   font-size: var(--text-size);
