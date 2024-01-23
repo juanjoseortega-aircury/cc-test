@@ -28,14 +28,14 @@ layout: default
   <div class="companiesProjectsContainer">
     <div>
       <h3>{{ site.data.lang[lng].projects.companies }}:</h3>
-      <div class="projectsImagesContainer">
+      <div>
         <img src="/assets/img/logos/lord logo.png">
         <img src="/assets/img/logos/accionacultura.png">
       </div>
     </div>
     <div>
       <h3>{{ site.data.lang[lng].projects.museums }}: </h3>
-      <div class="projectsImagesContainer">
+      <div>
         <img src="/assets/img/logos/rise_rosa_rage.png">
         <img src="/assets/img/logos/ithra.png">
         <img src="/assets/img/logos/National.png">
@@ -43,26 +43,26 @@ layout: default
     </div>
     <div>
       <h3>{{ site.data.lang[lng].projects.festivals }}: </h3>
-      <div class="projectsImagesContainer">
+      <div>
         <img src="/assets/img/logos/Cibra.png">
         <img src="/assets/img/logos/rosa-lago.jpg">
       </div>
     </div>
     <div>
       <h3>{{ site.data.lang[lng].projects.private_foundations }}: </h3>
-      <div class="projectsImagesContainer">
+      <div>
         <img class="projectsImageWide" src="/assets/img/logos/mainel.png">
       </div>
     </div>
     <div>
       <h3>{{ site.data.lang[lng].projects.publications }}: </h3>
-      <div class="projectsImagesContainer">
+      <div>
         <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.png">
       </div>
     </div>
     <div>
       <h3>{{ site.data.lang[lng].projects.universities }}:</h3>
-      <div class="projectsImagesContainer">
+      <div>
         <img src="/assets/img/logos/barreira.png">
         <img src="/assets/img/logos/Cambridge.png">
         <img src="/assets/img/logos/UCL-Logo.jpg">
