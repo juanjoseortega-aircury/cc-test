@@ -106,11 +106,16 @@ layout: default
       <div class="row">
         <div class="markdown-style">
           {{ list.post | markdownify }}
-          <a href="javascript:void(0);" class="read-more-less">
-            <i class="fa fa-angle-double-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}
-          </a>
         </div>
       </div>
     </div>
   {%- endfor %}
 {%- endfor %}
+<div class="showPopUp">
+    <div class="overlay"></div>
+    <div class="img-show">
+      <span>X</span>
+      <h4 id="titlePopUp"></h4>
+      <div id="descPopUp"></div>
+    </div>
+</div>
