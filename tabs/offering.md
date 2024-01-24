@@ -37,6 +37,7 @@ lng_pair: id_offering
                             <li>Text and Scriptwriting (for Graphics, AVs and Interactives)</li>
                             <li>Content Production Coordination</li>
                             <li>Collections Management</li>
+                            <li> Interpersonal Skills: Strength, empathy, respect and kindness</li>
                             <li>Foreign Languages:
                             <div>
                                 <ul class="sub-item">All team members are at a minimum bilingual or more in:
@@ -54,7 +55,6 @@ lng_pair: id_offering
                                 </ul>
                             </div>
                             </li>
-                            <li> Interpersonal Skills: Strength, empathy, respect and kindness</li>
                         </ul>
             </div>
          </div>
