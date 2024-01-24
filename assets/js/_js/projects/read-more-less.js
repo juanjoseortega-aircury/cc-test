@@ -9,7 +9,10 @@
   $(function () {
     let readMoreLess = $(".read-more-less");
     readMoreLess.click(function () {
-      var title = $(this).parent().find("h1").text();
+      var titleSubtitleUbication = $(this).parent().children();
+      for (var i = 0; i < 3; i++) {
+        document.getElementById("principalPopUp").appendChild(titleSubtitleUbication[i].cloneNode(true));
+      }
       var description = $(this).parent().parent().parent().find(".markdown-style").children();
       var descriptionContainer = document.getElementById("descPopUp");
       while (descriptionContainer.firstChild) {
@@ -18,7 +21,6 @@
       for (var i = 0; i < description.length; i++) {
         descriptionContainer.appendChild(description[i].cloneNode(true));
       }
-      document.getElementById("titlePopUp").textContent = title;
       $(".showPopUp").fadeIn();
       $("html").addClass("no-scroll");
     });
