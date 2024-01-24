@@ -35,10 +35,10 @@ layout: default
     </div>
     <div>
       <h3>{{ site.data.lang[lng].projects.museums }}: </h3>
-      <div>
+      <div class="triple-img">
         <img src="/assets/img/logos/rise_rosa_rage.png">
         <img src="/assets/img/logos/ithra.png">
-        <img src="/assets/img/logos/National.png">
+        <img id="national-trust" src="/assets/img/logos/National.png">
       </div>
     </div>
     <div>
@@ -46,6 +46,14 @@ layout: default
       <div>
         <img src="/assets/img/logos/Cibra.png">
         <img src="/assets/img/logos/rosa-lago.jpg">
+      </div>
+    </div>
+    <div>
+      <h3>{{ site.data.lang[lng].projects.universities }}:</h3>
+      <div class="triple-img">
+        <img src="/assets/img/logos/barreira.png">
+        <img src="/assets/img/logos/Cambridge.png">
+        <img src="/assets/img/logos/UCL-Logo.jpg">
       </div>
     </div>
     <div>
@@ -58,14 +66,6 @@ layout: default
       <h3>{{ site.data.lang[lng].projects.publications }}: </h3>
       <div>
         <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.png">
-      </div>
-    </div>
-    <div>
-      <h3>{{ site.data.lang[lng].projects.universities }}:</h3>
-      <div>
-        <img src="/assets/img/logos/barreira.png">
-        <img src="/assets/img/logos/Cambridge.png">
-        <img src="/assets/img/logos/UCL-Logo.jpg">
       </div>
     </div>
   </div>

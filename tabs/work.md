@@ -30,7 +30,7 @@ We respect your time and your interest, so will always reply. If we delay, pleas
 <li>High level / Native speakers of languages other than English and Spanish</li>
 </ul>
 
-*Essential requirements (even if you don’t fit the above):*
+# Essential requirements (even if you don’t fit the above):
 
 - Kind and inclusive personalities
 - Enthusiasm and passion for culture and changemaking

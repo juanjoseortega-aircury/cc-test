@@ -196,9 +196,11 @@ $border-color: #a1a1a1;
 }
 ul.sub-item {
   text-align: center;
+  font-weight: bold;
+  padding: 0;
   li {
     list-style-type: none;
-    font-weight: bold;
+    font-weight: normal;
   }
   :first-child {
     border-top: var(--top-border-separator);
@@ -315,12 +317,12 @@ ul.sub-item {
   justify-content: space-around;
   text-align: center;
   img {
-    width: 35%;
+    width: 40%;
   }
   > div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border: 0.2rem solid var(--border-content-color);
     border-radius: 2vh;
@@ -331,10 +333,17 @@ ul.sub-item {
     h3 {
       margin-top: 0;
     }
+    .triple-img img{
+      width: 31%;
+    }
+    #national-trust {
+      width: 21%;
+    }
     > div {
       display: flex;
       align-items: center;
       justify-content: space-around;
+      height: 100%;
     }
   }
 }
@@ -348,6 +357,10 @@ ul.sub-item {
 #offering-services div {
   display: flex;
   margin: 1rem 0;
+  justify-content: space-around;
+  :last-child {
+    margin-left: 1vh;
+  }
 }
 @media (max-width: 1500px) {
   #titleAux {
