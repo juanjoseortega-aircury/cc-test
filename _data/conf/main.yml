@@ -186,15 +186,10 @@ side_nav_close_limit: 1000px
 # keys need to match with "_layouts"
 side_and_top_nav_buttons:
   - about:
-    icon: "fa fa-info"
   - projects:
-    icon: "fa fa-cog"
   - offerings:
-    icon: "fa fa-tags"
   - workwithus:
-    icon: "fa fa-users"
-  - contacts: 
-    icon: "fa fa-envelope"
+  - contacts:
 # side nav toggle feature
 # when side nav is not visible and if you click top nav toggle button, side nav slides from left to right (disables top nav buttons)
 side_nav_toggle_button_no_top_nav_buttons: true
