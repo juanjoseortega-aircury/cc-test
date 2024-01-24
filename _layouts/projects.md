@@ -115,7 +115,7 @@ layout: default
     <div class="overlay"></div>
     <div class="img-show">
       <span>X</span>
-      <h4 id="titlePopUp"></h4>
+      <div id="principalPopUp"></div>
       <div id="descPopUp"></div>
     </div>
 </div>
