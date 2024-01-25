@@ -13,6 +13,10 @@
   --background-content-color: rgba(229, 222, 216, 0.75);
   --top-border-separator: 0.3rem solid rgba(255,255,255,0.5);
 }
+@font-face {
+  font-family: CarentroRegular;
+  src: url(/assets/fonts/carentro-regular.otf);
+}
 html {
   /* for comment page_bottom_Check */
   height: 100%;
@@ -219,10 +223,6 @@ ul.sub-item {
   display: flex;
   justify-content: center;
 }
-#titleWWU {
-  color: #f5835a;
-  font-size: 50px;
-}
 .photoTitle{
   display: flex;
   flex-wrap: wrap;
@@ -250,10 +250,12 @@ ul.sub-item {
   margin: 0 auto;
   color: var(--title-color);
   text-align: center;
+  font-family: CarentroRegular;
 }
 #title2 {
   color: var(--title-color);
   font-size: 2.6rem;
+  font-family: CarentroRegular;
 }
 .boxCompany {
   text-align: left;
@@ -365,9 +367,6 @@ ul.sub-item {
 @media (max-width: 1500px) {
   #titleAux {
     font-size: 6vw;
-    margin: 0 auto;
-    color: var(--title-color);
-    text-align: center;
   }
   .containerTeam {
     justify-content: center;
