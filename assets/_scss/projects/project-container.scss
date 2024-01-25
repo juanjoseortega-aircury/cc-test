@@ -114,8 +114,10 @@
 /* category */
 .project-container .project-header > .meta-container > p.category {
   text-align: left;
-  width: 25%;
   color: var(--project-category-text-color);
+  border-radius: var(--popup-border-radius);
+  padding: 0 0.6vw;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* date */
