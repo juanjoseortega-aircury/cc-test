@@ -41,12 +41,6 @@
 
 #scroll-to-top {
   bottom: 0px;
-  left: min(
-    calc(100vw - (var(--main-container-margin) / 2) - 40px),
-    calc(
-      var(--main-container-width-limit) + var(--main-container-margin) +
-        var(--side-nav-width)
-    )
-  );
+  right: 2%;
   margin-bottom: 30px;
 }
