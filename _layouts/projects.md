@@ -101,11 +101,9 @@ layout: default
             <div class="read-more"><i class="fa fa-angle-double-down fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_more_text }}</div>
             <div class="read-less"><i class="fa fa-angle-double-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}</div>
           </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="markdown-style">
-          {{ list.post | markdownify }}
+          <div class="markdown-style">
+            {{ list.post | markdownify }}
+          </div>
         </div>
       </div>
     </div>
