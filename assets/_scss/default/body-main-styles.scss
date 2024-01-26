@@ -264,6 +264,12 @@ ul.sub-item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  .containerMember:nth-child(odd) img{
+    border-radius: 50% 20% / 10% 40%;
+  }
+  .containerMember:nth-child(even) img{
+    border-radius: 20% 50% / 40% 10%;
+  }
 }
 .containerMember {
   width: 33vh;
@@ -277,21 +283,6 @@ ul.sub-item {
 }
 .imgMembers {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
-}
-#imgMember {
-  border-radius: 50% 20% / 10% 40%;
-}
-#imgMember2 {
-  border-radius: 20% 50% / 40% 10%;
-}
-#imgMember3 {
-  border-radius: 25% 15%;
-}
-#imgMember4 {
-  border-radius: 15% 15%;
-}
-#imgMember5 {
-  border-radius: 15% 25%;
 }
 #desc {
   font-size: var(--text-size);
