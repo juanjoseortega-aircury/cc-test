@@ -92,16 +92,13 @@ layout: default
         </div>
         {%- endif %}
         <div class="col-md-9 project-header">
-          <h1>{{ list.project_name }}</h1><h4>{{ list.project_excerpt }}</h4><h4>📍{{ list.project_ubication }}</h4>
+          <h1 class="title">{{ list.project_name }}</h1><h4 class="title">{{ list.project_excerpt }}</h4><h4 class="title">📍{{ list.project_ubication }}</h4>
           <div class="meta-container date-container">
             <p class="date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;{{ list.date }}</p>
             <p class="category">#{{ category.title }}</p>
           </div>
-          <a href="javascript:void(0);" class="read-more-less">
-            <div class="read-more"><i class="fa fa-angle-double-down fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_more_text }}</div>
-            <div class="read-less"><i class="fa fa-angle-double-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}</div>
-          </a>
-          <div class="markdown-style">
+          <a href="javascript:void(0);" class="read-more-less" id="link">{{ site.data.lang[lng].projects.read_more_text }}</a>
+          <div class="project-content">
             {{ list.post | markdownify }}
           </div>
         </div>
