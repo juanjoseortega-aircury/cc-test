@@ -92,7 +92,11 @@ layout: default
         </div>
         {%- endif %}
         <div class="col-md-9 project-header">
-          <h1 class="title">{{ list.project_name }}</h1><h4 class="title">{{ list.project_excerpt }}</h4><h4 class="title">📍{{ list.project_ubication }}</h4>
+          <div id="title">
+            <h1>{{ list.project_name }}</h1>
+            <h4>{{ list.project_excerpt }}</h4>
+            <h4>📍{{ list.project_ubication }}</h4>
+          </div>
           <div class="meta-container date-container">
             <p class="date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;{{ list.date }}</p>
             <p class="category">#{{ category.title }}</p>
