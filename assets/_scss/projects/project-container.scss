@@ -137,6 +137,9 @@
 .project-header {
   width: 73%;
   float: left;
+  .project-content {
+    display: none;
+  }
 }
 @media (max-width: 1000px) {
   .project-img img {
