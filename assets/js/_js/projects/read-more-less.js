@@ -9,7 +9,7 @@
   $(function () {
     let readMoreLess = $(".read-more-less");
     readMoreLess.click(function () {
-      var titleSubtitleUbication = $(this).siblings(".title").clone();
+      var titleSubtitleUbication = $(this).siblings("#title").children().clone();
       $("#principalPopUp").empty().append(titleSubtitleUbication);
       var description = $(this).siblings(".project-content").children().clone();
       $("#descPopUp").empty().append(description);
