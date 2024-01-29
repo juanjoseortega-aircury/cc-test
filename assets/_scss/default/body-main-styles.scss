@@ -17,6 +17,10 @@
   font-family: CarentroRegular;
   src: url(/assets/fonts/carentro-regular.otf);
 }
+@font-face {
+  font-family: JuliusSans;
+  src: url(/assets/fonts/JuliusSansOne-Regular.ttf);
+}
 html {
   /* for comment page_bottom_Check */
   height: 100%;
@@ -250,7 +254,7 @@ ul.sub-item {
   margin: 0 auto;
   color: var(--title-color);
   text-align: center;
-  font-family: CarentroRegular;
+  font-family: JuliusSans;
 }
 #title2 {
   color: var(--title-color);
