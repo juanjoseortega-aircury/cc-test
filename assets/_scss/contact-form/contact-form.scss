@@ -1,0 +1,36 @@
+#contact-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: var(--popup-margin);
+    background-color: var(--background-content-color);
+    > form {
+        text-align: center;
+        input,
+        select {
+            padding: 0.3vh 0 0.3vh 0.7vw;
+        }
+        input,
+        select,
+        textarea {
+            margin:0.7vh 0;
+            width: 80%;
+            padding-left: 0.7vw;
+        }
+        textarea {
+            resize: none;
+            height: 20vh;
+        }
+        button {
+            width: 30%;
+            font-weight: bold;
+        }
+    }
+}
+#contact-form,
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form button {
+    border-radius: 1vw;
+    border: 0.2rem solid var(--border-content-color);
+}

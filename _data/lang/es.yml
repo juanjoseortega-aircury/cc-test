@@ -194,8 +194,14 @@ constants:
 
 # for contact form
 contact_form:
-  button_name: Formulario de contacto
-  formLoadingText: Cargando formulario de contacto...
+  button_name: Enviar
+  name: Nombre
+  email: Correo
+  reason: Motivo de contacto
+  discuss: Hablar sobre un proyecto
+  contribute: Contribuir en el Manifesto
+  enquiry: Consulta General
+  message: Mensaje
 
 # for cookie consent
 cookie_consent:

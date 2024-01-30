@@ -200,10 +200,6 @@
   {%- include multi_lng/lang-offer-msg-box.html -%}
 {% endif -%}
 
-{% if site.data.conf.main.contact_form.enable and page.layout == 'about' -%}
-  {%- include default/google-contact-form-iframe.html -%}
-{% endif -%}
-
 {% if site.data.conf.main.cookie_consent.enable
   or language_translation_offer_box
   or site.data.conf.main.contact_form.enable

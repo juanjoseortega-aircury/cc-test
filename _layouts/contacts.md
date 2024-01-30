@@ -30,6 +30,32 @@ layout: default
            </a>
          </p>
        {% endif -%}
+        <div id="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="subject" id="form-subject">
+            <input type="hidden" name="access_key" value="9a662c8f-d80f-441c-a68c-895bf9fa5a92">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+            <input type="text" name="Name" id="name" placeholder="{{ site.data.lang[lng].contact_form.name }}" required><br>
+            <input type="email" name="Email" placeholder="{{ site.data.lang[lng].contact_form.email }}" required><br>
+            <select required id="select-form">
+              <option selected disabled hidden>{{ site.data.lang[lng].contact_form.reason }}</option>
+              <option value="Discuss a project">{{ site.data.lang[lng].contact_form.discuss }}</option>
+              <option value="Contribute to the Manifesto">{{ site.data.lang[lng].contact_form.contribute }}</option>
+              <option value="General Enquiry">{{ site.data.lang[lng].contact_form.enquiry }}</option>
+            </select><br>
+            <textarea name="message" placeholder="{{ site.data.lang[lng].contact_form.message }}" required></textarea><br>
+            <div class="h-captcha" data-captcha="false"></div>
+            <button type="submit" onClick="sendForm()">{{ site.data.lang[lng].contact_form.button_name }}</button>
+          </form>
+        </div>
+        <script>
+          function sendForm(){
+            var option = document.getElementById("select-form").value;
+            var name = document.getElementById("name").value;
+            document.getElementById("form-subject").value = option+"-"+name;
+          }
+        </script>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
        {%- if site.data.conf.others.about.show_contacts and site.data.owner[lng].contacts.size > 0 %}
          {% include default/nav/contact-links.html -%}
        {% endif -%}
