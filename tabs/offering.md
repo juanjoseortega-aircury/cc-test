@@ -6,7 +6,7 @@ lng_pair: id_offering
 <div class="row">
     <div class="col-md-12">
         <div class="position-relative">
-                 <h1 id="title2">Types of Projects and Clients we work with</h1>
+                 <h1 class="title2">Types of Projects and Clients we work with</h1>
                  <div class="offlist">
                     <p><i class="fa-solid fa-building-columns"></i>Museums, Exhibitions and Archives</p>
                             <p><i class="fa-solid fa-palette"></i>Contemporary Art engagements</p>
@@ -27,7 +27,7 @@ lng_pair: id_offering
                             <p><i class="fa-solid fa-rocket"></i>Cultural Startups</p>
                             <p><i class="fa-solid fa-lightbulb"></i>Individuals with inspiring ideas</p>
                         </div>
-                 <h1 id="title2">Services</h1>
+                 <h1 class="title2">Services</h1>
                         <ul id="offering-services">
                             <li>Cultural Consultancy</li>
                             <li>Curatorial Proposals</li>

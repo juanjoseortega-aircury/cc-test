@@ -23,7 +23,7 @@ layout: default
   <h1 id="titleAux">{{ site.data.lang[lng].projects.title }}</h1>
 </div>
   <hr>
-  <h1 id="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
+  <h1 class="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
 <div class="projectsFormat">
   <div class="companiesProjectsContainer">
     <div>
@@ -70,7 +70,7 @@ layout: default
     </div>
   </div>
 </div>
-<h1 id="title2">{{ site.data.lang[lng].projects.selected }}:</h1><br>
+<h1 class="title2">{{ site.data.lang[lng].projects.selected }}:</h1><br>
 {% for category in project_data.category -%}
   {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
   {% for list in project_data.list -%}
