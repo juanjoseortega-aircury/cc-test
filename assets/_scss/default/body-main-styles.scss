@@ -45,7 +45,7 @@ body {
   width: 100%;
   border-width: 4px;
   min-height: 100vh;
-  background-image: url(/assets/img/default/logo2.png);
+  background-image: url(/assets/img/default/logo2.webp);
   background-repeat: no-repeat;
   background-position: 60% 50%;
   background-attachment: fixed;
@@ -217,11 +217,14 @@ ul.sub-item {
 .services-item.active .services-item__content {
   display: block;
 }
-#link {
+.link {
   color: #000000;
   text-decoration: underline;
   font-style: italic;
   font-size: var(--text-size);
+  &:hover {
+    color: #000;
+  }
 }
 #center {
   display: flex;

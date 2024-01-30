@@ -9,6 +9,6 @@ img: ":about.jpg"
 <hr>
 Our team is currently based between Spain, the UK and France principally.  In line with our Sustainability policy, we conduct much of our business outside of Europe online, but never hesitate to travel anywhere when it is beneficial to the project.
 
-Get in touch with us at <a id="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.
+Get in touch with us at <a class="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.
 {{ website_info_text_first }}
 {{ website_info_text_second }}

@@ -150,6 +150,8 @@ about:
   title: About
   button_name: About
   email_title: email
+  images:
+    logo: CuraCultura image
 
 # for projects layout
 projects:

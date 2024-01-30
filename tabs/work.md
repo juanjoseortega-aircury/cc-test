@@ -11,14 +11,14 @@ No matter what stage you are at in your career (including the very beginning) or
 
 
 <div id="center">
-<a id="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a>
+<a class="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a>
 </div>
 
 We respect your time and your interest, so will always reply. If we delay, please nudge us! It will only be because we are particularly engrossed in a project.
 
 <h1 class="title2">What we're looking for</h1>
 <ul>
-<li>Any mentioned in our  <a id="link" href="/tabs/offering.html"> Offering page </a> </li>
+<li>Any mentioned in our  <a class="link" href="/tabs/offering.html"> Offering page </a> </li>
 <li> Graphic Designers (exhibition artworking and/or publications)</li>
 <li> Learning Specialists </li>
 <li>Audiovisual and Technical Specialists </li>
