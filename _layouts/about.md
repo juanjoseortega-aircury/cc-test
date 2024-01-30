@@ -21,6 +21,9 @@ layout: default
 
 
  <div class="home-intro-text markdown-style">
+  <div class="containertitle">
+    <img id="imagename" src="/assets/img/default/name logo.webp" alt="{{ site.data.lang[lng].about.images.logo }}">
+  </div>
    {{ content }}
  </div>
 </div>

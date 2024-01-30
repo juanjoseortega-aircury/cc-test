@@ -59,4 +59,4 @@ lng_pair: id_offering
             </div>
          </div>
     </div> 
-   <p>Take a look at our <a id="link" href="/tabs/projects.html">Projects</a> to see some of our current and prior engagements.</p>
+   <p>Take a look at our <a class="link" href="/tabs/projects.html">Projects</a> to see some of our current and prior engagements.</p>
