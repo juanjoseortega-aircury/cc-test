@@ -45,26 +45,26 @@ img: ":home-heading.jpg"
 <br>
 <div class="photoTitle">
 <img id="imgTitles" src="/assets/img/default/logo.png">
-<h1 id="title2"> Company </h1>
+<h1 class="title2"> Company </h1>
 </div>
 <div class="boxCompany">
     <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a id="link" href="/tabs/offering.html">here</a>.</p>
 </div>
-<h1 id="title2"> Philosophy  </h1>
+<h1 class="title2"> Philosophy  </h1>
 <div id="curating">
 <p>Curating is Caring. This is the basis from which we work on all our projects, and with each other. We’re currently putting together a Manifesto about what this means in practice, and as caring also means listening and sharing, we’d like to invite you to contribute your ideas via our page <a id="link">A Collaborative Manifesto for Curating with Care</a>. You can see all the points collated to date on this non-editable <a id="link">Google doc</a>, where yours will be added after review to ensure we keep a safe space.</p>
 </div>
-<h1 id="title2"> Team</h1>
+<h1 class="title2"> Team</h1>
 <div class="showPopUp">
-        <div class="overlay"></div>
-        <div class="img-show">
-            <span>X</span>
-            <img src="">
-            <h4 id="namePopUp"></h4>
-            <h4 id="jobPopUp"></h4>
-            <p id="descPopUp"></p>
-        </div>
+    <div class="overlay"></div>
+    <div class="img-show">
+        <span>X</span>
+        <img src="">
+        <h4 id="namePopUp"></h4>
+        <h4 id="jobPopUp"></h4>
+        <p id="descPopUp"></p>
     </div>
+</div>
 <div class="containerTeam">
    <div class="containerMember">
        <img class="imgMembers" src="/assets/img/home//Elisa.jpg" />
