@@ -26,7 +26,7 @@
     <li>
     {%- if account_key == 'email' -%}
       {%- assign _email = account_username | split: '@' %}
-      <a href="javascript:void(0);" {{ effect_contacts_button }} onclick="setAddress('{{ _email[0] }}', '{{ _email[1] }}');">{{ contact_icon_tag }}</a>
+      <a href="javascript:void(0);" {{ effect_contacts_button }} onclick="setAddress('{{ _email[0] }}', '{{ _email[1] }}');" aria-label="Send an email to {{_email}}">{{ contact_icon_tag }}</a>
     {%- else -%}
       {%- assign mastodon_rel_tag_attr_value = nil -%}
       {%- if account_key == 'mastodon' and site.data.conf.main.contacts_mastodon_link_verification == true -%}
@@ -38,13 +38,15 @@
         {%- capture contact_new_tab_rel_tag_attr_value -%} noopener noreferrer {%- endcapture -%}
       {%- endif -%}
 
+      {%- capture contact_aria_label -%} aria-label="{{account_key}} link from CuraCultura" {%- endcapture -%}
+
       {%- if mastodon_rel_tag_attr_value != nil or site.data.conf.main.contacts_open_in_new_tab == true -%}
         {%- capture contact_rel_tag_attr -%} {{ mastodon_rel_tag_attr_value }} {{ contact_new_tab_rel_tag_attr_value }} {%- endcapture -%}
         {%- capture contact_rel_tag_attr -%} rel="{{ contact_rel_tag_attr | strip }}" {%- endcapture -%}
       {%- endif -%}
 
       {%- assign tag_url = contact_const.url | append:'/' | append: account_username -%}
-      <a href="{{ tag_url }}" {{ effect_contacts_button }} {{ contact_new_tab_tag_attr }} {{ contact_rel_tag_attr }}>{{ contact_icon_tag }}</a>
+      <a href="{{ tag_url }}" {{ effect_contacts_button }} {{ contact_new_tab_tag_attr }} {{ contact_rel_tag_attr }} {{contact_aria_label}}>{{ contact_icon_tag }}</a>
     {%- endif -%}
     </li>
   {%- endfor -%}
