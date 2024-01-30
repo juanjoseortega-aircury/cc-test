@@ -45,6 +45,8 @@
 
 @import "home/popups";
 
+@import "contact-form/contact-form";
+
 {% if site.data.conf.main.main_fixed_footer and site.data.conf.main.main_footer %}
   @import "default/footer-fixed-ext";
 {% endif %}
@@ -158,10 +160,6 @@
   {% if site.data.conf.main.contacts or about_contact_enable %}
     @import "common/contact";
   {% endif %}
-{% endif %}
-
-{% if site.data.conf.main.contact_form.enable == true %}
-  @import "contact-form/google-contact-form-iframe";
 {% endif %}
 
 {% if post_list_page_exist or post_exist %}

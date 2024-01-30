@@ -200,8 +200,15 @@ constants:
 
 # for contact form
 contact_form:
-  button_name: Contact Form
-  formLoadingText: Loading the Contact Form...
+  button_name: Submit
+  name: Name
+  email: Email
+  reason: Reason for contact
+  discuss: Discuss a project
+  contribute: Contribute to the Manifesto
+  enquiry: General Enquiry
+  message: Message
+
 
 # for cookie consent
 cookie_consent:
