@@ -92,7 +92,7 @@ search_with_uri: true
 #                Image Viewer
 ###########################################################
 # this enables image viewer
-image_viewer: true
+image_viewer: false
 
 # this enables image viewer for all posts
 # even if you disable for all posts, you can still turn on individually by adding "image_viewer_on: true" on header of any page.
@@ -108,7 +108,7 @@ image_viewer_error_add_path: true
 #                Image lazy loader
 ###########################################################
 # this enables image lazy loader
-image_lazy_loader: true
+image_lazy_loader: false
 
 # this enables image lazy loader for all posts
 # even if you disable for all posts, you can still turn on individually by adding "image_lazy_loader_on: true" on header of any page.
