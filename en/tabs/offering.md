@@ -38,17 +38,19 @@ lng_pair: id_offering
                             <li>Content Production Coordination</li>
                             <li>Collections Management</li>
                             <li> Interpersonal Skills: Strength, empathy, respect and kindness</li>
-                            <li>Foreign Languages:
-                            <div>
+                        </ul>
+                        <div id="foreign-languages">
+                            <p>Foreign languages:</p>
+                            <div >
                                 <ul class="sub-item">
-                                    <li>All team members are at a minimum bilingual or more in:</li>
+                                <li>All team members are at a minimum bilingual or more in:</li>
                                     <li>English</li>
                                     <li>Spanish</li>
                                     <li>French</li>
                                     <li>Italian</li>
                                 </ul>
                                 <ul class="sub-item">
-                                    <li>We also speak or are learning:</li>
+                                <li>We also speak or are learning:</li>
                                     <li>German</li>
                                     <li>Arabic</li>
                                     <li>Modern Greek</li>
@@ -56,8 +58,7 @@ lng_pair: id_offering
                                     <li>Russian</li>
                                 </ul>
                             </div>
-                            </li>
-                        </ul>
+                        </div> 
             </div>
          </div>
     </div> 
