@@ -343,18 +343,36 @@ ul.sub-item {
 }
 .offlist{
   font-size: var(--text-size);
-  margin-left: 25px;
-  i {
-    margin-right: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 2vw;
+  p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    i {
+      font-size: 4rem;
+    }
   }
 }
-#offering-services div {
-  display: flex;
-  margin: 1rem 0;
-  justify-content: space-around;
-  :last-child {
-    margin-left: 1vh;
+#foreign-languages {
+  p {
+    font-size: var(--text-size);
+    text-align: center;
   }
+  div {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-around;
+    :last-child {
+      margin-left: 1vh;
+    }
+  }
+}
+#offering-services {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style-type: none;
 }
 @media (max-width: 1500px) {
   #titleAux {
