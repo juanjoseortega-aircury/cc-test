@@ -203,12 +203,14 @@ contact_form:
   button_name: Submit
   name: Name
   email: Email
-  reason: Reason for contact
-  discuss: Discuss a project
-  contribute: Contribute to the Manifesto
-  enquiry: General Enquiry
   message: Message
   alert: The form has sent correctly
+  reason:
+    text: Reason for contact
+    discuss: Discuss a project
+    contribute: Contribute to the Manifesto
+    enquiry: General Enquiry
+  
 
 
 # for cookie consent
