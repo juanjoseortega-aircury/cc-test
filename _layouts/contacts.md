@@ -4,7 +4,7 @@ layout: default
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
-<div class="multipurpose-container about-container">
+<div class="multipurpose-container">
  <div class="row about-main">
    <div class="col-md-9 about-header">
    </div>

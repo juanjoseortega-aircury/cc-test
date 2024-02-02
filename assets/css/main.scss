@@ -223,14 +223,6 @@
   @import "home/new-posts";
 {% endif %}
 
-{% if about_page_exist %}
-  @import "about/about-style";
-
-  {% if site.data.conf.others.about.show_contacts and contacts_exist %}
-    @import "about/about-contact";
-  {% endif %}
-{% endif %}
-
 {% if post_exist %}
   {% if site.data.conf.posts.share_buttons == true %}
     @import "post/share";
