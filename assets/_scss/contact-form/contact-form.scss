@@ -1,5 +1,5 @@
 #contact-form {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding: var(--popup-margin);
     background-color: var(--background-content-color);
@@ -33,4 +33,5 @@
 #contact-form button {
     border-radius: 1vw;
     border: 0.2rem solid var(--border-content-color);
+    font-size: var(--text-size);
 }
