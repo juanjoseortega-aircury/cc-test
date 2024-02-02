@@ -9,11 +9,22 @@ $(function () {
         document.getElementById("descPopUp").textContent = $description;
         document.getElementById("namePopUp").textContent = $name;
         document.getElementById("jobPopUp").textContent = $job;
-        $(".showPopUp").fadeIn();
         $(".img-show img").attr("src", $src);
-        $("html").addClass("no-scroll");
+        fadeIn();
     });
 
+    $(".read-more-less").click(function () {
+        var titleSubtitleUbication = $(this).siblings("#title").children().clone();
+        $("#principalPopUp").empty().append(titleSubtitleUbication);
+        var description = $(this).siblings(".project-content").children().clone();
+        $("#descPopUp").empty().append(description);
+        fadeIn();
+    });
+
+    function fadeIn(){
+        $(".showPopUp").fadeIn();
+        $("html").addClass("no-scroll");
+    }
     
     $("span, .overlay").click(function () {
         $(".showPopUp").fadeOut();
