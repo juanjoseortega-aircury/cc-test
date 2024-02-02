@@ -43,7 +43,7 @@
 
 @import "default/footer";
 
-@import "home/img_clicker";
+@import "home/popups";
 
 {% if site.data.conf.main.main_fixed_footer and site.data.conf.main.main_footer %}
   @import "default/footer-fixed-ext";
