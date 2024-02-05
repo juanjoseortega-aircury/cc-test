@@ -381,6 +381,21 @@ ul.sub-item {
 #lookingfor {
   grid-template-columns: auto auto;
 }
+#btn-email {
+  border-radius: var(--popup-border-radius);
+  padding: 0 1.5vw;
+  background-color: var(--background-content-color);
+  &:hover {
+    border:3px solid var(--border-content-color);
+    a {
+      font-weight: 900;
+    }
+  }
+  a {
+    text-decoration: none;
+    font-style: normal;
+  }
+}
 @media (max-width: 1500px) {
   #titleAux {
     font-size: 6vw;
