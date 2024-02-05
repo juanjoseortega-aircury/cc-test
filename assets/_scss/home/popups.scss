@@ -71,7 +71,9 @@
     text-align: justify;
     margin: var(--popup-margin) auto var(--popup-margin) auto;
 }
-
+.mfp-img {
+    background-color: var(--background-content-color) !important;
+}
 @media (max-width: 1000px) {
     .img-show {
         left: 50% !important;
