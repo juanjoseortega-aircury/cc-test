@@ -38,7 +38,7 @@ layout: default
       <div class="triple-img">
         <img src="/assets/img/logos/rise_rosa_rage.png">
         <img src="/assets/img/logos/ithra.png">
-        <img id="national-trust" src="/assets/img/logos/National.png">
+        <img src="/assets/img/logos/National.png" id="national-trust">
       </div>
     </div>
     <div>
@@ -59,7 +59,7 @@ layout: default
     <div>
       <h3>{{ site.data.lang[lng].projects.private_foundations }}: </h3>
       <div>
-        <img class="projectsImageWide" src="/assets/img/logos/mainel.png">
+        <img src="/assets/img/logos/mainel.png">
       </div>
     </div>
     <div>
