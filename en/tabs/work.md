@@ -9,7 +9,11 @@ We’re always happy to meet new people to join our network of trusted companion
 <h1 class="title2">Interested?</h1>
 No matter what stage you are at in your career (including the very beginning) or in your personal life (changes and crises are normal and accepted), whatever your background (everyone is welcome and valid) or location (we largely work remotely), if you feel you have something to offer, please send your CV, and a portfolio if you have one, to: 
 
-<a class="link" href="mailto:{{site.data.conf.main.email.job}}">{{site.data.conf.main.email.job}}</a>{:data-align="center"}
+
+
+<button id="btn-email"><a class="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a></button>
+{:data-align="center"}
+
 
 We respect your time and your interest, so will always reply. If we delay, please nudge us! It will only be because we are particularly engrossed in a project.
 
