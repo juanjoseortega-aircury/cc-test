@@ -39,24 +39,16 @@ layout: default
             <input type="text" name="Name" id="name" placeholder="{{ site.data.lang[lng].contact_form.name }}" required><br>
             <input type="email" name="Email" placeholder="{{ site.data.lang[lng].contact_form.email }}" required><br>
             <select required id="select-form">
-              <option selected disabled hidden>{{ site.data.lang[lng].contact_form.reason.text }}</option>
+              <option selected disabled hidden value="">{{ site.data.lang[lng].contact_form.reason.text }}</option>
               <option value="Discuss a project">{{ site.data.lang[lng].contact_form.reason.discuss }}</option>
               <option value="Contribute to the Manifesto">{{ site.data.lang[lng].contact_form.reason.contribute }}</option>
               <option value="General Enquiry">{{ site.data.lang[lng].contact_form.reason.enquiry }}</option>
             </select><br>
             <textarea name="message" placeholder="{{ site.data.lang[lng].contact_form.message }}" required></textarea><br>
             <div class="h-captcha" data-captcha="false"></div>
-            <button type="submit" onClick="sendForm()">{{ site.data.lang[lng].contact_form.button_name }}</button>
+            <button type="submit" onclick="sendForm('{{ site.data.lang[lng].contact_form.alert }}')">{{ site.data.lang[lng].contact_form.button_name }}</button>
           </form>
         </div>
-        <script>
-          function sendForm(){
-            var option = document.getElementById("select-form").value;
-            var name = document.getElementById("name").value;
-            document.getElementById("form-subject").value = option+"-"+name;
-            alert("{{ site.data.lang[lng].contact_form.alert}}");
-          }
-        </script>
         <script src="https://web3forms.com/client/script.js" async defer></script>
        {%- if site.data.conf.others.about.show_contacts and site.data.owner[lng].contacts.size > 0 %}
          {% include default/nav/contact-links.html -%}
