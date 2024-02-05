@@ -34,7 +34,7 @@ layout: default
           <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="subject" id="form-subject">
             <input type="hidden" name="access_key" value="{{ site.data.conf.main.contact_form.key }}">
-            <input type="hidden" name="redirect" value="https://curacultura.com/tabs/contact.html">
+            <input type="hidden" name="redirect" value="https://curacultura.com">
             <input type="checkbox" name="botcheck" id="" style="display: none;">
             <input type="text" name="Name" id="name" placeholder="{{ site.data.lang[lng].contact_form.name }}" required><br>
             <input type="email" name="Email" placeholder="{{ site.data.lang[lng].contact_form.email }}" required><br>
@@ -45,7 +45,7 @@ layout: default
               <option value="General Enquiry">{{ site.data.lang[lng].contact_form.reason.enquiry }}</option>
             </select><br>
             <textarea name="message" placeholder="{{ site.data.lang[lng].contact_form.message }}" required></textarea><br>
-            <div class="h-captcha" data-captcha="false"></div>
+            <div class="h-captcha" data-captcha="true"></div>
             <button type="submit" onclick="sendForm('{{ site.data.lang[lng].contact_form.alert }}')">{{ site.data.lang[lng].contact_form.button_name }}</button>
           </form>
         </div>
