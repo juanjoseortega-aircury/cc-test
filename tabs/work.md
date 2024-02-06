@@ -11,7 +11,7 @@ No matter what stage you are at in your career (including the very beginning) or
 
 
 <div id="center">
-<a class="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a>
+<a class="link" href="mailto:{{site.data.conf.main.email.jobs}}">{{site.data.conf.main.email.jobs}}</a>
 </div>
 
 We respect your time and your interest, so will always reply. If we delay, please nudge us! It will only be because we are particularly engrossed in a project.
