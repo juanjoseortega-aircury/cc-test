@@ -197,11 +197,13 @@ contact_form:
   button_name: Enviar
   name: Nombre
   email: Correo
-  reason: Motivo de contacto
-  discuss: Hablar sobre un proyecto
-  contribute: Contribuir en el Manifesto
-  enquiry: Consulta General
   message: Mensaje
+  alert: El formulario se ha enviado correctamente
+  reason: 
+    text: Motivo de contacto
+    discuss: Hablar sobre un proyecto
+    contribute: Contribuir en el Manifesto
+    enquiry: Consulta General
 
 # for cookie consent
 cookie_consent:
