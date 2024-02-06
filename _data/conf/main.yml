@@ -92,6 +92,7 @@ search_with_uri: true
 #                Image Viewer
 ###########################################################
 # this enables image viewer
+# This is set on false because this improves some of the performance to the web page.
 image_viewer: false
 
 # this enables image viewer for all posts
@@ -108,6 +109,7 @@ image_viewer_error_add_path: true
 #                Image lazy loader
 ###########################################################
 # this enables image lazy loader
+# This is set on false because this improves some of the performance to the web page.
 image_lazy_loader: false
 
 # this enables image lazy loader for all posts
