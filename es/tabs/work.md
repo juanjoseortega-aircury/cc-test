@@ -8,7 +8,7 @@ Siempre estamos felices de conocer a gente nueva para unirse a nuestra red de co
 # Interesado/a?
 No importa en qué etapa de tu carrera te encuentres (¡incluso si es al comienzo!) o en tu vida personal (¡los cambios y las crisis son normales y aceptadas!), cualquiera que sea tu origen o ubicación (trabajamos en gran medida de forma remota), si sientes que tienes algo que ofrecer, por favor envía tu CV, y un portafolio si lo tienes, a:
 
-[jobs@curacultura.art](mailto:jobs@curacultura.art){:data-align="center"}
+[jobs@curacultura.art](mailto:{{site.data.conf.main.email.jobs}}){:data-align="center"}
 
 Respetamos tu tiempo y tu interés, por lo que siempre te responderemos. Si no respondemos dentro de diez días, ¡por favor, avísanos! Será sólo porque estamos particularmente concentrados en un proyecto.
 

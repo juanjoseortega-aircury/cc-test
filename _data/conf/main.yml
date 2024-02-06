@@ -215,6 +215,9 @@ side_nav_bottom_buttons_hover_effect: "hover-effect"
 ###########################################################
 # to enable contact panel on the side navigation, set to true
 contacts: true
+email:
+  hola: hola@curacultura.art
+  job: jobs@curacultura.art
 
 # this adds hover effect to contact icons
 contacts_buttons_hover_effect: "hover-effect-big"

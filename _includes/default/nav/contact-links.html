@@ -26,7 +26,7 @@
     <li>
     {%- if account_key == 'email' -%}
       {%- assign _email = account_username | split: '@' %}
-      <a href="javascript:void(0);" {{ effect_contacts_button }} onclick="setAddress('{{ _email[0] }}', '{{ _email[1] }}');" aria-label="Send an email to {{_email}}">{{ contact_icon_tag }}</a>
+      <a href="mailto:{{site.data.conf.main.email.hola}}" {{ effect_contacts_button }} aria-label="Send an email to {{_email}}">{{ contact_icon_tag }}</a>
     {%- else -%}
       {%- assign mastodon_rel_tag_attr_value = nil -%}
       {%- if account_key == 'mastodon' and site.data.conf.main.contacts_mastodon_link_verification == true -%}
