@@ -27,14 +27,14 @@ layout: default
 <div class="projectsFormat">
   <div class="companiesProjectsContainer">
     <div>
-      <h3>{{ site.data.lang[lng].projects.companies }}:</h3>
+      <h1>{{ site.data.lang[lng].projects.companies }}:</h1>
       <div>
         <img src="/assets/img/logos/lord logo.webp" alt="{{site.data.lang[lng].projects.logo}} Lord">
         <img src="/assets/img/logos/accionacultura.webp" alt="{{site.data.lang[lng].projects.logo}} Acciona">
       </div>
     </div>
     <div>
-      <h3>{{ site.data.lang[lng].projects.museums }}: </h3>
+      <h1>{{ site.data.lang[lng].projects.museums }}: </h1>
       <div class="triple-img">
         <img src="/assets/img/logos/rise_rosa_rage.webp" alt="{{site.data.lang[lng].projects.logo}} Rise Rosa Rage">
         <img src="/assets/img/logos/ithra.webp" alt="{{site.data.lang[lng].projects.logo}} Ithra">
@@ -42,14 +42,14 @@ layout: default
       </div>
     </div>
     <div>
-      <h3>{{ site.data.lang[lng].projects.festivals }}: </h3>
+      <h1>{{ site.data.lang[lng].projects.festivals }}: </h1>
       <div>
         <img src="/assets/img/logos/Cibra.webp" alt="{{site.data.lang[lng].projects.logo}} Cibra">
         <img src="/assets/img/logos/rosa-lago.webp" alt="{{site.data.lang[lng].projects.logo}} Roses by the Lake">
       </div>
     </div>
     <div>
-      <h3>{{ site.data.lang[lng].projects.universities }}:</h3>
+      <h1>{{ site.data.lang[lng].projects.universities }}:</h1>
       <div class="triple-img">
         <img src="/assets/img/logos/barreira.webp" alt="{{site.data.lang[lng].projects.logo}} Barreira">
         <img src="/assets/img/logos/Cambridge.webp" alt="{{site.data.lang[lng].projects.logo}} Cambridge">
@@ -57,13 +57,13 @@ layout: default
       </div>
     </div>
     <div>
-      <h3>{{ site.data.lang[lng].projects.private_foundations }}: </h3>
+      <h1>{{ site.data.lang[lng].projects.private_foundations }}: </h1>
       <div>
         <img src="/assets/img/logos/mainel.webp" alt="{{site.data.lang[lng].projects.logo}} Fundacion Mainel">
       </div>
     </div>
     <div>
-      <h3>{{ site.data.lang[lng].projects.publications }}: </h3>
+      <h1>{{ site.data.lang[lng].projects.publications }}: </h1>
       <div>
         <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.webp" alt="{{site.data.lang[lng].projects.logo}} Nuart Journal">
       </div>
@@ -101,7 +101,7 @@ layout: default
             <p class="date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;{{ list.date }}</p>
             <p class="category">#{{ category.title }}</p>
           </div>
-          <a href="javascript:void(0);" class="read-more-less" id="link">{{ site.data.lang[lng].projects.read_more_text }}</a>
+          <a href="javascript:void(0);" class="read-more-less link">{{ site.data.lang[lng].projects.read_more_text }}</a>
           <div class="project-content">
             {{ list.post | markdownify }}
           </div>
