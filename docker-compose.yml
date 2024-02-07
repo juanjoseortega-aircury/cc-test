@@ -2,8 +2,9 @@ version: '2'
 
 services:
   jekyll:
-    image: jekyll/jekyll:4.2.0
-    command: jekyll serve --watch --force_polling --verbose --livereload
+    image: jekyll/jekyll:4.2.2
+    # --livereload flag was removed from command because it produces an error at Sources and Network
+    command: jekyll serve --watch --force_polling --verbose
     ports:
       - 4000:4000
     volumes:

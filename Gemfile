@@ -12,12 +12,12 @@ source "https://rubygems.org"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # all supported plugins by GitHub Pages are included in "github-pages". (GitHub Pages doesn't support 3rd party plugins)
-gem "github-pages", "~> 228"
+gem "github-pages", "~> 229"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem 'tzinfo', '~> 2.0', '>= 2.0.6'
   gem "tzinfo-data"
 end
 
@@ -27,5 +27,5 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # HTTP server for local tests
 gem "webrick", "~> 1.7"
 
-gem "jekyll", "~> 3.9"
+gem "jekyll", "~> 3.9.3"
 gem 'jekyll-sass-converter'
