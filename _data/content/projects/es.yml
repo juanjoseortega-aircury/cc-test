@@ -12,59 +12,64 @@ page_data:
     back_color: "lightblue"
 
   category:
-    - title: "Category1"
-      type: id_example
+    - title: "Escrito"
+      type: id_writing
       color: "gray"
-    - title: "Category2"
-      type: id_picture
+    - title: "Curation"
+      type: id_curation
       color: "#62b462"
-    - title: "Category3"
-      type: id_quote
+    - title: "Conferencias"
+      type: id_speak
       color: "#2FD0ED"
+    - title: "Archivos"
+      type: id_archives 
+      color: "#62b462"
+    - title: "Educacion"
+      type: id_education 
+      color: "gray"
 
   list:
-    # TODO SH-30
-    - type: id_example
+    - type: id_writing
       project_name: "El camino hacia una exposición sostenible"
-      project_excerpt: "Ithra via Acciona Cultura"
-      img: ":Ithra.jpg"
-      date: "2023-05-10"
+      project_excerpt: "Capítulo en el catálogo de la exposición Net Zero"
+      project_ubication: "King Abdulaziz Centre for World Culture-Ithra - Ithra, Dharan, Arabia Saudita"
+      img: ":Ithra.webp"
+      date: "Septiembre 2022- Octubre 2023"
       post: |
         # ‘El camino hacia una exposición sostenible’ capítulo en el catálogo de la exposición Net Zero - King Abdulaziz Centre for World Culture-Ithra - Ithra, Dharan, Arabia Saudita
         
-
-    # TODO SH-30 
-    - type: id_picture
+    - type: id_curation
       project_name: "El cine también se lee Exposición"
-      project_excerpt: "CiBRA- Festival del Cine y de la Palabra"
-      img: ":8ymedio.jpg"
-      date: "2023-05-10"
+      project_excerpt: "Exposición Temporal para CiBRA Festival del Cine y de la Palabra"
+      project_ubication: "Biblioteca de Castilla La Mancha, Toledo, España"
+      img: ":8ymedio.webp"
+      date: "Marzo-Noviembre 2022"
       post: |
         # El cine también se lee Exposición - Biblioteca de Castilla La Mancha, Toledo, España
 
-    # TODO SH-30 
-    - type: id_quote
+    - type: id_speak
       project_name: "Nuevas expografías: entre la tecnología y las experiencias"
-      project_excerpt: "Fundación Mainel"
-      img: ":22_Fundacion-Mainel_Coloquio-de-Cultura-Visual_Web.png"
-      date: "2023-05-10"
+      project_excerpt: "Seminario en  Coloquios Cultura Visual Contemporaneo series"
+      project_ubication: "Fundación Mainel, Valencia, España"
+      img: ":22_Fundacion-Mainel_Coloquio-de-Cultura-Visual_Web.webp"
+      date: "Noviembre 2022"
       post: |
         # ‘Nuevas expografías: entre la tecnología y las experiencias’ seminario en  Coloquios Cultura Visual Contemporaneo series- Fundación Mainel, Valencia, España
 
-    # TODO SH-30
-    - type: id_quote
-      project_name: "Rise-Rosa-Rage Archivo de Gráficos Sociopolíticos, Roma, Italia / Online"
-      project_excerpt: "Rise Rosa Rage Archive"
-      img: ":Rise_Rosa_Rage.png"
-      date: "2023-05-10"
+    - type: id_archives
+      project_name: "Rise-Rosa-Rage Archivo de Gráficos Sociopolíticos"
+      project_excerpt: ""
+      project_ubication: "Roma, Italia / Online"
+      img: ":Rise_Rosa_Rage.webp"
+      date: "En curso desde 2016"
       post: |
         # Rise-Rosa-Rage Archivo de Gráficos Sociopolíticos, Roma, Italia / Online
 
-    # TODO SH-30
-    - type: id_quote
-      project_name: "Módulo del Curso MA Escuela Superior de Arte y Diseño"
-      project_excerpt: "Barreira Higher School of Art and Design"
-      img: ":Barreira MA.jpg"
-      date: "2023-05-10"
+    - type: id_education 
+      project_name: "Escenas culturales de Oriente Medio"
+      project_excerpt: "Módulo del Curso MA Escuela Superior de Arte y Diseño"
+      project_ubication: "Escuela Superior de Arte y Diseño Barreira, Valencia, España"
+      img: ":Barreira MA.webp"
+      date: "En curso desde Septiembre 2022"
       post: |
         # Módulo del Curso MA Escuela Superior de Arte y Diseño de Barreira, Valencia, España
