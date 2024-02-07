@@ -27,7 +27,7 @@
   {%- if page.image_viewer_on == true or site.data.conf.main.image_viewer_posts == true and page.layout == 'post' -%}
     {%-if site.data.conf.main.image_viewer_error_add_path -%}{%- assign err_img_path = '<br><br>%url%' -%} {%-endif-%}
     {% if site.data.conf.main.use_cdn_resources_if_available -%}
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha384-fexNtx3nPE3sjIQuGk8G2X8X/aSEBVMC58R839hkgsY/Xjhvkm7m2otGhwrdESWj" crossorigin="anonymous"></script>
     {%- else %}
       <script src="{{ site.baseurl }}/assets/js/jquery.magnific-popup.min.js"></script>
     {%- endif %}
@@ -62,7 +62,7 @@
 {%- if site.data.conf.main.image_lazy_loader == true -%}
   {%- if page.image_lazy_loader_on == true or site.data.conf.main.image_lazy_loader_posts == true and page.layout == 'post' -%}
     {% if site.data.conf.main.use_cdn_resources_if_available -%}
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha384-cVYgPFZPhwM7B9xTuYXb1bcy5yui7JGXyRJYo2CCTHJT8FS9SDxDsQksUMrmFgwG" crossorigin="anonymous"></script>
     {%- else %}
       <script src="{{ site.baseurl }}/assets/js/lozad.min.js"></script>
     {%- endif %}
