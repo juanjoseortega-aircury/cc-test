@@ -40,13 +40,15 @@ lng_pair: id_offering
                             <li> Interpersonal Skills: Strength, empathy, respect and kindness</li>
                             <li>Foreign Languages:
                             <div>
-                                <ul class="sub-item">All team members are at a minimum bilingual or more in:
+                                <ul class="sub-item">
+                                    <li>All team members are at a minimum bilingual or more in:</li>
                                     <li>English</li>
                                     <li>Spanish</li>
                                     <li>French</li>
                                     <li>Italian</li>
                                 </ul>
-                                <ul class="sub-item">We also speak or are learning:
+                                <ul class="sub-item">
+                                    <li>We also speak or are learning:</li>
                                     <li>German</li>
                                     <li>Arabic</li>
                                     <li>Modern Greek</li>

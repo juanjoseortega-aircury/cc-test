@@ -78,12 +78,10 @@ h5 {
 h6 {
   font-size: 1.8rem;
 }
-a {
-  color: var(--body-anchor-text-color);
+a, a:hover {
+  color: blue;
 }
-a:hover {
-  color: var(--body-anchor-hover-text-color);
-}
+
 p {
   font-weight: 300;
 }
@@ -204,14 +202,14 @@ $border-color: #a1a1a1;
 }
 ul.sub-item {
   text-align: center;
-  font-weight: bold;
   padding: 0;
   li {
     list-style-type: none;
     font-weight: normal;
   }
   :first-child {
-    border-top: var(--top-border-separator);
+    border-bottom: var(--top-border-separator);
+    font-weight: bold;
   }
 }
 .services-item.active .services-item__content {
