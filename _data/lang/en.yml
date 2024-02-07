@@ -204,7 +204,7 @@ contact_form:
   name: Name
   email: Email
   message: Message
-  alert: The form has sent correctly
+  alert: Your message has been sent correctly
   reason:
     text: Reason for contact
     discuss: Discuss a project
