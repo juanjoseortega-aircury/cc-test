@@ -17,7 +17,7 @@ gem "github-pages", "~> 229"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem 'tzinfo', '~> 2.0', '>= 2.0.6'
+  gem "tzinfo", "~> 2.0", ">= 2.0.6"
   gem "tzinfo-data"
 end
 
@@ -28,4 +28,4 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "webrick", "~> 1.7"
 
 gem "jekyll", "~> 3.9.3"
-gem 'jekyll-sass-converter'
+gem "jekyll-sass-converter"
