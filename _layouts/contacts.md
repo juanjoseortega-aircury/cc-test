@@ -31,7 +31,7 @@ layout: default
          </p>
        {% endif -%}
         <div id="contact-form">
-          <form action="https://api.web3forms.com/submit" method="POST">
+          <form action="https://api.web3forms.com/submit" onsubmit="sendForm('{{ site.data.lang[lng].contact_form.alert }}')" method="POST">
             <input type="hidden" name="subject" id="form-subject">
             <input type="hidden" name="access_key" value="{{ site.data.conf.main.contact_form.key }}">
             <input type="hidden" name="redirect" id="form-redirect">
@@ -46,7 +46,7 @@ layout: default
             </select><br>
             <textarea name="message" placeholder="{{ site.data.lang[lng].contact_form.message }}" required></textarea><br>
             <div class="h-captcha" data-callback="hcaptchaCallback" data-captcha="true"></div>
-            <button type="submit" disabled onclick="sendForm('{{ site.data.lang[lng].contact_form.alert }}')">{{ site.data.lang[lng].contact_form.button_name }}</button>
+            <button type="submit" disabled>{{ site.data.lang[lng].contact_form.button_name }}</button>
           </form>
           <script src="https://web3forms.com/client/script.js" async defer></script>
         </div>
