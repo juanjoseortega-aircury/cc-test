@@ -35,7 +35,7 @@ layout: default
             <input type="hidden" name="subject" id="form-subject">
             <input type="hidden" name="access_key" value="{{ site.data.conf.main.contact_form.key }}">
             <input type="hidden" name="redirect" id="form-redirect">
-            <input type="checkbox" name="botcheck" id="" style="display: none;">
+            <input type="checkbox" name="botcheck" style="display: none;">
             <input type="text" name="Name" id="name" placeholder="{{ site.data.lang[lng].contact_form.name }}" required><br>
             <input type="email" name="Email" placeholder="{{ site.data.lang[lng].contact_form.email }}" required><br>
             <select required id="select-form">
@@ -45,11 +45,11 @@ layout: default
               <option value="General Enquiry">{{ site.data.lang[lng].contact_form.reason.enquiry }}</option>
             </select><br>
             <textarea name="message" placeholder="{{ site.data.lang[lng].contact_form.message }}" required></textarea><br>
-            <div class="h-captcha" data-captcha="true"></div>
-            <button type="submit" onclick="sendForm('{{ site.data.lang[lng].contact_form.alert }}')">{{ site.data.lang[lng].contact_form.button_name }}</button>
+            <div class="h-captcha" data-callback="hcaptchaCallback" data-captcha="true"></div>
+            <button type="submit" disabled onclick="sendForm('{{ site.data.lang[lng].contact_form.alert }}')">{{ site.data.lang[lng].contact_form.button_name }}</button>
           </form>
+          <script src="https://web3forms.com/client/script.js" async defer></script>
         </div>
-        <script src="https://web3forms.com/client/script.js" async defer></script>
        {%- if site.data.conf.others.about.show_contacts and site.data.owner[lng].contacts.size > 0 %}
          {% include default/nav/contact-links.html -%}
        {% endif -%}

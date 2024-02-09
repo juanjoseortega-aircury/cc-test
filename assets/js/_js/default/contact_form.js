@@ -21,3 +21,6 @@ function sendForm(alertText) {
         alert(alertText);
     }
 };
+function hcaptchaCallback() {
+    $("#contact-form button").removeAttr("disabled");
+}
