@@ -236,7 +236,7 @@ contacts_mastodon_link_verification: false
 # this will add contact form feature.
 # make sure google_forms_contact_form_url is set in _data/owner/[language].yml
 contact_form:
-  key: 9a662c8f-d80f-441c-a68c-895bf9fa5a92
+  key: f0ad7394-fc3f-46e0-ad77-44ff7953198c
   enable: false
   # select one below
   # 1. slideBoxTopToDown
