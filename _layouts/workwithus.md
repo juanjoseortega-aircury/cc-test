@@ -4,12 +4,13 @@ layout: default
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
-<div class="multipurpose-container links-heading-container">
+<div class="links-heading-container">
+  <div class="containertitle">
     <h1 id="titleAux">{{ site.data.lang[lng].workwithus.title }}</h1>
-<hr>
+  </div>
   <div class="row">
     <div class="col-md-12">
-      <div class="about-msg markdown-style">
+      <div class="about-msg markdown-style padding-container">
         {{ content }}
       </div>
     </div>

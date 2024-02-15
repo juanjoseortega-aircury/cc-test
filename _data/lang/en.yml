@@ -170,7 +170,7 @@ projects:
   logo: Logo from
 # for contacts layout
 contacts:
-  title: Contacts
+  title: Contact
   button_name: Contact
 # for portfolios layout
 portfolios:

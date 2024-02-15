@@ -13,6 +13,8 @@
   --border-content-color: #bf9f80;
   --background-content-color: rgba(229, 222, 216, 0.75);
   --top-border-separator: 0.3rem solid rgba(255,255,255,0.5);
+  --even-background-color: #DBCCBB;
+  --padding-right-left-container: calc(var(--main-container-margin)*4);
 }
 @font-face {
   font-family: CarentroRegular;
@@ -46,10 +48,6 @@ body {
   width: 100%;
   border-width: 4px;
   min-height: 100vh;
-  background-image: url(/assets/img/default/logo2.webp);
-  background-repeat: no-repeat;
-  background-position: 60% 50%;
-  background-attachment: fixed;
 }
 h1,
 h2,
@@ -235,12 +233,32 @@ ul.sub-item {
   align-items: center;
 }
 .containertitle {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   text-align: center;
-  width: 65%;
-  margin: 0 auto;
+  padding: 1vw 0;
+}
+.even-background {
+  >:nth-child(odd) {
+    background-color: transparent;
+  }
+  >:nth-child(even) {
+    background-color: var(--even-background-color);
+  }
+}
+#interested {
+  background-color: var(--even-background-color);
+}
+.padding-container {
+  >* {
+    padding: var(--main-container-margin) var(--padding-right-left-container);
+  }
+}
+#contact-container {
+  >* {
+    padding: 0 var(--padding-right-left-container);
+  }
+}
+.project-container .row {
+  padding: 1vw 0;
 }
 #imgTitles{
   height: 50px;
@@ -269,7 +287,7 @@ ul.sub-item {
 .containerTeam {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   .containerMember:nth-child(odd) img{
     border-radius: 50% 20% / 10% 40%;
   }
@@ -300,15 +318,6 @@ ul.sub-item {
   font-weight: 900;
   color: var(--job-color);
   margin-top: -6px;
-}
-.projectsFormat {
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 10px;
-  font-family: 'Arsenal', sans-serif;
-  color: black;
 }
 .companiesProjectsContainer {
   display: flex;
@@ -385,6 +394,8 @@ ul.sub-item {
   border-radius: var(--popup-border-radius);
   padding: 0 1.5vw;
   background-color: var(--background-content-color);
+  margin: 0 auto;
+  display: block;
   &:hover {
     border:3px solid var(--border-content-color);
     a {
@@ -399,10 +410,6 @@ ul.sub-item {
 @media (max-width: 1500px) {
   #titleAux {
     font-size: 6vw;
-  }
-  .containerTeam {
-    justify-content: center;
-    align-items: center;
   }
   #desc {
     margin: 0 auto;

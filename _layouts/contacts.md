@@ -4,7 +4,7 @@ layout: default
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
-<div class="multipurpose-container">
+<div>
  <div class="row about-main">
    <div class="col-md-9 about-header">
    </div>
@@ -14,6 +14,10 @@ layout: default
  <div class="row">
    <div class="col-md-12">
      <div class="about-msg markdown-style">
+      <div class="containertitle">
+        <h1 id="titleAux">{{ site.data.lang[lng].contacts.title }}</h1>
+      </div>
+     <div id="contact-container">
        {{ content }}
        {%- if site.data.conf.main.contact_form.enable and site.data.conf.others.about.show_contact_form_button %}
          <a href="javascript:void(0);" class="btn-base " onclick="ContactForm.show();" role="button">{{ site.data.lang[lng].contact_form.button_name }}</a>
@@ -53,6 +57,7 @@ layout: default
        {%- if site.data.conf.others.about.show_contacts and site.data.owner[lng].contacts.size > 0 %}
          {% include default/nav/contact-links.html -%}
        {% endif -%}
+      </div>
      </div>
      </div>
    </div>
