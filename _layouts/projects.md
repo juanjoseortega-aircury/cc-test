@@ -22,47 +22,47 @@ layout: default
 <div class="containertitle">
   <h1 id="titleAux">{{ site.data.lang[lng].projects.title }}</h1>
 </div>
-  <hr>
-<h1 class="title2">{{ site.data.lang[lng].projects.selected }}:</h1><br>
-{% for category in project_data.category -%}
-  {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
-  {% for list in project_data.list -%}
-    {%- if list.type != category.type %}{% continue %}{% endif -%}
-    <div class="multipurpose-container project-container" {{ first_category_id }}>
-      {%-assign first_category_id=nil -%}
-      {%- include multi_lng/get-localized-long-date-format.liquid date = list.date -%}
-      <div class="row">
-        {% if list.img %}
-          {%- assign prj_img_path = list.img -%}
-          {%- assign prj_img_title = list.img_title -%}
-        {% elsif site.data.conf.others.projects.project_img_fill %}
-          {%- assign prj_img_path = "/assets/img/default/1x1px.png" -%}
-          {%- assign prj_img_title = "" -%}
-        {% endif %}
-        {% if list.img or site.data.conf.others.projects.project_img_fill -%}
-        <div class="col-md-3 project-img">
-          <img src="{{ prj_img_path }}" alt="{{ prj_img_title }}">
-        </div>
-        {%- endif %}
-        <div class="col-md-9 project-header">
-          <div id="title">
-            <h1>{{ list.project_name }}</h1>
-            <h4>{{ list.project_excerpt }}</h4>
-            <h4>📍{{ list.project_ubication }}</h4>
+<div class="even-background">
+  {% for category in project_data.category -%}
+    {%- capture first_category_id -%} id="{{ category.type }}" {%-endcapture-%}
+    {% for list in project_data.list -%}
+      {%- if list.type != category.type %}{% continue %}{% endif -%}
+      <div class="multipurpose-container project-container" {{ first_category_id }}>
+        {%-assign first_category_id=nil -%}
+        {%- include multi_lng/get-localized-long-date-format.liquid date = list.date -%}
+        <div class="row">
+          {% if list.img %}
+            {%- assign prj_img_path = list.img -%}
+            {%- assign prj_img_title = list.img_title -%}
+          {% elsif site.data.conf.others.projects.project_img_fill %}
+            {%- assign prj_img_path = "/assets/img/default/1x1px.png" -%}
+            {%- assign prj_img_title = "" -%}
+          {% endif %}
+          {% if list.img or site.data.conf.others.projects.project_img_fill -%}
+          <div class="col-md-3 project-img">
+            <img src="{{ prj_img_path }}" alt="{{ prj_img_title }}">
           </div>
-          <div class="meta-container date-container">
-            <p class="date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;{{ list.date }}</p>
-            <p class="category">#{{ category.title }}</p>
-          </div>
-          <a href="javascript:void(0);" class="read-more-less link">{{ site.data.lang[lng].projects.read_more_text }}</a>
-          <div class="project-content">
-            {{ list.post | markdownify }}
+          {%- endif %}
+          <div class="col-md-9 project-header">
+            <div id="title">
+              <h1>{{ list.project_name }}</h1>
+              <h4>{{ list.project_excerpt }}</h4>
+              <h4>📍{{ list.project_ubication }}</h4>
+            </div>
+            <div class="meta-container date-container">
+              <p class="date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;{{ list.date }}</p>
+              <p class="category">#{{ category.title }}</p>
+            </div>
+            <a href="javascript:void(0);" class="read-more-less link">{{ site.data.lang[lng].projects.read_more_text }}</a>
+            <div class="project-content">
+              {{ list.post | markdownify }}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    {%- endfor %}
   {%- endfor %}
-{%- endfor %}
+</div>
 <div class="showPopUp">
     <div class="overlay"></div>
     <div class="img-show">

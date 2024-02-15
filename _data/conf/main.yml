@@ -203,7 +203,7 @@ side_nav_toggle_close_button: true
 side_nav_brand_text_enable: false
 
 # change visibility of brand text of top nav
-top_nav_brand_text_enable: true
+top_nav_brand_text_enable: false
 
 # set profile image
 # comment to disable the profile image

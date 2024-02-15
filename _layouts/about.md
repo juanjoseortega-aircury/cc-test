@@ -19,14 +19,14 @@ layout: default
  {%- endif -%}
 {%- endif -%}
 
-
- <div class="home-intro-text markdown-style">
-  <div class="containertitle">
-    <img id="imagename" src="/assets/img/default/name logo.webp" alt="{{ site.data.lang[lng].about.images.logo }}">
-  </div>
+<div class="containertitle">
+  <img id="imagename" src="/assets/img/default/name logo.webp" alt="{{ site.data.lang[lng].about.images.logo }}">
+</div>
+ <div class="home-intro-text markdown-style padding-container even-background">
    {{ content }}
-  <h1 class="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
+
   <div class="projectsFormat">
+      <h1 class="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
     <div class="companiesProjectsContainer">
       <div>
         <h1>{{ site.data.lang[lng].projects.companies }}:</h1>
