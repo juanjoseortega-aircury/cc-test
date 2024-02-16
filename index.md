@@ -42,7 +42,7 @@ img: ":home-heading.jpg"
 <h1 class="title2"> Company </h1>
 </div>
 <div class="boxCompany">
-    <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a class="link" href="/tabs/offering.html">at offering</a>.</p>
+    <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a class="link" href="en/tabs/offering.html">at offering</a>.</p>
 </div>
 <h1 class="title2"> Philosophy  </h1>
 <div id="curating">
