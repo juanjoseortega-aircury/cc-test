@@ -46,6 +46,9 @@
 /* side nav and top nav main title */
 .side-nav-brand {
   text-align: center;
+  img {
+    max-width: 65%;
+  }
 }
 
 .side-nav-brand > img {
