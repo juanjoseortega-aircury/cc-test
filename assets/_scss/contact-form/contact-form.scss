@@ -1,10 +1,12 @@
 #contact-form {
-    width: 70%;
     margin: 0 auto;
     padding: var(--popup-margin);
     background-color: var(--background-content-color);
     > form {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         input,
         select {
             padding: 0.3vh 0 0.3vh 0.7vw;
@@ -12,18 +14,28 @@
         input,
         select,
         textarea {
-            margin:0.7vh 0;
             width: 80%;
-            padding-left: 0.7vw;
         }
         textarea {
             resize: none;
             height: 20vh;
+            padding-left: 0.7vw;
         }
         button {
             width: 30%;
             font-weight: bold;
         }
+    }
+}
+@media (min-width: 1600px) {
+    #contact-form {
+        width: 70%;
+    }
+}
+@media (max-width: 422px) {
+    .h-captcha {
+        transform: scale(0.75);
+        -webkit-transform: scale(0.75);
     }
 }
 #contact-form,
