@@ -44,7 +44,10 @@ img: ":home-heading.jpg"
     <p>CuraCultura is an international company dedicated to caring for both people and culture via projects that enrich their communities, while seeking to make the cultural sector a kinder place for all who engage in it, whether publicly or behind the scenes. We consult and collaborate on curatorial, educational and strategic projects, in a broad range of areas and for various types of clients, as detailed <a class="link" href="/tabs/offering.html">at offering</a>.</p>
 </div>
 <div>
-    <h1 class="title2"> Philosophy  </h1>
+    <div class="photoTitle">
+        <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+        <h1 class="title2"> Philosophy  </h1>
+    </div>
     <p>Curating is Caring. This is the basis from which we work on all our projects, and with each other. We’re currently putting together a Manifesto about what this means in practice, and as caring also means listening and sharing, we’d like to invite you to contribute your ideas via our page <a class="link">A Collaborative Manifesto for Curating with Care</a>. You can see all the points collated to date on this non-editable <a class="link">Google doc</a>, where yours will be added after review to ensure we keep a safe space.</p>
 </div>
 {{ website_info_text_first }}

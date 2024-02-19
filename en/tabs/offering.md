@@ -4,10 +4,13 @@ lng_pair: id_offering
 ---
 <script src="https://kit.fontawesome.com/9293cabefc.js" crossorigin="anonymous"></script>
 <div class="row">
-    <div class="col-md-12">
+    <div>
         <div class="position-relative padding-container even-background">
             <div>
-                <h1 class="title2">Types of Projects and Clients we work with</h1>
+                <div class="photoTitle">
+                    <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+                    <h1 class="title2">Types of Projects and Clients we work with</h1>
+                </div>
                 <div class="offlist">
                     <p><i class="fa-solid fa-building-columns"></i>Museums, Exhibitions and Archives</p>
                     <p><i class="fa-solid fa-palette"></i>Contemporary Art engagements</p>
@@ -29,38 +32,60 @@ lng_pair: id_offering
                     <p><i class="fa-solid fa-lightbulb"></i>Individuals with inspiring ideas</p>
                 </div>
             </div>
-            <div>
-                <h1 class="title2">Services</h1>
-                <ul id="offering-services">
-                    <li>Cultural Consultancy</li>
-                    <li>Curatorial Proposals</li>
-                    <li>Research</li>
-                    <li>Concept Creation</li>
-                    <li>Content Development</li>
-                    <li>Text and Scriptwriting (for Graphics, AVs and Interactives)</li>
-                    <li>Content Production Coordination</li>
-                    <li>Collections Management</li>
-                    <li> Interpersonal Skills: Strength, empathy, respect and kindness</li>
-                </ul>
+            <div id="services">
+                <div class="photoTitle">
+                    <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+                    <h1 class="title2">Services</h1>
+                </div>
+                <p>We can support you across various stages in your project:</p>
+                <div id="offering-services">
+                    <div>
+                        <p>GENERAL</p>
+                        <ul>
+                            <li>Cultural consultancy</li>
+                            <li>Educational consultancy</li>
+                            <li>Cultural, Learning & Public programmes</li>
+                            <li>Research</li>
+                            <li>Multi-lingual facilitation</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>CONCEPT</p>
+                        <ul>
+                            <li>Curatorial proposals</li>
+                            <li>Concept creation</li>
+                            <li>Interpretive planning</li>
+                            <li>Current-state assessments</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>DEVELOPMENT</p>
+                        <ul>
+                            <li>Content development</li>
+                            <li>Cultural, Learning & Public programmes</li>
+                            <li>Collections management</li>
+                            <li>Text & Scriptwriting (Graphics & Media)</li>
+                            <li>Translation</li>
+                        </ul>
+                    </div>
+                </div>
                 <div id="foreign-languages">
-                    <p>Foreign languages:</p>
-                    <div >
                         <ul class="sub-item">
-                        <li>All team members are at a minimum bilingual or more in:</li>
+                            <li>Our experienced team of strong, empathetic and kind individuals speak your language</li>
+                            <li>We are all at a minimum bilingual in:</li>
                             <li>English</li>
                             <li>Spanish</li>
                             <li>French</li>
                             <li>Italian</li>
                         </ul>
                         <ul class="sub-item">
-                        <li>We also speak or are learning:</li>
+                            <li>We are also learning:</li>
                             <li>German</li>
                             <li>Arabic</li>
                             <li>Modern Greek</li>
                             <li>Portuguese</li>
                             <li>Russian</li>
                         </ul>
-                    </div>
                 </div>
                 <p>Take a look at our <a class="link" href="/tabs/projects.html">Projects</a> to see some of our current and prior engagements.</p>
             </div>
