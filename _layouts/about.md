@@ -24,9 +24,12 @@ layout: default
 </div>
  <div class="home-intro-text markdown-style padding-container even-background">
    {{ content }}
-
+<div>
   <div class="projectsFormat">
+      <div class="photoTitle">
+      <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
       <h1 class="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
+    </div>
     <div class="companiesProjectsContainer">
       <div>
         <h1>{{ site.data.lang[lng].projects.companies }}:</h1>
