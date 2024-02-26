@@ -24,8 +24,8 @@
   /* space between containers */
   --multipurpose-container-margin-bottom: 20px;
   --footer-height: 27px;
-  --title-color: #f5835a;
-  --job-color: #756f6f;
+  --title-color: #894628;
+  --header-color: #484646;
 }
 
 {% if site.data.conf.main.google_font_load_in_head == nil or site.data.conf.main.google_font_load_in_head == false %}
