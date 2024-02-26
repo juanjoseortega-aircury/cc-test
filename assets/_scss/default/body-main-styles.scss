@@ -56,7 +56,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  color: var(--body-header-text-color);
+  color: var(--header-color);
 }
 h1 {
   font-size: 2.6rem;
@@ -310,7 +310,6 @@ ul.sub-item {
 .job {
   font-size: 2rem;
   font-weight: 900;
-  color: var(--job-color);
   margin-top: -6px;
 }
 .companiesProjectsContainer {
