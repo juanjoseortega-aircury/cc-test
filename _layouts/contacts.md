@@ -49,8 +49,10 @@ layout: default
               <option value="General Enquiry">{{ site.data.lang[lng].contact_form.reason.enquiry }}</option>
             </select><br>
             <textarea name="message" placeholder="{{ site.data.lang[lng].contact_form.message }}" required></textarea><br>
+            <div>
             <div class="h-captcha" data-callback="hcaptchaCallback" data-captcha="true"></div>
             <button type="submit" disabled>{{ site.data.lang[lng].contact_form.button_name }}</button>
+            </div>
           </form>
           <script src="https://web3forms.com/client/script.js" async defer></script>
         </div>

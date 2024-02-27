@@ -242,6 +242,9 @@ ul.sub-item {
 }
 #interested {
   background-color: var(--even-background-color);
+  > p {
+    margin: 0;
+  }
 }
 .padding-container {
   >* {
@@ -256,9 +259,9 @@ ul.sub-item {
 .project-container .row {
   padding: 1vw 0;
 }
-#imgTitles{
-  height: 50px;
-  width: 76px;
+#imgTitles {
+  height: 40px;
+  margin-right: 10px;
 }
 #imagename {
   width: 700px;
@@ -364,8 +367,16 @@ ul.sub-item {
     }
   }
 }
-#services p {
-  font-size: var(--text-size);
+#services {
+  > :last-child {
+    text-align: left;
+  }
+  > p {
+    text-align: center;
+  }
+  p {
+    font-size: var(--text-size);
+  }
 }
 .offlist, #lookingfor {
   display: grid;

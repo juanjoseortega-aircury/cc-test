@@ -69,9 +69,9 @@ lng_pair: id_offering
                         </ul>
                     </div>
                 </div>
-                <div>
+                <p>Our experienced team of strong, empathetic and kind individuals speak your language:</p>
+                <div class="companiesProjectsContainer">
                         <ul class="sub-item">
-                            <li>Our experienced team of strong, empathetic and kind individuals speak your language</li>
                             <li>We are all at a minimum bilingual in:</li>
                             <li>English</li>
                             <li>Spanish</li>
