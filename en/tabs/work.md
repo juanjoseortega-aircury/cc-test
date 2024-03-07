@@ -77,7 +77,7 @@ lng_pair: workwithus
         <h1 class="title2">What we're looking for</h1>
     </div>
     <ul id="lookingfor">
-        <li>Any mentioned in our  <a class="link" href="/tabs/offering.html"> Offering page </a> </li>
+        <li>Any mentioned in our  <a class="link" href="./offering.html"> Offering page </a> </li>
         <li> Graphic Designers (exhibition artworking and/or publications)</li>
         <li> Learning Specialists </li>
         <li>Audiovisual and Technical Specialists </li>
