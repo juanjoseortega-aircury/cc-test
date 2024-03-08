@@ -188,6 +188,7 @@ side_nav_close_limit: 1000px
 # keys need to match with "_layouts"
 side_and_top_nav_buttons:
   - about:
+  - manifesto:
   - projects:
   - offerings:
   - workwithus:
