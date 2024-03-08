@@ -256,6 +256,11 @@ ul.sub-item {
     padding: 0 var(--padding-right-left-container);
   }
 }
+.padding-container, #contact-container {
+  p {
+    font-size: var(--text-size);
+  }
+}
 .project-container .row {
   padding: 1vw 0;
 }

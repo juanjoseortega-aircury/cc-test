@@ -152,6 +152,10 @@ about:
   email_title: email
   images:
     logo: CuraCultura image
+# for manifesto layout
+manifesto:
+  title: Manifesto
+  button_name: Manifesto
 
 # for projects layout
 projects:
