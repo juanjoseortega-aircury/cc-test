@@ -398,6 +398,9 @@ ul.sub-item {
   .offlist {
     grid-template-columns: auto auto !important;
   }
+  #lookingfor {
+    grid-template-columns: auto !important;
+  }
 }
 .offlist {
   grid-template-columns: auto auto auto;
