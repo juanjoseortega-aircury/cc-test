@@ -28,18 +28,18 @@ layout: default
     <div class="projectsFormat">
         <div class="photoTitle">
         <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-        <h1 class="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
+        <h2 class="title2">{{ site.data.lang[lng].projects.worked }}:</h2>
       </div>
       <div class="companiesProjectsContainer">
         <div>
-          <h1>{{ site.data.lang[lng].projects.companies }}:</h1>
+          <h3>{{ site.data.lang[lng].projects.companies }}:</h3>
           <div>
             <img src="/assets/img/logos/lord logo.webp" alt="{{site.data.lang[lng].projects.logo}} Lord">
           <img src="/assets/img/logos/accionacultura.webp" alt="{{site.data.lang[lng].projects.logo}} Acciona">
         </div>
       </div>
       <div>
-        <h1>{{ site.data.lang[lng].projects.museums }}: </h1>
+        <h3>{{ site.data.lang[lng].projects.museums }}: </h3>
         <div class="triple-img">
           <img src="/assets/img/logos/rise_rosa_rage.webp" alt="{{site.data.lang[lng].projects.logo}} Rise Rosa Rage">
           <img src="/assets/img/logos/ithra.webp" alt="{{site.data.lang[lng].projects.logo}} Ithra">
@@ -47,14 +47,14 @@ layout: default
         </div>
       </div>
       <div>
-        <h1>{{ site.data.lang[lng].projects.festivals }}: </h1>
+        <h3>{{ site.data.lang[lng].projects.festivals }}: </h3>
         <div>
           <img src="/assets/img/logos/Cibra.webp" alt="{{site.data.lang[lng].projects.logo}} Cibra">
           <img src="/assets/img/logos/rosa-lago.webp" alt="{{site.data.lang[lng].projects.logo}} Roses by the Lake">
         </div>
       </div>
       <div>
-        <h1>{{ site.data.lang[lng].projects.universities }}:</h1>
+        <h3>{{ site.data.lang[lng].projects.universities }}:</h3>
         <div class="triple-img">
           <img src="/assets/img/logos/barreira.webp" alt="{{site.data.lang[lng].projects.logo}} Barreira">
           <img src="/assets/img/logos/Cambridge.webp" alt="{{site.data.lang[lng].projects.logo}} Cambridge">
@@ -62,13 +62,13 @@ layout: default
         </div>
       </div>
       <div>
-        <h1>{{ site.data.lang[lng].projects.private_foundations }}: </h1>
+        <h3>{{ site.data.lang[lng].projects.private_foundations }}: </h3>
         <div>
           <img src="/assets/img/logos/mainel.webp" alt="{{site.data.lang[lng].projects.logo}} Fundacion Mainel">
         </div>
       </div>
       <div>
-        <h1>{{ site.data.lang[lng].projects.publications }}: </h1>
+        <h3>{{ site.data.lang[lng].projects.publications }}: </h3>
         <div>
           <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.webp" alt="{{site.data.lang[lng].projects.logo}} Nuart Journal">
           </div>
@@ -81,7 +81,7 @@ layout: default
 
 {%- if lng_pages.size > 0 and site.data.conf.others.home.new_posts %}
 <div class="multipurpose-container new-posts-container">
- <h1>{{ site.data.lang[lng].home.new_posts_title }}</h1>
+ <h2>{{ site.data.lang[lng].home.new_posts_title }}</h2>
  <ul class="new-posts">
  {%- for _post in lng_pages limit: site.data.conf.others.home.new_posts_count_limit -%}
    <li>
