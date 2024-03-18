@@ -30,6 +30,7 @@ layout: util/compress
   <head>
     {% include default/header/header.html %}
     {% include default/css-include.html %}
+    <meta name="google-site-verification" content="GQSblf2D9I6JGbw_A_Tw5_nlYsRmCzNAmgqeziSmXRU" />
   </head>
 
   <body {{ default_dark }}>
