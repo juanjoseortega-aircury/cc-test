@@ -19,9 +19,9 @@ layout: default
  {%- endif -%}
 {%- endif -%}
 
-<div class="containertitle">
+<h1 class="containertitle">
   <img id="imagename" src="/assets/img/default/name logo.webp" alt="{{ site.data.lang[lng].about.images.logo }}">
-</div>
+</h1>
  <div class="home-intro-text markdown-style padding-container even-background">
   {{ content }}
   <div>
