@@ -9,7 +9,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 {% assign page_title = page.title | default: site.data.lang[lng][page.layout].title -%}
 {%- include util/auto-content-post-title-rename.liquid title = page_title -%}
-{%- capture page_title_tag -%} {{ site.data.owner[lng].brand }} - {{ page_title }} {%- endcapture -%}
+{%- capture page_title_tag -%} {{ site.data.owner[lng].brand }} - &nbsp;
+  {%- if page_title == 'About'-%}
+    {{ site.data.owner[lng].brand_sub_text }}
+  {%- else -%}
+    {{ page_title }} 
+  {%- endif-%}
+{%- endcapture -%}
 
 {%- if  page.layout == 'post' -%}
 <title>{{ page_title | truncate: 60 }}</title>
