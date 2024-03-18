@@ -9,7 +9,7 @@ lng_pair: id_offering
             <div>
                 <div class="photoTitle">
                     <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-                    <h1 class="title2">Types of Projects and Clients we work with</h1>
+                    <h2 class="title2">Types of Projects and Clients we work with</h2>
                 </div>
                 <div class="offlist">
                     <p><i class="fa-solid fa-building-columns"></i>Museums, Exhibitions, Archives</p>
@@ -35,7 +35,7 @@ lng_pair: id_offering
             <div id="services">
                 <div class="photoTitle">
                     <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-                    <h1 class="title2">Services</h1>
+                    <h2 class="title2">Services</h2>
                 </div>
                 <p>We can support you across various stages in your project:</p>
                 <div id="offering-services" class="companiesProjectsContainer">

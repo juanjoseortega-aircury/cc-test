@@ -7,14 +7,14 @@ lng_pair: id_manifesto
     <div>
         <div class="photoTitle">
             <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-            <h1 class="title2">A Collaborative Approach to Making Culture Kinder</h1>
+            <h2 class="title2">A Collaborative Approach to Making Culture Kinder</h2>
         </div>
         <p>CuraCultura is not just a company. It is also a philosophy, defined by its very name: we care for people through culture, and we care for culture for the good of people. We set out to make the cultural sector a kinder place for all who inhabit it, whether permanent tenants or infrequent visitors, workers and participants alike. For this reason, we are creating this Manifesto for cultural carers everywhere- which means it isn’t only our decision as to what it should look like. Please submit your own entries on what caring with, for and about culture can or should look like, and upon review, we might insert them into the Manifesto. All your thoughts are valid, so we will look after every single one in our database.</p>
     </div>
     <div>
         <div class="photoTitle">
             <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-            <h1 class="title2">Smallprint</h1>
+            <h2 class="title2">Smallprint</h2>
         </div>
         <ul id="smallprint">
             <li>By submitting an entry to the Manifesto, I accept the storage, editing and onwards use by CuraCultura of this work. </li>
@@ -24,7 +24,7 @@ lng_pair: id_manifesto
     <div>
         <div class="photoTitle">
             <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-            <h1 class="title2">The living Manifesto as it currently stands</h1>
+            <h2 class="title2">The living Manifesto as it currently stands</h2>
         </div>
         <p>To contribute, please send us your idea via the form on our <a class="link" href="./contact">Contact page</a>, selecting ‘Contribute to the Manifesto’, or alternatively, you can email us at <a class="link" href="mailto:{{site.data.conf.main.email.hola}}">{{site.data.conf.main.email.hola}}</a>.</p>
     </div>
