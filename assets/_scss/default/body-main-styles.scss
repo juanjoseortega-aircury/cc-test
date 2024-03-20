@@ -48,6 +48,7 @@ body {
   width: 100%;
   border-width: 4px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -391,7 +392,6 @@ ul.sub-item {
   text-align: center;
   width: 100%;
   margin: 0;
-  border-bottom: var(--top-border-separator);
   font-weight: bold;
 }
 @media (max-width: 1024px) {
