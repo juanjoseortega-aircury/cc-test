@@ -13,27 +13,27 @@ layout: default
  </div>
  <div class="row">
    <div class="col-md-12">
-     <div class="about-msg markdown-style">
+    <div class="about-msg markdown-style">
       <div class="containertitle">
         <h1 id="titleAux">{{ site.data.lang[lng].contacts.title }}</h1>
       </div>
-     <div id="contact-container">
-       {{ content }}
-       {%- if site.data.conf.main.contact_form.enable and site.data.conf.others.about.show_contact_form_button %}
-         <a href="javascript:void(0);" class="btn-base " onclick="ContactForm.show();" role="button">{{ site.data.lang[lng].contact_form.button_name }}</a>
-       {% endif -%}
-           <div class="meta-container">
-       {%- assign tmp_obj =  site.data.owner[lng].contacts | where_exp: "item", "item.email != nil" | first -%}
-       {%- assign email = tmp_obj['email'] -%}
-       {%- if site.data.conf.others.about.show_email and email %}
-         {%- assign _email = email | split: '@' %}
-         <p class="email">
-           <a href="javascript:void(0);" onclick="setAddress('{{ _email[0] }}', '{{ _email[1] }}');">
-             {%- if site.data.conf.others.about.email_icon %}<i class="{{ 'fa-fw ' }}{{ site.data.conf.others.about.email_icon }}"></i>{% endif -%}
-             &nbsp;{{ site.data.lang[lng].about.email_title }}
-           </a>
-         </p>
-       {% endif -%}
+      <div id="contact-container">
+        {{ content }}
+        {%- if site.data.conf.main.contact_form.enable and site.data.conf.others.about.show_contact_form_button %}
+          <a href="javascript:void(0);" class="btn-base " onclick="ContactForm.show();" role="button">{{ site.data.lang[lng].contact_form.button_name }}</a>
+        {% endif -%}
+          <div class="meta-container">
+        {%- assign tmp_obj =  site.data.owner[lng].contacts | where_exp: "item", "item.email != nil" | first -%}
+        {%- assign email = tmp_obj['email'] -%}
+        {%- if site.data.conf.others.about.show_email and email %}
+          {%- assign _email = email | split: '@' %}
+          <p class="email">
+            <a href="javascript:void(0);" onclick="setAddress('{{ _email[0] }}', '{{ _email[1] }}');">
+              {%- if site.data.conf.others.about.email_icon %}<i class="{{ 'fa-fw ' }}{{ site.data.conf.others.about.email_icon }}"></i>{% endif -%}
+              &nbsp;{{ site.data.lang[lng].about.email_title }}
+            </a>
+          </p>
+        {% endif -%}
         <div id="contact-form">
           <form action="https://api.web3forms.com/submit" onsubmit="sendForm('{{ site.data.lang[lng].contact_form.alert }}')" method="POST">
             <input type="hidden" name="subject" id="form-subject">
@@ -56,12 +56,11 @@ layout: default
           </form>
           <script src="https://web3forms.com/client/script.js" async defer></script>
         </div>
-       {%- if site.data.conf.others.about.show_contacts and site.data.owner[lng].contacts.size > 0 %}
-         {% include default/nav/contact-links.html -%}
-       {% endif -%}
+        {%- if site.data.conf.others.about.show_contacts and site.data.owner[lng].contacts.size > 0 %}
+          {% include default/nav/contact-links.html -%}
+        {% endif -%}
       </div>
      </div>
-     </div>
-   </div>
- </div>
+    </div>
+  </div>
 </div>
