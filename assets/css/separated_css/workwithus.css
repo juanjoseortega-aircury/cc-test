@@ -1,0 +1,56 @@
+#opportunities {
+  background-color: var(--even-background-color);
+  > p {
+    margin: 0;
+  }
+}
+.containerTeam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .containerMember:nth-child(odd) img{
+    border-radius: 50% 20% / 10% 40%;
+  }
+  .containerMember:nth-child(even) img{
+    border-radius: 20% 50% / 40% 10%;
+  }
+}
+.containerMember {
+  width: 33vh;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imgMembers {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+#desc {
+  font-size: var(--text-size);
+  font-weight: 900;
+  text-align: left;
+}
+.job {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: -6px;
+}
+#lookingfor {
+  grid-template-columns: auto auto;
+}
+#btn-email {
+  border-radius: var(--popup-border-radius);
+  padding: 0 1.5vw;
+  background-color: var(--background-content-color);
+  margin: 0 auto;
+  display: block;
+  &:hover {
+    border-color: var(--border-content-color);
+    a {
+      font-weight: 900;
+    }
+  }
+  a {
+    text-decoration: none;
+    font-style: normal;
+  }
+}

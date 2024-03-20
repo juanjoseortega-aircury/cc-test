@@ -241,12 +241,6 @@ ul.sub-item {
     background-color: var(--even-background-color);
   }
 }
-#opportunities {
-  background-color: var(--even-background-color);
-  > p {
-    margin: 0;
-  }
-}
 .padding-container {
   >* {
     padding: 0 var(--padding-right-left-container) var(--main-container-margin) var(--padding-right-left-container);
@@ -284,43 +278,6 @@ ul.sub-item {
   color: var(--title-color);
   font-size: 2.6rem;
   font-family: CarentroRegular;
-}
-.boxCompany {
-  text-align: left;
-}
-.containerTeam {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  .containerMember:nth-child(odd) img{
-    border-radius: 50% 20% / 10% 40%;
-  }
-  .containerMember:nth-child(even) img{
-    border-radius: 20% 50% / 40% 10%;
-  }
-}
-.containerMember {
-  width: 33vh;
-  text-align: center;
-  margin-bottom: 20px;
-}
-#curating {
-  text-align: left;
-  font-weight: 300;
-  font-size: 2.4rem;
-}
-.imgMembers {
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
-}
-#desc {
-  font-size: var(--text-size);
-  font-weight: 900;
-  text-align: left;
-}
-.job {
-  font-size: 2rem;
-  font-weight: 900;
-  margin-top: -6px;
 }
 .companiesProjectsContainer {
   display: flex;
@@ -362,37 +319,9 @@ ul.sub-item {
     }
   }
 }
-.offlist{
-  font-size: var(--text-size);
-  p {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    i {
-      font-size: 4rem;
-    }
-  }
-}
-#services {
-  > :last-child {
-    text-align: left;
-  }
-  > p {
-    text-align: center;
-  }
-  p {
-    font-size: var(--text-size);
-  }
-}
 .offlist, #lookingfor {
   display: grid;
   column-gap: var(--column-gap);
-}
-#offering-services div p {
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  font-weight: bold;
 }
 @media (max-width: 1024px) {
   .offlist {
@@ -402,29 +331,7 @@ ul.sub-item {
     grid-template-columns: auto !important;
   }
 }
-.offlist {
-  grid-template-columns: auto auto auto;
-}
-#lookingfor {
-  grid-template-columns: auto auto;
-}
-#btn-email {
-  border-radius: var(--popup-border-radius);
-  padding: 0 1.5vw;
-  background-color: var(--background-content-color);
-  margin: 0 auto;
-  display: block;
-  &:hover {
-    border-color: var(--border-content-color);
-    a {
-      font-weight: 900;
-    }
-  }
-  a {
-    text-decoration: none;
-    font-style: normal;
-  }
-}
+
 @media (max-width: 1500px) {
   #titleAux {
     font-size: 6vw;
@@ -435,8 +342,4 @@ ul.sub-item {
   .companiesProjectsContainer > div {
     width: 40vh;
   }
-}
-.date-container {
-  display: flex;
-  justify-content: space-between;
 }

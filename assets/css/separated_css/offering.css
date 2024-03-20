@@ -1,0 +1,31 @@
+#services {
+  > :last-child {
+    text-align: left;
+  }
+  >p {
+    text-align: center;
+  }
+  p {
+    font-size: var(--text-size);
+  }
+}
+
+#offering-services div p {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-weight: bold;
+}
+
+.offlist {
+  font-size: var(--text-size);
+  grid-template-columns: auto auto auto;
+  p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    i {
+      font-size: 4rem;
+    }
+  }
+}
