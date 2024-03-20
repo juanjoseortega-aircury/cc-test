@@ -9,7 +9,6 @@
         align-items: center;
         > div {
             display: flex;
-            width: 80%;
             flex-wrap: wrap;
             justify-content: space-evenly;
         }
@@ -28,7 +27,7 @@
         button {
             width: 30%;
             font-weight: bold;
-        }    
+        }
     }
 }
 @media (min-width: 1600px) {

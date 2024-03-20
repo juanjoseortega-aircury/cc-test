@@ -415,7 +415,7 @@ ul.sub-item {
   margin: 0 auto;
   display: block;
   &:hover {
-    border:3px solid var(--border-content-color);
+    border-color: var(--border-content-color);
     a {
       font-weight: 900;
     }
