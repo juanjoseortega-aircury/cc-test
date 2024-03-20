@@ -23,59 +23,59 @@ layout: default
   <img id="imagename" src="/assets/img/default/name logo.webp" alt="{{ site.data.lang[lng].about.images.logo }}">
 </div>
  <div class="home-intro-text markdown-style padding-container even-background">
-   {{ content }}
-<div>
-  <div class="projectsFormat">
-      <div class="photoTitle">
-      <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-      <h1 class="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
-    </div>
-    <div class="companiesProjectsContainer">
-      <div>
-        <h1>{{ site.data.lang[lng].projects.companies }}:</h1>
+  {{ content }}
+  <div>
+    <div class="projectsFormat">
+        <div class="photoTitle">
+        <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+        <h1 class="title2">{{ site.data.lang[lng].projects.worked }}:</h1>
+      </div>
+      <div class="companiesProjectsContainer">
         <div>
-          <img src="/assets/img/logos/lord logo.webp" alt="{{site.data.lang[lng].projects.logo}} Lord">
-        <img src="/assets/img/logos/accionacultura.webp" alt="{{site.data.lang[lng].projects.logo}} Acciona">
+          <h1>{{ site.data.lang[lng].projects.companies }}:</h1>
+          <div>
+            <img src="/assets/img/logos/lord logo.webp" alt="{{site.data.lang[lng].projects.logo}} Lord">
+          <img src="/assets/img/logos/accionacultura.webp" alt="{{site.data.lang[lng].projects.logo}} Acciona">
+        </div>
       </div>
-    </div>
-    <div>
-      <h1>{{ site.data.lang[lng].projects.museums }}: </h1>
-      <div class="triple-img">
-        <img src="/assets/img/logos/rise_rosa_rage.webp" alt="{{site.data.lang[lng].projects.logo}} Rise Rosa Rage">
-        <img src="/assets/img/logos/ithra.webp" alt="{{site.data.lang[lng].projects.logo}} Ithra">
-        <img src="/assets/img/logos/National.webp" alt="{{site.data.lang[lng].projects.logo}} National Trust" id="national-trust" >
-      </div>
-    </div>
-    <div>
-      <h1>{{ site.data.lang[lng].projects.festivals }}: </h1>
       <div>
-        <img src="/assets/img/logos/Cibra.webp" alt="{{site.data.lang[lng].projects.logo}} Cibra">
-        <img src="/assets/img/logos/rosa-lago.webp" alt="{{site.data.lang[lng].projects.logo}} Roses by the Lake">
+        <h1>{{ site.data.lang[lng].projects.museums }}: </h1>
+        <div class="triple-img">
+          <img src="/assets/img/logos/rise_rosa_rage.webp" alt="{{site.data.lang[lng].projects.logo}} Rise Rosa Rage">
+          <img src="/assets/img/logos/ithra.webp" alt="{{site.data.lang[lng].projects.logo}} Ithra">
+          <img src="/assets/img/logos/National.webp" alt="{{site.data.lang[lng].projects.logo}} National Trust" id="national-trust" >
+        </div>
       </div>
-    </div>
-    <div>
-      <h1>{{ site.data.lang[lng].projects.universities }}:</h1>
-      <div class="triple-img">
-        <img src="/assets/img/logos/barreira.webp" alt="{{site.data.lang[lng].projects.logo}} Barreira">
-        <img src="/assets/img/logos/Cambridge.webp" alt="{{site.data.lang[lng].projects.logo}} Cambridge">
-        <img src="/assets/img/logos/UCL-Logo.webp" alt="{{site.data.lang[lng].projects.logo}} UCL">
-      </div>
-    </div>
-    <div>
-      <h1>{{ site.data.lang[lng].projects.private_foundations }}: </h1>
       <div>
-        <img src="/assets/img/logos/mainel.webp" alt="{{site.data.lang[lng].projects.logo}} Fundacion Mainel">
+        <h1>{{ site.data.lang[lng].projects.festivals }}: </h1>
+        <div>
+          <img src="/assets/img/logos/Cibra.webp" alt="{{site.data.lang[lng].projects.logo}} Cibra">
+          <img src="/assets/img/logos/rosa-lago.webp" alt="{{site.data.lang[lng].projects.logo}} Roses by the Lake">
+        </div>
       </div>
-    </div>
-    <div>
-      <h1>{{ site.data.lang[lng].projects.publications }}: </h1>
       <div>
-        <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.webp" alt="{{site.data.lang[lng].projects.logo}} Nuart Journal">
+        <h1>{{ site.data.lang[lng].projects.universities }}:</h1>
+        <div class="triple-img">
+          <img src="/assets/img/logos/barreira.webp" alt="{{site.data.lang[lng].projects.logo}} Barreira">
+          <img src="/assets/img/logos/Cambridge.webp" alt="{{site.data.lang[lng].projects.logo}} Cambridge">
+          <img src="/assets/img/logos/UCL-Logo.webp" alt="{{site.data.lang[lng].projects.logo}} UCL">
+        </div>
+      </div>
+      <div>
+        <h1>{{ site.data.lang[lng].projects.private_foundations }}: </h1>
+        <div>
+          <img src="/assets/img/logos/mainel.webp" alt="{{site.data.lang[lng].projects.logo}} Fundacion Mainel">
+        </div>
+      </div>
+      <div>
+        <h1>{{ site.data.lang[lng].projects.publications }}: </h1>
+        <div>
+          <img src="/assets/img/logos/NuartJournal-logo-2021-stacked.webp" alt="{{site.data.lang[lng].projects.logo}} Nuart Journal">
+          </div>
         </div>
       </div>
     </div>
   </div>
- </div>
 </div>
 
 
