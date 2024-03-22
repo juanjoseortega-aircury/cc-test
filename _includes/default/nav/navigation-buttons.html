@@ -42,6 +42,6 @@
 
     {%- comment %} enable icons if it is set to true {% endcomment -%}
     {%- if site.data.conf.main.side_and_top_nav_button_icons == true -%} {%- capture icon_tag -%} <i class="{{ 'fa-fw ' }}{{ button_icon }}" aria-hidden="true"></i> {%- endcapture -%} {%- endif -%}
-    <li {{active_style}}><a href="{{ site.baseurl }}{{ _page.url }}" class="{{ active_class }} {{ include.effect }}">{{ icon_tag }}{{ button_name }}</a></li>
+    <li {{active_style}}><a href="{{ site.baseurl }}{{ _page.url | remove:".html" }}" class="{{ active_class }} {{ include.effect }}">{{ icon_tag }}{{ button_name }}</a></li>
   {%- endfor -%}
 {%- endfor -%}
