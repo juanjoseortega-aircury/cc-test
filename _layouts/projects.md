@@ -6,7 +6,7 @@
 layout: default
 # projects page
 ---
-
+<link href="{{ site.baseurl }}/assets/css/separated_css/projects.css" rel="stylesheet">
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
 
@@ -44,9 +44,9 @@ layout: default
           </div>
           {%- endif %}
           <div class="col-md-9 project-header">
-            <div id="title">
-              <h1>{{ list.project_name }}</h1>
-              <h4>{{ list.project_excerpt }}</h4>
+            <div class="title">
+              <h2>{{ list.project_name }}</h2>
+              <h3>{{ list.project_excerpt }}</h3>
               <h4>📍{{ list.project_ubication }}</h4>
             </div>
             <div class="meta-container date-container">

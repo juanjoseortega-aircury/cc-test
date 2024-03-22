@@ -4,7 +4,7 @@ lng_pair: workwithus
 ---
 <div>
     <div class="photoTitle">
-        <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+        <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
         <h2 class="title2">Team</h2>
     </div>
     <div class="showPopUp">
@@ -63,7 +63,7 @@ lng_pair: workwithus
 </div>
 <div id="opportunities">
     <div class="photoTitle">
-        <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+        <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
         <h2 class="title2">Opportunities</h2>
     </div>
     <p>We’re always happy to meet new people to join our network of trusted companions with whom we can share some of the beautiful opportunities that come our way. We have no formal opportunities open at this time, but our goal is for CuraCultura, as a company and a philosophy, to grow and continue spreading kindness through culture.</p><br>
@@ -73,7 +73,7 @@ lng_pair: workwithus
 </div>
 <div>
     <div class="photoTitle">
-        <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+        <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
         <h2 class="title2">What we're looking for</h2>
     </div>
     <ul id="lookingfor">
