@@ -59,6 +59,8 @@
   {%- endif -%}
 
   {%- include default/header/meta-common-data.liquid %}
+  
+  <link rel="canonical" href="{{ meta_page_url }}">
 
   {%- if site.data.conf.main.meta.keywords and meta_keywords.size > 0 %}
     <meta name="keywords" content="{{ meta_keywords | join: ', ' }}">
