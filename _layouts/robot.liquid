@@ -12,6 +12,8 @@ permalink: /robots.txt
 # Disallow: / # Disallow everything
 ---
 User-agent: *
-Disallow:
+Disallow: /assets/
+Disallow: /query/
 
-Sitemap: {{ 'assets/sitemap.xml' | absolute_url }}
+
+Sitemap: {{ site.data.conf.main.page_url }}/assets/sitemap.xml
