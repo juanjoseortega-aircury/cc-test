@@ -8,7 +8,7 @@ lng_pair: id_offering
         <div class="position-relative padding-container even-background">
             <div>
                 <div class="photoTitle">
-                    <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+                    <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
                     <h2 class="title2">Types of Projects and Clients we work with</h2>
                 </div>
                 <div class="offlist">
@@ -34,7 +34,7 @@ lng_pair: id_offering
             </div>
             <div id="services">
                 <div class="photoTitle">
-                    <img id="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
+                    <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
                     <h2 class="title2">Services</h2>
                 </div>
                 <p>We can support you across various stages in your project:</p>

@@ -1,4 +1,7 @@
 .date-container {
-    display: flex;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-between;
+}
+.title * {
+  margin: 5px 0;
+}
