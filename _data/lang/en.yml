@@ -176,10 +176,6 @@ projects:
 contacts:
   title: Contact
   button_name: Contact
-# for portfolios layout
-portfolios:
-  title: Portfolio
-  button_name: Portfolio
 # for offerings layout
 offerings:
   title: Offering

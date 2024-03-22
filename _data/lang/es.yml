@@ -169,10 +169,6 @@ projects:
 contacts:
   title: Contactos
   button_name: Contactos
-# for portfolios layout
-portfolios:
-  title: Portafolio
-  button_name: Portafolio
 # for offerings layout
 offerings:
   title: Que Ofrecemos
