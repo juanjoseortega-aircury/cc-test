@@ -28,10 +28,6 @@
   --header-color: #484646;
 }
 
-{% if site.data.conf.main.google_font_load_in_head == nil or site.data.conf.main.google_font_load_in_head == false %}
-  @import url({{ site.data.conf.main.google_font_style_url }});
-{% endif %}
-
 @import "colors/scheme";
 @mixin get_scheme($name) {
   @include get_scheme_opt($name, {{ site.data.conf.main.color_scheme_light}});
