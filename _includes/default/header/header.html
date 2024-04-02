@@ -60,7 +60,7 @@
 
   {%- include default/header/meta-common-data.liquid %}
   
-  <link rel="canonical" href="{{ meta_page_url }}">
+  <link rel="canonical" href="{{ site.data.conf.main.page_url }}{{ page.url }}">
 
   {%- if site.data.conf.main.meta.keywords and meta_keywords.size > 0 %}
     <meta name="keywords" content="{{ meta_keywords | join: ', ' }}">
