@@ -14,8 +14,6 @@ page_url: "https://curacultura.com"
 ###########################################################
 # if you want to load in css, change to false. (true is recommended(faster))
 google_font_load_in_head: true
-google_font_style_url: 
-google_font_precon_url: https://fonts.gstatic.com
 
 ###########################################################
 #               Language

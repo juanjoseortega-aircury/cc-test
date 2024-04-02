@@ -15,7 +15,7 @@
 <meta property="og:type" content="{{ meta_og_type }}">
 <meta property="og:title" content="{{ meta_title | truncate: 50 }}">
 <meta property="og:description" content="{{ meta_desc | truncate: 150 }}">
-<meta property="og:url" content="{{ meta_page_url }}">
+<meta property="og:url" content="{{ site.data.conf.main.page_url }}{{ page.url }}">
 <meta property="og:image" content="{{ meta_image }}">
 
 {%- if site.data.conf.main.meta.open_graph_locale %}
