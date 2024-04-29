@@ -162,7 +162,7 @@ lng_pair: workwithus
         <li>Diseñadores Gráficos (para exposiciones y/o maquetación)</li>
         <li> Especialistas en educación en museos </li>
         <li>Especialistas técnicos y audiovisuales </li>
-        <li>Especialistas en propiedad intelectual y derechos de imagenes</li>
+        <li>Especialistas en propiedad intelectual y derechos de imágenes</li>
         <li>Especialistas en subvenciones, financiación y comercial</li>
         <li>Expertos en materia de cualquier tema </li>
         <li>Traductores de cualquier combinación de idiomas</li>
