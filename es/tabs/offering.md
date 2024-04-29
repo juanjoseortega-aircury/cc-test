@@ -73,18 +73,18 @@ lng_pair: id_offering
                 <div class="companiesProjectsContainer">
                         <ul class="sub-item">
                             <li>Todos somos como mínimo bilingües en:</li>
-                            <li>inglés</li>
-                            <li>español</li>
-                            <li>francés</li>
-                            <li>italiano</li>
+                            <li>Inglés</li>
+                            <li>Español</li>
+                            <li>Francés</li>
+                            <li>Italiano</li>
                         </ul>
                         <ul class="sub-item">
                             <li>También estamos aprendiendo:</li>
-                            <li>alemán</li>
-                            <li>árabe</li>
-                            <li>griego moderno</li>
-                            <li>portugués</li>
-                            <li>ruso</li>
+                            <li>Alemán</li>
+                            <li>Árabe</li>
+                            <li>Griego moderno</li>
+                            <li>Portugués</li>
+                            <li>Ruso</li>
                         </ul>
                 </div>
                 <p>Echa un vistazo a nuestros <a class="link" href="projects.html">proyectos</a> para ver algunos de nuestros compromisos actuales y anteriores.</p>
