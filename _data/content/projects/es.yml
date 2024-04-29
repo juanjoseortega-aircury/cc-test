@@ -12,64 +12,192 @@ page_data:
     back_color: "lightblue"
 
   category:
-    - title: "Escrito"
+    - title: "Escribir"
       type: id_writing
       color: "gray"
-    - title: "Curation"
+    - title: "Curacion"
       type: id_curation
       color: "#62b462"
-    - title: "Conferencias"
+    - title: "Hablar"
       type: id_speak
       color: "#2FD0ED"
     - title: "Archivos"
       type: id_archives 
       color: "#62b462"
-    - title: "Educacion"
+    - title: "Educación"
       type: id_education 
       color: "gray"
 
   list:
     - type: id_writing
       project_name: "El camino hacia una exposición sostenible"
-      project_excerpt: "Capítulo en el catálogo de la exposición Net Zero"
+      project_excerpt: "Capítulo de libro y contenidos educativos para la exposición Net Zero"
       project_ubication: "King Abdulaziz Centre for World Culture-Ithra - Ithra, Dharan, Arabia Saudita"
       img: ":Ithra.webp"
-      date: "Septiembre 2022- Octubre 2023"
+      date: "septiembre 2022- octubre 2023"
       post: |
-        # ‘El camino hacia una exposición sostenible’ capítulo en el catálogo de la exposición Net Zero - King Abdulaziz Centre for World Culture-Ithra - Ithra, Dharan, Arabia Saudita
+        La exposición Net Zero, abierta en Ithra (el brazo cultural de Saudi
+        Aramco) desde septiembre de 2023 hasta junio de 2024, muestra
+        el trabajo de 19 artistas contemporáneos saudíes e
+        internacionales en torno a temas de sostenibilidad, geopolítica y
+        cambio climático. Elisa comenzó a trabajar en los contenidos y los
+        materiales educativos para esta exposición de arte
+        contemporáneo mientras era responsable del Departamento
+        Curatorial de Acciona Cultura y posteriormente escribió un capítulo
+        sobre el proceso de realizar una exposición sostenible para el
+        catálogo publicado para acompañar la exposición. Entre los
+        artistas expuestos se encuentran Zahra Alghamdi, Moffat
+        Takadiwa, Ane Graff, Bright Ugochukwu Eke, Mohammed Alfaraj,
+        Ava Roth y Willy Verginer, que abordan la contaminación, el uso
+        de plásticos, el papel fundamental de las abejas y cómo los
+        humanos somos parte de todo el ecosistema de la naturaleza,
+        entre otros temas. Colectivamente, como explica el sitio web de
+        Ithra, ofrecen "una profunda interpretación artística de nuestro
+        viaje colectivo hacia un mañana más brillante, pidiendo una acción
+        transformadora y enfatizando la necesidad de perseguir un futuro
+        más sostenible con gran determinación". Net Zero es una
+        exposición única, concienzuda y verdaderamente solidaria.
+        Emplea materiales sostenibles en la creación de cada elemento
+        tanto del diseño espacial como gráfico, y se está debatiendo cómo
+        se reutilizarán sus paredes una vez finalizada la exposición, con
+        ideas que van desde muebles de exterior como asientos o
+        barricadas marinas para la cornisa de Khobar, hasta una hoja en
+        blanco para graffitis o un skatepark. Además, la exposición resultó
+        totalmente neutra en carbono, con todos los gases de efecto
+        invernadero inevitables producidos durante su creación
+        cuidadosamente calculados, antes de ser compensados mediante
+        la compra de Créditos de Carbono. Estos se destinaron a la
+        continuación del trabajo de los parques eólicos en Oaxaca que
+        generan electricidad para abastecer a más de 700.000 hogares.
+        Desde Arabia Saudita hasta México, Net Zero muestra una
+        preocupación y un cuidado global por el futuro de nuestro planeta.
         
     - type: id_curation
-      project_name: "El cine también se lee Exposición"
-      project_excerpt: "Exposición Temporal para CiBRA Festival del Cine y de la Palabra"
+      project_name: "‘El cine también se lee’"
+      project_excerpt: "Exposición Temporal para CiBRA- Festival del Cine y de la Palabra"
       project_ubication: "Biblioteca de Castilla La Mancha, Toledo, España"
       img: ":8ymedio.webp"
-      date: "Marzo-Noviembre 2022"
+      date: "marzo-noviembre 2022"
       post: |
-        # El cine también se lee Exposición - Biblioteca de Castilla La Mancha, Toledo, España
+        ‘El cine también se lee', palabras del gran director de cine
+        español Pedro Almodóvar, parecían el título perfecto a la hora de
+        configurar el concepto curatorial de esta exposición en homenaje
+        a los fundadores de la librería de cine y editorial de guiones 8 y
+        Medio de Madrid. CuraCultura trabajó con la directora del
+        proyecto y miembro del comité del Festival CiBRA, Rocío
+        Herrero, brindando consultoría curatorial desde el concepto hasta
+        la ejecución. Nuestro trabajo incluyó investigación y reuniones
+        con María, cofundadora de 8 y Medio, estableciendo el plan
+        interpretativo, orientación en la creación del inventario de
+        colecciones de donde se seleccionaron los objetos para
+        exhibición, ideación de elementos de contenidos y enlaces de
+        diseño. 'El cine también se lee' formó parte de la programación
+        del Festival CiBRA (del Cine y de la Palabra) anual que se
+        celebra en la histórica ciudad española de Toledo, a menos de
+        una hora de Madrid. La ubicación de la Biblioteca Central de
+        Castilla La Mancha era muy adecuada dada su orientación al
+        libro y la escritura, y garantizaba la accesibilidad para todos. La
+        exposición mostró un gran cuidado y orgullo por las personas que
+        nutren la industria del cine español no desde la intemperie, sino
+        desde las sombras, entre ellos, los cofundadores del 8 y medio,
+        María y su difunto marido, Jesús, sus hijos y por supuesto, la
+        mascota de la tienda, el perrito Lucas, quien guió el recorrido de
+        la exposición dedicado a los niños. El mensaje final es que
+        cualquier historia de éxito no podría existir sin las personas que
+        trabajan duro detrás de escena.
 
     - type: id_speak
-      project_name: "Nuevas expografías: entre la tecnología y las experiencias"
-      project_excerpt: "Seminario en  Coloquios Cultura Visual Contemporaneo series"
+      project_name: "‘Nuevas expografías : entre la tecnología y las experiencias’"
+      project_excerpt: "Seminario en el ciclo Coloquios de Cultura Visual Contemporánea"
       project_ubication: "Fundación Mainel, Valencia, España"
       img: ":22_Fundacion-Mainel_Coloquio-de-Cultura-Visual_Web.webp"
-      date: "Noviembre 2022"
+      date: "noviembre 2022"
       post: |
-        # ‘Nuevas expografías: entre la tecnología y las experiencias’ seminario en  Coloquios Cultura Visual Contemporaneo series- Fundación Mainel, Valencia, España
+        Elisa fue invitada por la Fundación Mainel a presentar y participar
+        en un panel de líderes del sector que discutieron el papel de las
+        tecnologías y experiencias en la realización de exposiciones. Se
+        centró en varias tipologías en las que ha trabajado, desde las
+        exitosas exposiciones inmersivas del Museo V&A de Londres
+        (David Bowie Is, 'You Say You Want a Revolution?' y Pink Floyd:
+        Their Mortal Remains), Exposiciones Mundiales (particularmente
+        la Dubai Expo 2020) y experiencias de base tecnológica. El ciclo
+        de seminarios de Cultura Visual Contemporánea forma parte de
+        la oferta pública de la Mainel que se centra en la mejora de la
+        sociedad a través de la solidaridad y la cultura como
+        herramientas transformadoras, para conseguir que las personas
+        sean protagonistas de su propio desarrollo. En su presentación,
+        Elisa mostró cómo las experiencias inmersivas son clave para la
+        democratización de la cultura, ya que convierten a los visitantes
+        pasivos en participantes activos, cuya comprensión y
+        sentimientos son tan importantes como el conocimiento que
+        comparten los curadores y las instituciones mismos. Tanto los
+        temas de esta discusión como las motivaciones detrás de la
+        programación de Mainel muestran un profundo cuidado por el
+        público, cuyas vidas buscan enriquecer y empoderar. Ver
+        <a href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel
 
     - type: id_archives
-      project_name: "Rise-Rosa-Rage Archivo de Gráficos Sociopolíticos"
-      project_excerpt: ""
-      project_ubication: "Roma, Italia / Online"
+      project_name: "Archivo Rise-Rosa-Rage de gráfica sociopolítica"
+      project_excerpt: "Curaduría, Gestión y Desarrollo de Colecciones, Catalogación"
+      project_ubication: "Roma, Italia / En línea"
       img: ":Rise_Rosa_Rage.webp"
       date: "En curso desde 2016"
       post: |
-        # Rise-Rosa-Rage Archivo de Gráficos Sociopolíticos, Roma, Italia / Online
+        Rise-Rosa-Rage es un archivo de gráfica sociopolítica que
+        actualmente consta de más de 4.000 objetos físicos, digitales y en
+        la biblioteca de referencia. CuraCultura es responsable de la
+        curación, el desarrollo de colecciones y la gestión del archivo, así
+        como de la catalogación en línea, la traducción de contenidos, la
+        redacción de las cartelas de los objetos y de artículos, y el
+        desarrollo web. Las colecciones datan predominantemente de las
+        décadas de los 1960 hasta los 1990, con algunas piezas también
+        hasta el día de hoy. Provienen de o tienen contenido relacionado
+        con más de 60 territorios diferentes, y están representados en más
+        de 20 idiomas. Sus temas clave son la solidaridad, la reivindicación
+        de derechos, la memoria y las lucha por la paz y la autonomía. En
+        constante evolución, con frecuentes nuevas incorporaciones,
+        incluye carteles, prensa clandestina, folletos, postales, pegatinas,
+        álbumes de LP y cintas de casete, banderas, pancartas, pins,
+        insignias, sellos, sobres, mapas, cartas, libros y archivos digitales
+        que documentan gráficos in situ. El Archivo se preocupa por la
+        producción creativa que es fruto de una gran compasión por parte
+        de sus creadores, quienes tienen por objetivo un futuro mejor y más
+        equitativo. Los mismos planes futuros de Rise•Rosa•Rage están
+        entrelazados con esto, ya que se esfuerza por ser accesible a un
+        público más amplio a través de su sitio web con el catálogo de la
+        colección, una bibliografía, artículos educativos y publicaciones de
+        blog, exposiciones físicas, publicaciones impresas y eventos que
+        eventualmente tendrán lugar en su propio espacio, de que los
+        grupos comunitarios podrán hacer uso.
 
     - type: id_education 
       project_name: "Escenas culturales de Oriente Medio"
-      project_excerpt: "Módulo del Curso MA Escuela Superior de Arte y Diseño"
+      project_excerpt: "Módulo para el curso de maestría 'Mercado Global del Arte'"
       project_ubication: "Escuela Superior de Arte y Diseño Barreira, Valencia, España"
       img: ":Barreira MA.webp"
-      date: "En curso desde Septiembre 2022"
+      date: "Desde septiembre 2022"
       post: |
-        # Módulo del Curso MA Escuela Superior de Arte y Diseño de Barreira, Valencia, España
+        La edición inaugural del Master en Mercados Globales del Arte
+        de la Escuela Superior de Arte y Diseño Barreira tuvo lugar en el
+        año académico 2022-23, cuando CuraCultura fue invitada por el
+        Director para planificar e impartir el módulo sobre los escenarios
+        culturales y creativos del ‘Medio Oriente’ y África del Norte. Luego
+        de una exitosa primera ejecución, el programa continuará
+        ejecutándose anualmente. Partiendo de una exploración de las
+        múltiples identidades, geografías, idiomas, religiones y etnias de
+        la región, con el fin de inculcar una comprensión de su diversidad
+        y, posteriormente, de su producción artística, las sesiones cubren
+        museos, galerías, fundaciones de arte, colecciones privadas,
+        casas de subastas, residencias de artistas y otras iniciativas y
+        prácticas. Se presta especial atención al Golfo Arábigo como
+        lugar de rápidos cambios sociales, culturales y políticos que
+        también impactan y son impactados por sus mundos artísticos. A
+        través de una combinación de conferencias y debates en clase,
+        se exploran nuevos terrenos en colaboración. Analizar las
+        complejidades de las diferentes culturas y actores de una amplia
+        gama de países que a menudo se agrupan sin prestar mucha
+        atención a sus diferencias y a lo que hace que cada uno sea
+        único, transmite a los estudiantes el valor de conocerlos e
+        intercambiar con ellos, reconociendo que los artistas e
+        instituciones de estos países ya van tomando sus sitios en el
+        escenario artístico internacional.

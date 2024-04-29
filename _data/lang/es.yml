@@ -38,7 +38,7 @@ navigation:
 color_scheme_switch_tooltip: Apariencia
 
 search:
-  placeholder: Búsqueda
+  placeholder: Buscar
   noResultText: No se ha encontrado ningún resultado.
 
 image_viewer:
@@ -147,9 +147,14 @@ archives:
 
 # for about layout
 about:
-  title: Sobre Nosotros
-  button_name: Sobre Nosotros
+  title: Acerca de nosotros
+  button_name: Acerca de nosotros
   email_title: email
+
+# for manifesto layout
+manifesto:
+  title: Manifesto
+  button_name: Manifesto
 
 # for projects layout
 projects:
@@ -157,22 +162,22 @@ projects:
   button_name: Proyectos
   read_more_text: Leer más
   read_less_text: Leer menos
-  worked: Nosotras hemos trabajado con
-  companies: Compañias
+  worked: Hemos trabajado con
+  companies: Empresas
   museums: Museos, Archivos y Exposiciones
   festivals: Festivales
-  private_foundations: Fundaciones privadas
+  private_foundations: Fundaciones Privadas
   publications: Publicaciones
   universities: Universidades
   selected: Proyectos seleccionados
 # for contacts layout
 contacts:
-  title: Contactos
-  button_name: Contactos
+  title: Contacto
+  button_name: Contacto
 # for offerings layout
 offerings:
-  title: Que Ofrecemos
-  button_name: Que Ofrecemos
+  title: Oferta
+  button_name: Oferta
 # for workwithus layout
 workwithus:
   title: Trabaja con Nosotros
@@ -180,7 +185,7 @@ workwithus:
 
 # for privacy-policy layout
 privacy-policy:
-  title: &privacy_policy_title Privacy policy
+  title: &privacy_policy_title Política de privacidad
 
 # constants to be replaced for
 constants:
@@ -192,12 +197,12 @@ constants:
 contact_form:
   button_name: Enviar
   name: Nombre
-  email: Correo
+  email: Correo electrónico
   message: Mensaje
   alert: El formulario se ha enviado correctamente
   reason: 
     text: Motivo de contacto
-    discuss: Hablar sobre un proyecto
+    discuss: Discutir un proyecto
     contribute: Contribuir en el Manifesto
     enquiry: Consulta General
 
@@ -211,9 +216,9 @@ cookie_consent:
       Se activará con su aprobación.
     privacy_msg: Check $privacy_link.
     buttons:
-      accept: &accept_button Allow all
-      settings: Customize
-      deny: &deny_button Deny
+      accept: &accept_button Permitir
+      settings: Personalizar
+      deny: &deny_button Rechazar
   panel_settings:
     title: *cookie_settings
     msg: >      
