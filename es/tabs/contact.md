@@ -1,8 +1,7 @@
 ---
 layout: contacts
-# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_contact
-# image for page specific usage
+
 img: ":about.jpg"
 ---
 Nuestro equipo actualmente está basado principalmente entre España, Reino Unido y Francia.
