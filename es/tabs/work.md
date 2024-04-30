@@ -20,8 +20,8 @@ lng_pair: workwithus
     <div class="containerTeam">
         <div class="containerMember">
             <img class="imgMembers" src="/assets/img/home/Elisa.webp" alt="Photo of Elisa Bailey"/>
-            <h3>Elisa Bailey </h3>
-            <h4 class="job">Director fundador, curadora principal</h4>
+            <h3 class="name">Elisa Bailey </h3>
+            <h4 class="job">Directora fundadora, curadora principal</h4>
             <p class="desc">Elisa ha trabajado como curadora, investigadora e intérprete en
             museos de Europa y Medio Oriente desde 2010. También asesora a
             personas interesadas en carreras culturales, contribuye en películas
@@ -43,7 +43,7 @@ lng_pair: workwithus
         </div>
         <div class="containerMember">
             <img class="imgMembers" src="/assets/img/home/kittyRes.webp" alt="Photo of Kitty Brandon-James"/>
-            <h3>Kitty Brandon-James</h3>
+            <h3 class="name">Kitty Brandon-James</h3>
             <h4 class="job">Consultora educativa y curadora</h4>
             <p class="desc">Kitty es una investigadora experimentada, profesora universitaria y
             curadora con un interés especial en las pedagogías
@@ -66,7 +66,7 @@ lng_pair: workwithus
         </div>
         <div class="containerMember">
             <img  class="imgMembers" src="/assets/img/home/Rubi.webp" alt="Photo of Jule Rubi"/>
-            <h3>Jule Rubi</h3>
+            <h3 class="name">Jule Rubi</h3>
             <h4 class="job">Jefa de proyectos culturales y Curadora</h4>
                 <p class="desc">Como curador, lector ferviente y viajero, la pasión de Jule es contar
                 historias del mundo tal como es hoy a través de objetos y obras de
@@ -88,7 +88,7 @@ lng_pair: workwithus
         </div>
         <div class="containerMember">
             <img class="imgMembers" src="/assets/img/home/caroRes.webp" alt="Photo of Caroline Trotman"/>
-            <h3>Caroline Trotman</h3>
+            <h3 class="name">Caroline Trotman</h3>
             <h4 class="job">Historiador y curadora</h4>
                 <p class="desc">Caroline es una profesora motivadora y analítica de Historia,
                 Geografía, Geopolítica y Ciencias Políticas en París, Francia. En
@@ -102,12 +102,12 @@ lng_pair: workwithus
                 maestrías: en Arte Moderno e Inglés de la Universidad Oxford
                 Brookes, en Estudios de Museos de la Universidad de Leicester y en
                 Teoría del Arte Contemporáneo de Goldsmiths, Universidad de
-                Londres. (todo el Reino Unido).
+                Londres (todo el Reino Unido).
         </p>
         </div>
         <div class="containerMember">
             <img class="imgMembers" src="/assets/img/home/Laura.webp" alt="Photo of Laura Garrido"/>
-            <h3>Laura Garrido</h3>
+            <h3 class="name">Laura Garrido</h3>
             <h4 class="job">Especialista AV y de nuevas tecnologías</h4>
                 <p class="desc">Laura Garrido es Directora Visual y Productora de Medios Digitales
                 con más de 15 años de experiencia en producciones audiovisuales e
@@ -123,7 +123,7 @@ lng_pair: workwithus
         </div>
         <div class="containerMember">
             <img class="imgMembers" src="/assets/img/home/Susana.webp" alt="Photo of Susana Miralles"/>
-            <h3>Susana Miralles</h3>
+            <h3 class="name">Susana Miralles</h3>
             <h4 class="job">Gerente de negocios</h4>
                 <p class="desc">Susana aporta gran experiencia en gestión empresarial, derecho
                 laboral, nóminas y seguridad social. Estudió Gestión de Sistemas

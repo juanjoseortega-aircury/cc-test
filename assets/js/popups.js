@@ -4,7 +4,7 @@ $(function () {
     $(".containerTeam .imgMembers").click(function () {
         var $src = $(this).attr("src"); 
         var $description = $(this).siblings(".desc").text();
-        var $name = $(this).siblings("h1").text();
+        var $name = $(this).siblings(".name").text();
         var $job = $(this).siblings(".job").text();
         document.getElementById("descPopUp").textContent = $description;
         document.getElementById("namePopUp").textContent = $name;

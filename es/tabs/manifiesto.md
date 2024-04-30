@@ -11,7 +11,7 @@ lng_pair: id_manifesto
         <p>CuraCultura no es sólo una empresa. También es una filosofía, definida por su propio nombre:
           cuidamos de las personas a través de la cultura, y cuidamos la cultura por el bien de las
           personas. Nos propusimos hacer del sector cultural un lugar más amable para todos los que lo
-          habitan, ya sean inquilinos permanentes o visitantes poco frecuentes, trabajadores y
+          habitan, ya sean visitantes habituales o poco frecuentes, trabajadores y
           participantes por igual. Por esta razón, estamos creando este Manifiesto para los cuidadores
           culturales de todo el mundo, lo que significa que no es sólo nuestra decisión cómo debería
           verse. Os proponemos enviar vuestras propias ideas sobre cómo puede o debe ser el cuidado con, por
