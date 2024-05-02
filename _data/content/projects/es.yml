@@ -32,7 +32,7 @@ page_data:
     - type: id_writing
       project_name: "El camino hacia una exposición sostenible"
       project_excerpt: "Capítulo de libro y contenidos educativos para la exposición Net Zero"
-      project_ubication: "King Abdulaziz Centre for World Culture-Ithra - Ithra, Dharan, Arabia Saudita"
+      project_ubication: "King Abdulaziz Centre for World Culture- Ithra, Dharan, Arabia Saudita"
       img: ":Ithra.webp"
       date: "septiembre 2022- octubre 2023"
       post: |
@@ -133,12 +133,12 @@ page_data:
         comparten los curadores y las instituciones mismas. Tanto los
         temas de esta discusión como las motivaciones detrás de la
         programación de Mainel muestran un profundo cuidado por el
-        público, cuyas vidas buscan enriquecer y empoderar. Ver
-        <a href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel
+        público, cuyas vidas buscan enriquecer y empoderar. <br />
+        Ver <a href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel
 
     - type: id_archives
       project_name: "Archivo Rise-Rosa-Rage de gráfica sociopolítica"
-      project_excerpt: "Curaduría, Gestión y Desarrollo de Colecciones, Catalogación"
+      project_excerpt: "Curaduría, gestión y desarrollo de colecciones, catalogación"
       project_ubication: "Roma, Italia / En línea"
       img: ":Rise_Rosa_Rage.webp"
       date: "En curso desde 2016"
@@ -172,7 +172,7 @@ page_data:
 
     - type: id_education 
       project_name: "Escenas culturales de Oriente Medio"
-      project_excerpt: "Módulo para el curso de maestría 'Mercado Global del Arte'"
+      project_excerpt: "Módulo para el máster 'Mercado Global del Arte'"
       project_ubication: "Escuela Superior de Arte y Diseño Barreira, Valencia, España"
       img: ":Barreira MA.webp"
       date: "Desde septiembre 2022"

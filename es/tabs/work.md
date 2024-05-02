@@ -23,7 +23,7 @@ lng_pair: workwithus
             <h3 class="name">Elisa Bailey </h3>
             <h4 class="job">Directora fundadora, curadora principal</h4>
             <p class="desc">Elisa ha trabajado como curadora, investigadora e intérprete en
-            museos de Europa y Medio Oriente desde 2010. También asesora a
+            museos de Europa y Medio Oriente desde 2010. También orienta a
             personas interesadas en carreras culturales, contribuye en películas
             y conferencias, y enseña sobre museología y cultura en el University
             College London, Reino Unido, y en la Escuela Superior de Arte y
@@ -35,7 +35,7 @@ lng_pair: workwithus
             conmemorativos y el papel de los artistas en comunidades que
             sufren o emergen de opresión o conflicto, para lo cual fundó un
             archivo de cultura visual en 2016. Elisa tiene una licenciatura en
-            Lenguas Modernas de la Universidad de Cambridge, Tiene una
+            Lenguas Modernas de la Universidad de Cambridge, y una
             maestría en Arte y Política Contemporáneos del Instituto de Arte
             Courtauld de la Universidad de Londres, recibió una beca para el
             Centro de Estudios Helénicos de la Universidad de Harvard en
@@ -47,7 +47,7 @@ lng_pair: workwithus
             <h4 class="job">Consultora educativa y curadora</h4>
             <p class="desc">Kitty es una investigadora experimentada, profesora universitaria y
             curadora con un interés especial en las pedagogías
-            multisensoriales, el juego y el pensamiento a través de la acción.
+            multisensoriales, los juegos educativos y el pensamiento a través de la acción.
             Dirige una investigación-acción sobre la enseñanza para la
             creatividad y cree firmemente que pensar a través de objetos,
             exposiciones y curaduría contiene un gran potencial para escapar
@@ -68,10 +68,10 @@ lng_pair: workwithus
             <img  class="imgMembers" src="/assets/img/home/Rubi.webp" alt="Photo of Jule Rubi"/>
             <h3 class="name">Jule Rubi</h3>
             <h4 class="job">Jefa de proyectos culturales y Curadora</h4>
-                <p class="desc">Como curador, lector ferviente y viajero, la pasión de Jule es contar
+                <p class="desc">Como curadora, lectora ferviente y viajera, la pasión de Jule es contar
                 historias del mundo tal como es hoy a través de objetos y obras de
                 arte. Tras su formación en la Ecole du Louvre y el Musée des Arts
-                et traductions Populaires (hoy MuCEM de Marsella), viajó a
+                et traditions Populaires (hoy MuCEM de Marsella), viajó a
                 Montreal como estudiante, antes de continuar su carrera en
                 Londres y Mascate, Omán. Anteriormente curadora y productora de
                 exposiciones en el Victoria and Albert Museum de Londres, pasó a
@@ -94,7 +94,7 @@ lng_pair: workwithus
                 Geografía, Geopolítica y Ciencias Políticas en París, Francia. En
                 2009-15, vivió entre Florida y California, EE. UU., luego Londres y
                 Oxford, Reino Unido, donde trabajó como curadora adjunta y
-                registradora en varios museos, y así conoció a Elisa. Juntos
+                registradora en varios museos, y así conoció a Elisa. Juntas
                 colaboraron en un proyecto de investigación sobre el monumento de
                 Buzludzha en Bulgaria entre 2014 y 2016, del que surgieron un libro,
                 artículos y una exposición. Caroline tiene una licenciatura en
@@ -102,7 +102,7 @@ lng_pair: workwithus
                 maestrías: en Arte Moderno e Inglés de la Universidad Oxford
                 Brookes, en Estudios de Museos de la Universidad de Leicester y en
                 Teoría del Arte Contemporáneo de Goldsmiths, Universidad de
-                Londres (todo el Reino Unido).
+                Londres (todos en Reino Unido).
         </p>
         </div>
         <div class="containerMember">
@@ -144,9 +144,9 @@ lng_pair: workwithus
     confianza con quienes podemos compartir algunas de las hermosas oportunidades que se nos
     presentan. No tenemos oportunidades formales abiertas en este momento, pero nuestro objetivo es
     que CuraCultura, como empresa y filosofía, crezca y siga difundiendo la bondad a través de la cultura.</p><br>
-    <p>No importa en qué etapa de tu carrera te encuentres (incluido el comienzo) o de su vida personal (los
-    cambios y las crisis son normales y aceptados), cualquiera que sea su origen (todos son bienvenidos
-    y válidos) o su ubicación (trabajamos en gran medida de forma remota), si crees que tienes algo que
+    <p>No importa en qué etapa de tu carrera te encuentres (incluido el comienzo) o de tu vida personal (los
+    cambios y las crisis son normales y aceptados), cualquiera que sea tu origen (todos son bienvenidos
+    y válidos) o tu ubicación (trabajamos en gran medida de forma remota), si crees que tienes algo que
     ofrecer, envía tu CV y un portafolio si tienes uno a:</p>
     <button id="btn-email"><a class="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a></button>
     <p>Respetamos tu tiempo y tu interés, por lo que siempre responderemos. Si nos retrasamos, ¡por favor
