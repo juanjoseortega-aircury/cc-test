@@ -22,9 +22,10 @@ lng_pair: id_manifesto
     <div>
         <div class="photoTitle">
             <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-            <h2 class="title2">Pequeña impresión</h2>
+            <h2 class="title2">El Manifiesto viviente tal como está actualmente</h2>
         </div>
-        <ul id="smallprint">
+         <p>Para contribuir, envíanos tu idea a través del formulario de nuestra <a class="link" href="contact.html">página de contacto</a>, seleccionando ‘Contribuir al Manifiesto’, o alternativamente, puede enviarnos un correo electrónico a  <a class="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.</p>
+    <ul id="smallprint">
             <li>Al enviar una entrada al Manifiesto, acepto el almacenamiento, edición y uso posterior
               por parte de CuraCultura de este trabajo.</li>
             <li>Las ideas serán revisadas ante todo para garantizar que cumplan con la dedicación de
@@ -37,12 +38,3 @@ lng_pair: id_manifesto
               ejecutiva en aras de su fuerza, impacto y potencial para difundir el bien. Todas las ideas serán
               almacenadas por CuraCultura independientemente de la repetición o idoneidad del contenido. </li>
         </ul>
-    </div>
-    <div>
-        <div class="photoTitle">
-            <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-            <h2 class="title2">El Manifiesto viviente tal como está actualmente</h2>
-        </div>
-         <p>Para contribuir, envíanos tu idea a través del formulario de nuestra <a class="link" href="contact.html">página de contacto</a>, seleccionando ‘Contribuir al Manifiesto’, o alternativamente, puede enviarnos un correo electrónico a  <a class="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.</p>
-    </div>
-</div>
