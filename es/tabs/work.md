@@ -152,27 +152,3 @@ lng_pair: workwithus
     <p>Respetamos tu tiempo y tu interés, por lo que siempre responderemos. Si nos retrasamos, ¡por favor
     empújanos! Sólo será porque estamos particularmente absorbidas en un proyecto.</p>
 </div>
-<div>
-    <div class="photoTitle">
-        <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-        <h2 class="title2">Estamos buscando</h2>
-    </div>
-    <ul id="lookingfor">
-        <li>Cualquier capacidad mencionada en nuestra  <a class="link" href="offering.html"> página de oferta </a> </li>
-        <li>Diseñadores Gráficos (para exposiciones y/o maquetación)</li>
-        <li> Especialistas en educación en museos </li>
-        <li>Especialistas técnicos y audiovisuales </li>
-        <li>Especialistas en propiedad intelectual y derechos de imágenes</li>
-        <li>Especialistas en subvenciones, financiación y comercial</li>
-        <li>Expertos en materia de cualquier tema </li>
-        <li>Traductores de cualquier combinación de idiomas</li>
-        <li>Gente de lengua madre árabe</li>
-        <li>Gente con nivel alto (mínimo C1 o equivalente) / nativo de idiomas distintos al inglés, español y francés</li>
-    </ul>
-    <p>Requisitos esenciales:</p>
-    <ul>
-        <li> Personalidades amables e inclusivas.</li>
-        <li> Entusiasmo y pasión por la cultura y hacer cambios positivos en la sociedad a través de ella.</li>
-        <li> Fluidez en inglés y/o español.</li>
-    </ul>
-</div>
