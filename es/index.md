@@ -13,9 +13,7 @@ img: ":home-heading.jpg"
     <p>CuraCultura es una empresa internacional dedicada a cuidar tanto de las personas como de la
       cultura a través de proyectos que enriquecen a sus comunidades, mientras busca hacer del
       sector cultural un lugar más amable para todos los que participan en él, ya sea públicamente o
-      detrás de escena. Consultamos y colaboramos en proyectos curatoriales, educativos y
-      estratégicos, en una amplia gama de áreas y para varios tipos de clientes, como se detalla en
-      nuestra <a class="link" href="tabs/offering.html">página de Oferta</a>.</p>
+      detrás de escena. Consultamos y colaboramos en proyectos curatoriales y educativos, en una amplia gama de áreas y para varios tipos de clientes.</p>
 </div>
 <div>
     <div class="photoTitle">

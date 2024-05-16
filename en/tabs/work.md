@@ -71,27 +71,3 @@ lng_pair: workwithus
     <button id="btn-email"><a class="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a></button>
     <p>We respect your time and your interest, so will always reply. If we delay, please nudge us! It will only be because we are particularly engrossed in a project.</p>
 </div>
-<div>
-    <div class="photoTitle">
-        <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-        <h2 class="title2">What we're looking for</h2>
-    </div>
-    <ul id="lookingfor">
-        <li>Any mentioned in our  <a class="link" href="./offering"> Offering page </a> </li>
-        <li> Graphic Designers (exhibition artworking and/or publications)</li>
-        <li> Learning Specialists </li>
-        <li>Audiovisual and Technical Specialists </li>
-        <li>IP and Image Rights Specialists</li>
-        <li>Grants, Funding and New Business Specialists</li>
-        <li>Subject Matter Experts on any topic </li>
-        <li>Translators of any language combinations</li>
-        <li>Native speakers of Arabic</li>
-        <li>High level / Native speakers of languages other than English and Spanish</li>
-    </ul>
-    <p>Essential requirements:</p>
-    <ul>
-        <li> Kind and inclusive personalities</li>
-        <li> Enthusiasm and passion for culture and changemaking</li>
-        <li> Fluency in English and/or Spanish</li>
-    </ul>
-</div>
