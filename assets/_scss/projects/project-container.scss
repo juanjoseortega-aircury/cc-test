@@ -26,7 +26,7 @@
   object-fit: cover;
   height: 10vw;
   width: 10.5vw;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .project-container .project-header > h1 {
@@ -103,12 +103,26 @@
   display: inline;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .project-container {
     margin-left: unset;
     margin-right: unset;
+    .project-img {
+      width: 100%;
+      text-align: center;
+    }
+    .project-header {
+      width: 100%;
+    }
   }
 }
+@media (max-width: 600px) {
+  .project-img img {
+    height: fit-content !important;
+    width: 30% !important;
+  }
+}
+
 .project-header {
   width: 73%;
   float: left;
@@ -116,7 +130,7 @@
     display: none;
   }
 }
-@media (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1000px) {
   .project-img img {
     height: 16.2vw !important;
     width: 20vw !important;
