@@ -13,7 +13,7 @@ layout: default
  </div>
  <div class="row">
    <div class="col-md-12">
-    <div class="about-msg markdown-style">
+    <div class="about-msg">
       <div class="containertitle">
         <h1 id="titleAux">{{ site.data.lang[lng].contacts.title }}</h1>
       </div>
