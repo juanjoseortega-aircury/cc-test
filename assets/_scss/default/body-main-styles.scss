@@ -14,6 +14,7 @@
   --background-content-color: rgba(229, 222, 216, 0.75);
   --even-background-color: #DBCCBB;
   --padding-right-left-container: calc(var(--main-container-margin)*4);
+  --scrollbar-width: 0.8vw;
 }
 @font-face {
   font-family: CarentroRegular;
@@ -235,4 +236,25 @@ $border-color: #a1a1a1;
   .companiesProjectsContainer > div {
     width: 40vh;
   }
+}
+/* width */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 var(--background-content-color); 
+  border-radius: var(--scrollbar-width);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--border-content-color); 
+  border-radius: var(--scrollbar-width);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--title-color); 
 }
