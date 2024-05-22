@@ -116,37 +116,6 @@ image_lazy_loader: false
 image_lazy_loader_posts: true
 
 ###########################################################
-#                Color scheme switch
-###########################################################
-# this adds dark color schemes (set to false to disable this feature. This disables all dark styles)
-color_scheme_dark: true
-
-# this sets default color scheme to dark. (color_scheme_dark must be enabled)
-# page start will be dark color scheme. You can change color scheme using switches
-# this feature doesn't need switches.
-color_scheme_default_dark: false
-
-# default color will change based on browser dark color scheme (color_scheme_default_dark should be disabled.)
-# you don't need to enable this if any switch is enabled.
-color_scheme_browser_color_mode: true
-
-# side nav and top nav color scheme switches
-# when any switch is enabled, if browser color scheme is dark, site default color is set to dark at page load.
-# if user change the site color scheme using color scheme switch, setting will be saved with javascript localStorage api.
-
-# this adds color scheme switch to side nav bottom (color_scheme_dark must be enabled)
-color_scheme_switch_side_nav: true
-
-# this adds color scheme switch to top nav (color_scheme_dark must be enabled)
-color_scheme_switch_top_nav: true
-
-# this adds tooltip to color scheme switch
-color_scheme_switch_tooltip: true
-
-# this adds hover effect to top nav color scheme switch
-color_scheme_switch_top_nav_hover_effect: "hover-effect"
-
-###########################################################
 #                Scroll back to top
 ###########################################################
 # when you scroll down the page, this button allows you to scroll back to top of the page
@@ -229,19 +198,6 @@ contacts_open_in_new_tab: true
 
 # link verification for mastodon (https://docs.joinmastodon.org/user/profile/#verification)
 contacts_mastodon_link_verification: false
-
-###########################################################
-#                Contact form
-###########################################################
-# this will add contact form feature.
-# make sure google_forms_contact_form_url is set in _data/owner/[language].yml
-contact_form:
-  key: f0ad7394-fc3f-46e0-ad77-44ff7953198c
-  enable: false
-  # select one below
-  # 1. slideBoxTopToDown
-  # 2. slideBoxBottomToUp
-  slideType: slideBoxBottomToUp
 
 ###########################################################
 #                Copyright text
@@ -381,14 +337,3 @@ cookie_consent:
   side_nav_setting_button:
     enable: true
     tooltip: true
-
-###########################################################
-#                Youtube Videos
-###########################################################
-youtube:
-  # if it's true www.youtube-nocookie.com will be used.
-  # otherwise www.youtube.com will be used for youtube video links.
-  privacy: false
-  # if it's true, and "centered" is not provided to include parameter,
-  # video will be horizontally centered to wrapper.
-  default_center: false

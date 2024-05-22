@@ -12,15 +12,6 @@
   <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 {%- endif %}
 
-{%- if site.data.conf.posts.post_table_of_contents == true and page.layout == 'post' -%}
-  {%- comment -%} this must be after bootstrap.min.js {%- endcomment -%}
-  {% if site.data.conf.main.use_cdn_resources_if_available -%}
-    <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v0.4.1/dist/bootstrap-toc.min.js"></script>
-  {%- else %}
-    <script src="{{ site.baseurl }}/assets/js/bootstrap-toc.min.js"></script>
-  {%- endif %}
-{%- endif %}
-
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 
 {%- if site.data.conf.main.image_viewer == true -%}
@@ -163,24 +154,6 @@
 {%comment-%} Search {%-endcomment-%}
 {% if site.data.conf.main.search_enable -%}
   {%- include default/search-scripts.html -%}
-{% endif -%}
-
-{%comment-%} add disqus comment feature {%-endcomment-%}
-{%- if site.data.conf.posts.comments.engine == "disqus"
-  and site.data.owner[lng].comments.disqus.shortname != nil
-  and site.data.owner[lng].comments.disqus.shortname != empty
--%}
-  {%- include default/disqus-scripts.html -%}
-{% endif -%}
-
-{%comment-%} add giscus comment feature {%-endcomment-%}
-{%- if site.data.conf.posts.comments.engine == "giscus"
-  and site.data.owner[lng].comments.giscus.repo != nil and site.data.owner[lng].comments.giscus.repo != empty
-  and site.data.owner[lng].comments.giscus.repo-id != nil and site.data.owner[lng].comments.giscus.repo-id != empty
-  and site.data.owner[lng].comments.giscus.category != nil and site.data.owner[lng].comments.giscus.category != empty
-  and site.data.owner[lng].comments.giscus.category-id != nil and site.data.owner[lng].comments.giscus.category-id != empty
--%}
-  {%- include default/giscus-scripts.html -%}
 {% endif -%}
 
 {% if site.data.conf.main.cookie_consent.enable -%}

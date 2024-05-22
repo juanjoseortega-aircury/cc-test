@@ -6,14 +6,6 @@
 
 {%- include multi_lng/get-pages-by-lng.liquid pages = site.html_pages -%}
 
-{%- comment %} get blog page {% endcomment -%}
-{%- assign blogpage =  site.html_pages | where_exp: "item", "item.layout == 'post-list'" -%}
-
-{%- for tmp_page in blogpage -%}
-  {%- include multi_lng/get-lng-by-url.liquid url = tmp_page.url -%}
-  {%- if get_lng == lng -%}{%- assign blogpage = tmp_page %}{%break%}{% endif -%}
-{%- endfor -%}
-
 {%- comment %} add buttons {% endcomment -%}
 {%- for button in site.data.conf.main.side_and_top_nav_buttons -%}
   {%- assign button_key = button | first | first %}

@@ -32,11 +32,6 @@ not_found:
 
 no_translation_tooltip: No Translation
 
-navigation:
-  contact_header: Contact
-
-color_scheme_switch_tooltip: Color scheme
-
 search:
   placeholder: Search
   noResultText: No results were found.
@@ -61,95 +56,10 @@ creative_commons:
 not-found:
   title: "404"
 
-# for post layout
-post:
-  read_time:
-    unit: " min"
-    text: " read"
-    # c for char w for word
-    word_char: w
-    # char or words per minute
-    per_minute: 200
-  pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
-  comments:
-    noscript: Please enable JavaScript to view the Comments.
-    disqus:
-      count_title: Comments
-      click_to_load: "Load comments"
-      consent:
-        title: Comments (Disqus.com)
-        text: >
-          Comment feature is hosted by a third party. By showing the external content you accept the $terms and $privacy_policy of disqus.com.
-          <br>If you prefer to opt out of targeted advertising, open $settings_link and click "opt-out" button and close. Return here and load comments.
-        terms_link_text: Terms of Service
-        privacy_link_text: Privacy Policy
-        settings_link_text: this link
-        button:
-          load_once: Show only this time
-          load_and_do_not_ask_again: Always show
-  table_of_contents:
-    heading: Contents
-    tooltip:
-      move: Drag to move
-      close: Close
-  share:
-    heading: Share on
-    link_copied: Link copied!
-    tooltip:
-      # keys need to match with _data/share.yml
-      twitter: Twitter
-      facebook: Facebook
-      telegram: Telegram
-      linkedin: LinkedIn
-      email: Email
-      copy_link: Copy link
-
-# for post-list layout
-post-list:
-  title: Blog
-  button_name: Blog
-  upside_down_tabs:
-    tab:
-      all: All
-      categories: Categories
-      tags: Tags
-      years: Years
-      clear: Clear
-      close: Close
-      tooltip:
-        clear: Clear
-        close: Close
-    msg:
-      property_list:
-        # keys need to match with /query/post-query.json
-        tags: Tag
-        category: Category
-        year: Year
-      # you can use these wildcards, {property} {value} {thumb}
-      resultFoundTitleFormat: "{property} : {thumb}"
-
-# for home layout
-home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
-
-# for archives layout
-archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
-
 # for about layout
 about:
   title: About
   button_name: About
-  email_title: email
   images:
     logo: CuraCultura image
 # for manifesto layout
@@ -162,7 +72,6 @@ projects:
   title: Projects
   button_name: Projects
   read_more_text: Read more
-  read_less_text: Read less
   worked: We have worked with
   companies: Companies
   museums: Museums, Archives & Exhibitions
@@ -180,23 +89,10 @@ contacts:
 offerings:
   title: Offering
   button_name: Offering
-# for new layout
-news:
-  title: NewTitle
-  button_name: NewBTN
 # for workwithus layout
 workwithus:
   title: Work with Us
   button_name: Work with Us
-# for privacy-policy layout
-privacy-policy:
-  title: &privacy_policy_title Privacy policy
-
-# constants to be replaced for
-constants:
-  greetings: Hello
-  welcome: Welcome
-  sample: Sample
 
 # for contact form
 contact_form:
