@@ -22,7 +22,7 @@ layout: default
 <h1 class="containertitle">
   <img id="imagename" src="/assets/img/default/name logo.webp" alt="{{ site.data.lang[lng].about.images.logo }}">
 </h1>
- <div class="home-intro-text markdown-style padding-container even-background">
+ <div class="home-intro-text padding-container even-background">
   {{ content }}
   <div>
     <div class="projectsFormat">

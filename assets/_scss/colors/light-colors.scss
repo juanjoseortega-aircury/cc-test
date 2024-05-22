@@ -19,17 +19,11 @@ $anchor-text-color-light: #3389de;
 // layout: default
 // default/body-main-styles
 %body-main-styles-colors-light {
-  --body-anchor-text-color: #{$anchor-text-color-light};
   --body-anchor-hover-text-color: #2f6597;
   --body-text-color: #514f4f;
   --body-header-text-color: #{$header-color-light};
   --body-background-color: #{$main-background-light};
   --body-hr-color: #{$hr-color-light};
-}
-// default/nav/color-scheme-switch
-%color-scheme-switch-colors-light {
-  --color-scheme-switch-color: #{$button-color-light};
-  --color-scheme-switch-hover-color: #303033;
 }
 // default/contact
 %contact-colors-light {
@@ -43,11 +37,6 @@ $anchor-text-color-light: #3389de;
   > ul > li > a:hover > img {
     filter: unset;
   }
-}
-// default/default
-%default-colors-light {
-  --multipurpose-container-background-color: #{$container-background-light};
-  --multipurpose-container-shadow: 1px 1px 0 1px #e5e2e2fb;
 }
 // default/footer
 %footer-colors-light {
@@ -168,43 +157,6 @@ $anchor-text-color-light: #3389de;
   --post-title-text-color: #{$header-color-light};
   --post-meta-text-color: #808080;
 }
-// common/share
-%share-colors-light {
-  --share-label-text-color: #{$header-color-light};
-  --share-button-text-color: #{$button-color-light};
-  --share-button-hover-text-color: #303033;
-}
-// layout: post
-// post/table-of-contents
-%table-of-contents-colors-light {
-  --table-of-contents-focus-text-color: #444;
-  --table-of-contents-focus-border-left-color: #{$brand-color-light};
-  --table-of-contents-hover-text-color: #444;
-  --table-of-contents-hover-border-left-color: #{$brand-color-light};
-  --table-of-contents-shadow-color: #77747455;
-}
-// layout: post-list
-// post-list/thumbnails
-%thumbnails-colors-light {
-  --thumbnail-background-color: #{$container-background-light};
-  --thumbnail-excerpt-text-color: #555;
-  --thumbnail-shadow: 0 1px 2px 0 #0102031a;
-  --thumbnail-hover-shadow: 0 7px 30px -8px #0102034d;
-}
-// post-list/upside-down-tabs
-%upside-down-tabs-colors-light {
-  --tabs-border-color: #bfbfbf;
-  --tab-panel-background-color: #{$menu-background-light};
-  --tab-button-active-background-color: #{$menu-background-light};
-  --tab-button-active-text-color: #555;
-  --tab-button-background-color: #{$menu-background-light};
-  --tab-button-hover-background-color: #{$main-background-light};
-  --tab-button-hover-text-color: #555;
-  --tab-button-text-color: #{$button-color-light};
-  --tab-content-button-text-color: #{$button-color-light};
-  --tab-content-button-hover-text-color: #303033;
-  --post-query-result-title-color: #555;
-}
 // layout: home
 // home/home-heading
 %home-heading-colors-light {
@@ -219,22 +171,6 @@ $anchor-text-color-light: #3389de;
   --about-header-sub-title-color: #808080;
   // currently from multipurpose-container
   //--about-msg-text-color: #7a7979;
-}
-// layout: archives
-// archives/archives
-%archives-colors-light {
-  --archives-year-text-color: #3b3b3b;
-  --archives-month-text-color: #5f5e5e;
-  --archives-day-text-color: #989898;
-  --archives-dot-color: #d9d9d9;
-  --archives-line-color: #d9d9d9;
-}
-// layout: links
-// links/link-style
-%link-style-colors-light {
-  --links-button-text-color: #{$container-background-light};
-  --links-button-border-color: #{$container-background-light};
-  --links-button-hover-color: #{$container-background-light};
 }
 // layout: projects
 // projects/project-container

@@ -8,16 +8,12 @@
   display: inline-block;
   padding: 4px 12px;
   border-radius: 8px;
-  border: 1px solid;
+  border: 1px solid var(--button-border-color);
   text-decoration: none;
   box-shadow: 1px 1px 3px var(--button-shadow-color);
   transition: all 0.2s ease;
-}
-
-.btn-base {
   color: black;
   background-color: var(--button-background-color);
-  border-color: var(--button-border-color);
 }
 
 .btn-base:hover {

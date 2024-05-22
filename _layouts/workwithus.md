@@ -5,13 +5,13 @@ layout: default
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
 <link href="{{ site.baseurl }}/assets/css/separated_css/workwithus.css" rel="stylesheet">
-<div class="links-heading-container">
+<div>
   <div class="containertitle">
     <h1 id="titleAux">{{ site.data.lang[lng].workwithus.title }}</h1>
   </div>
   <div class="row">
     <div class="col-md-12">
-      <div class="about-msg markdown-style padding-container">
+      <div class="about-msg padding-container">
         {{ content }}
       </div>
     </div>
