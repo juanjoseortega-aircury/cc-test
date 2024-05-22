@@ -70,6 +70,9 @@
     width: 80%;
     text-align: justify;
     margin: var(--popup-margin) auto var(--popup-margin) auto;
+    font-weight: 300;
+    font-size: var(--text-size);
+    line-height: 2.7rem;
 }
 .mfp-img {
     background-color: var(--background-content-color) !important;
