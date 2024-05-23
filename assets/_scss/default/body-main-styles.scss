@@ -173,6 +173,13 @@ $border-color: #a1a1a1;
   font-size: 2.6rem;
   font-family: CarentroRegular;
 }
+@mixin box {
+  border: 0.2rem solid var(--border-content-color);
+  border-radius: 2vh;
+  background-color: var(--background-content-color);
+  padding: 2vh;
+  margin: 1.5vh;
+}
 .companiesProjectsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -182,16 +189,12 @@ $border-color: #a1a1a1;
     width: 40%;
   }
   > div {
+    @include box;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 0.2rem solid var(--border-content-color);
-    border-radius: 2vh;
-    margin: 1vh;
-    padding: 2vh;
     width: 31%;
-    background-color: var(--background-content-color);
     > ul {
       padding: 0;
       text-align: left;
@@ -212,6 +215,9 @@ $border-color: #a1a1a1;
       height: 100%;
     }
   }
+}
+#developers-text {
+  @include box;
 }
 .offlist, #lookingfor {
   display: grid;

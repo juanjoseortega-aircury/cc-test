@@ -62,6 +62,10 @@ about:
   button_name: About
   images:
     logo: CuraCultura image
+  developers_text: |
+    CuraCultura would like to thank the incredible team of web developers and designers who created this website, led by Cristobal: 
+    Juanjo, Pablo and Alberto, all possible due to the support of the wonder that is <a class="link" href="https://www.aircury.com/" target="blank">Aircury</a>. 
+    Without your talent and care, we would not be able to share our work and our motivations with the world.
 # for manifesto layout
 manifesto:
   title: Manifesto
