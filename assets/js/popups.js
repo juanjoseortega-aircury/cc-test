@@ -3,16 +3,16 @@ $(function () {
 
     $(".containerTeam .imgMembers").click(function () {
         var $src = $(this).attr("src");
-        document.getElementById("descPopUp").textContent = getSiblings($(this),".desc").text();
-        document.getElementById("namePopUp").textContent = getSiblings($(this),".name").text();
-        document.getElementById("jobPopUp").textContent = getSiblings($(this),".job").text();
+        setText("descPopUp",$(this),".desc");
+        setText("namePopUp",$(this),".name");
+        setText("jobPopUp",$(this),".job");
         $(".img-show img").attr("src", $src);
         fadeIn();
     });
 
     $(".read-more-less").click(function () {
-        $("#principalPopUp").empty().append(getChildrens($(this),".title"));
-        $("#descPopUp").empty().append(getChildrens($(this),".project-content"));
+        appendChildren("#principalPopUp",$(this),".title");
+        appendChildren("#descPopUp",$(this),".project-content");
         fadeIn();
     });
 
@@ -20,8 +20,16 @@ $(function () {
         return clicked.siblings(sibling);
     }
 
-    function getChildrens(clicked, sibling){
+    function getChildren(clicked, sibling){
         return getSiblings(clicked,sibling).children().clone();
+    }
+
+    function setText(id,clicked, sibling){
+        document.getElementById(id).textContent = getSiblings(clicked,sibling).text();
+    }
+    
+    function appendChildren(id, clicked, sibling){
+        $(id).empty().append(getChildren(clicked,sibling));
     }
 
     function fadeIn(){
