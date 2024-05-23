@@ -117,9 +117,9 @@
   }
 }
 @media (max-width: 600px) {
-  .project-img img {
-    height: fit-content !important;
-    width: 30% !important;
+  .project-container .project-img img {
+    height: auto;
+    width: 30%;
   }
 }
 
@@ -131,8 +131,8 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1000px) {
-  .project-img img {
-    height: 16.2vw !important;
-    width: 20vw !important;
+  .project-container .project-img img {
+    height: 16.2vw;
+    width: 20vw;
   }
 }
