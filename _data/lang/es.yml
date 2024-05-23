@@ -60,7 +60,12 @@ not-found:
 about:
   title: Acerca de nosotros
   button_name: Acerca de nosotros
-  email_title: email
+  images:
+    logo: Curacultura imágen
+  developers_text: |
+    CuraCultura quiere agradecer al equipo increíble de desarrolladores y diseñadores que han creado esta página web, liderados por Cristobal: 
+    Juanjo, Pablo y Alberto, algo que ha podido ser gracias al apoyo de la maravilla que es <a class="link" href="https://www.aircury.com/" target="blank">Aircury</a>. Sin vuestro talento y vuestro 
+    cuidado, no hubiéramos podido compartir nuestro trabajo y nuestras motivaciones con el mundo.
 
 # for manifesto layout
 manifesto:

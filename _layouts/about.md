@@ -75,6 +75,7 @@ layout: default
         </div>
       </div>
     </div>
+    <p id="developers-text">{{ site.data.lang[lng].about.developers_text }}</p>
   </div>
 </div>
 
