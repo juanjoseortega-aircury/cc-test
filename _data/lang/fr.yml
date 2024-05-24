@@ -32,11 +32,6 @@ not_found:
 
 no_translation_tooltip: Sans traduction
 
-navigation:
-  contact_header: Contacts
-
-color_scheme_switch_tooltip: Apparence
-
 search:
   placeholder: Chercher
   noResultText: Aucun résultat trouvé.
@@ -61,95 +56,16 @@ creative_commons:
 not-found:
   title: "404"
 
-# for post layout
-post:
-  read_time:
-    unit: " min"
-    text: " read"
-    # c for char w for word
-    word_char: w
-    # char or words per minute
-    per_minute: 200
-  pager_buttons:
-    older_post: "← Article plus ancien"
-    newer_post: "Article plus récent →"
-    first_post: Premier
-    last_post: Dernier
-  comments:
-    noscript: Veuillez activer Javascript pour voir les commentaires.
-    disqus:
-      count_title: Comments
-      click_to_load: "Load comments"
-      consent:
-        title: Comments (Disqus.com)
-        text: >
-          Comment feature is hosted by a third party. By showing the external content you accept the $terms and $privacy_policy of disqus.com.
-          <br>If you prefer to opt out of targeted advertising, open $settings_link and click "opt-out" button and close. Return here and load comments.
-        terms_link_text: Terms of Service
-        privacy_link_text: Privacy Policy
-        settings_link_text: this link
-        button:
-          load_once: Show only this time
-          load_and_do_not_ask_again: Always show
-  table_of_contents:
-    heading: Contents
-    tooltip:
-      move: Drag to move
-      close: Close
-  share:
-    heading: Share on
-    link_copied: Link copied!
-    tooltip:
-      # keys need to match with _data/share.yml
-      twitter: Twitter
-      facebook: Facebook
-      telegram: Telegram
-      linkedin: LinkedIn
-      email: Email
-      copy_link: Copy link
-
-# for post-list layout
-post-list:
-  title: Blog
-  button_name: Blog
-  upside_down_tabs:
-    tab:
-      all: All
-      categories: Catégories
-      tags: Tags
-      years: Année
-      clear: Clear
-      close: Close
-      tooltip:
-        clear: Clear
-        close: Close
-    msg:
-      property_list:
-        # keys need to match with /query/post-query.json
-        tags: Tag
-        category: Category
-        year: Year
-      # you can use these wildcards, {property} {value} {thumb}
-      resultFoundTitleFormat: "{property} : {thumb}"
-
-# for home layout
-home:
-  title: Bienvenu
-  button_name: Début
-  new_posts_title: Nouveaux articles
-  new_posts_show_more_button: Voir plus ...
-
-# for archives layout
-archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
-
 # for about layout
 about:
   title: À propos de nous
   button_name: À propos de nous
-  email_title: email
+  images:
+    logo: Curacultura imágen
+  developers_text: |
+    CuraCultura tient à remercier l'incroyable équipe de développeurs et de designers qui ont créé ce site Web, dirigée par Cristobal: 
+    Juanjo, Pablo et Alberto, quelque chose qui a été possible grâce au soutien de la merveille qu'est <a class="link" href="https://www.aircury.com/" target="blank">Aircury</a>. Sans ton talent et ton 
+    Attention, nous n'aurions pas pu partager notre travail et nos motivations avec le monde.
 
 # for manifesto layout
 manifesto:
@@ -161,7 +77,6 @@ projects:
   title: Projets
   button_name: Projets
   read_more_text: Lire plus 
-  read_less_text: Read less
   worked: Nous avons travaillé avec
   companies: Enterprises
   museums: Musées, archives et expositions
@@ -170,7 +85,6 @@ projects:
   publications: Publications
   universities: Universités
   selected: Selected projects
-  logo: Logo from
 # for contacts layout
 contacts:
   title: Contact
@@ -183,16 +97,6 @@ offerings:
 workwithus:
   title: Travailler avec nous
   button_name: Travailler avec nous
-
-# for privacy-policy layout
-privacy-policy:
-  title: &privacy_policy_title Politique de confidentialité
-
-# constants to be replaced for
-constants:
-  greetings: Salut
-  welcome: Bienvenu
-  sample: Exemple
 
 # for contact form
 contact_form:
