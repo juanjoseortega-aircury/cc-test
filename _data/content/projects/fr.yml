@@ -1,0 +1,141 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "Projets"
+    info: "Your Project page description."
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":projects-heading.jpg"
+    back_color: "lightblue"
+
+  category:
+    - title: "Ecrire"
+      type: id_writing
+      color: "gray"
+    - title: "Guérison"
+      type: id_curation
+      color: "#62b462"
+    - title: "Talk"
+      type: id_speak
+      color: "#2FD0ED"
+    - title: "Archives"
+      type: id_archives 
+      color: "#62b462"
+    - title: "Éducation"
+      type: id_education 
+      color: "gray"
+
+  list:
+    - type: id_writing
+      project_name: "Le chemin vers une exposition durable"
+      project_excerpt: "Chapitre de livre et contenu pédagogique pour l’ exposition Net Zero"
+      project_ubication: "Centre Roi Abdulaziz pour la culture mondiale - Ithra, Dharan, Arabie Saoudite"
+      img: ":Ithra.webp"
+      date: "Septembre 2022 - octobre 2023"
+      post: |
+        L' exposition Net Zero, ouverte à Ithra (la branche culturelle de Saudi Aramco) de septembre 2023 à juin 2024, 
+        présente le travail de 19 artistes saoudiens et internationaux contemporains autour des thèmes de la durabilité, 
+        de la géopolitique et du changement climatique. Elisa a commencé à travailler sur le contenu et le matériel pédagogique 
+        de cette exposition d'art contemporain alors qu'elle était responsable du département de conservation chez Acciona Cultura 
+        et a ensuite écrit un chapitre sur le processus de réalisation d'une exposition durable pour le catalogue publié pour 
+        accompagner l'exposition. Les artistes exposés incluent Zahra Alghamdi, Moffat Takadiwa, Ane Graff, Bright Ugochukwu Eke, 
+        Mohammed Alfaraj, Ava Roth et Willy Verginer, qui abordent, entre autres sujets, la pollution, l'utilisation du plastique, 
+        le rôle fondamental des abeilles et la manière dont les humains font partie de l'ensemble de l'écosystème naturel. Collectivement, 
+        comme l'explique le site Internet d'Ithra, ils offrent « une interprétation artistique profonde de notre voyage collectif vers 
+        un avenir meilleur, appelant à une action transformatrice et soulignant la nécessité de poursuivre un avenir plus durable avec 
+        une grande détermination ». Net Zero est une exposition unique, réfléchie et véritablement solidaire, pour la conception de laquelle 
+        ont été utilisés des matériaux durables dans la création des éléments spatiaux et graphiques, et où été pris en compte la manière 
+        dont les murs seront réutilisés une fois l'exposition terminée, avec des idées allant du mobilier d'extérieur comme des sièges 
+        ou des barricades marines pour la corniche de Khobar, à l’utilisation comme surface vierge pour un graffiti ou un skatepark. 
+        De plus, l’exposition se souhaite totalement neutre en carbone, tous les gaz à effet de serre inévitablement produits lors 
+        de sa création ayant été soigneusement calculés, afin d’être compensés par l’achat de crédits carbone. Ceux-ci ont été 
+        utilisés pour poursuivre le fonctionnement des parcs éoliens d'Oaxaca qui produisent de l'électricité pour alimenter plus 
+        de 700 000 foyers. De l’Arabie saoudite au Mexique, Net Zero témoigne d’une préoccupation pour l’avenir de notre planète.  
+
+    - type: id_curation
+      project_name: "Le cinéma, ça se lit aussiLe cinéma, ça se lit aussi"
+      project_excerpt: "Exposition temporaire pour CiBRA - Festival du Film et du Mot"
+      project_ubication: "Bibliothèque de Castilla La Mancha, Tolède, Espagne"
+      img: ":8ymedio.webp"
+      date: "Mars-novembre 2022"
+      post: |
+        'El cine también se lee', mots du grand réalisateur espagnol Pedro Almodóvar, semblait le titre parfait pour illuminer 
+        le concept curatorial de cette exposition en hommage aux fondateurs de la librairie de cinéma et maison d'édition de 
+        scénarios 8 y Medio à Madrid. CuraCultura a travaillé avec la directrice du projet et membre du comité du festival CiBRA, 
+        Rocío Herrero, en apportant son conseil en matière de conservation, de la conception à l'exécution. Notre travail 
+        comprenait des recherches et des rencontres avec María, co-fondatrice de 8 y Medio, l'établissement du plan d'interprétation, 
+        l'accompagnement dans la création de l'inventaire de la collection à partir duquel les objets à exposer ont été sélectionnés, 
+        l'idéation des éléments de contenu et des liens de conception. « Le cinéma se lit aussi » faisait partie de la programmation 
+        du festival annuel CiBRA (Cinéma et Mot) organisé dans la ville historique espagnole de Tolède, à moins d'une heure de Madrid. 
+        L'emplacement de la Bibliothèque centrale de Castilla La Mancha semblait tout indiqué compte tenu de son orientation vers le 
+        livre et l'écriture, et garantissait une accessibilité pour tous. L'exposition mettait en valeur les personnes qui nourrissent 
+        l'industrie cinématographique espagnole, celles et ceux qui ne sont pas dans la lumière mais dans l'ombre, parmi eux, 
+        les cofondateurs de 8 y medio, María et son défunt mari, Jesús, leurs enfants et la mascotte du magasin, le petit chien Lucas, 
+        qui a guidé la visite de l'exposition dédiée aux enfants. Le message porté par l’exposition  est qu’aucune réussite ne pourrait 
+        exister sans les gens qui travaillent dur dans les coulisses.
+
+    - type: id_speak
+      project_name: "Nuevas expografías: entre la tecnología y las experiencias"
+      project_excerpt: "Séminaire du cycle de Colloques de Culture Visuelle Contemporaine"
+      project_ubication: "Fondation Mainel, Valence, Espagne"
+      img: ":22_Fundacion-Mainel_Coloquio-de-Cultura-Visual_Web.webp"
+      date: "Novembre 2022"
+      post: |
+        Elisa a été invitée par la Fondation Mainel à participer à un panel de leaders du secteur de création de musées qui 
+        ont discuté du rôle des technologies et de la construction d’expériences dans la tenue d'expositions. Elle s'est concentrée 
+        sur diverses typologies d’expositions sur lesquelles elle a travaillé, depuis les expositions immersives à succès 
+        du V&A Museum de Londres (David Bowie Is, 'You Say You Want a Revolution ?' et Pink Floyd : Their Mortal Remains), 
+        les expositions internationales (en particulier celles de Dubaï Expo 2020) et ses expériences basées sur les 
+        technologies immersives. Le cycle de séminaires Culture Visuelle Contemporaine fait partie de l'offre publique de Mainel 
+        qui se concentre sur l'amélioration de la société à travers la solidarité et la culture comme outils de transformation, 
+        pour garantir que les personnes soient protagonistes de leur propre développement. Dans sa présentation, Elisa a montré 
+        comment les expériences immersives sont essentielles à la démocratisation de la culture, en transformant la visite passive 
+        en participation active, compréhension et une approche par les sentiments au même niveau que les connaissances partagées par 
+        les conservateurs et les institutions elles-mêmes. Les thèmes de cette discussion et les motivations derrière la programmation 
+        de Mainel montrent un profond souci du public, dont ils cherchent à enrichir et à responsabiliser la vie. 
+        Voir <a href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel </a>
+
+    - type: id_archives
+      project_name: "Archive Rise-Rosa-Rage - graphisme sociopolitique"
+      project_excerpt: "Conservation, gestion et développement des collections, catalogage"
+      project_ubication: "Rome, Italie / En ligne"
+      img: ":Rise_Rosa_Rage.webp"
+      date: "En cours depuis 2016"
+      post: |
+        Rise-Rosa-Rage est une archive graphique sociopolitique composée actuellement de plus de 4 000 objets physiques, 
+        numériques et de référence. CuraCultura est responsable de la conservation, du développement des collections et de la 
+        gestion des archives, ainsi que du catalogage en ligne, de la traduction du contenu, de la rédaction de notices  
+        d'objets et d'articles et du développement Web. Les collections datent majoritairement des années 1960 aux années 1990, 
+        certaines pièces allant jusqu’à nos jours. Les pièces proviennent ou sont liées à plus de 60 territoires différents, 
+        et plus de 20 langues sont représentées dans la collection. Ses thèmes clés sont la solidarité, la revendication des droits, 
+        la mémoire et la lutte pour la paix et l'autonomie. En constante évolution, avec de fréquents ajouts, la collection comprend 
+        des affiches, de la presse underground, des brochures, des cartes postales, des autocollants, des albums musicaux et des cassettes, 
+        des drapeaux, des bannières, des épinglettes, des insignes, des timbres, des enveloppes, des cartes, des lettres, des livres et 
+        des fichiers numériques qui documentent les pièces. Cette archive rassemble une production créative qui vise un avenir meilleur 
+        et plus équitable. Les projets futurs de Rise•Rosa•Rage sont étroitement liés à ces valeurs de compassion, car l'entreprise 
+        s'efforce d'être accessible à un public plus large via son site Web qui donnera accès au catalogue de la collection, une bibliographie, 
+        des articles éducatifs et des billets de blog, des expositions physiques, des publications et des événements qui se dérouleront à terme 
+        dans leur propre espace, qui seront mis à disposition de groupes et des communautés.
+
+    - type: id_education 
+      project_name: "Scènes culturelles du Moyen-Orient"
+      project_excerpt: "Module du cours de master 'Marché Mondial de l'Art'"
+      project_ubication: "École Supérieure d'Art et de Design Bareira , Valence, Espagne"
+      img: ":Barreira MA.webp"
+      date: "À partir de septembre 2022"
+      post: |
+        L'édition inaugurale du Master sur les marchés mondiaux de l'art de l'École d'art et de design de Barreira a eu lieu au cours de 
+        l'année universitaire 2022-23. CuraCultura était invitée par le directeur à planifier et enseigner le module sur les scénarios 
+        culturels et créatifs du Moyen-Orient et de l’Afrique du Nord. Après une première édition réussie, le programme se poursuivra 
+        chaque année. Partant d'une exploration des multiples identités, géographies, langues, religions et ethnies de la région, afin 
+        de proposer une vision globale de sa diversité et, par la suite, de sa production artistique, les sessions couvrent les musées, 
+        galeries, fondations d'art, collections privées, maisons de ventes aux enchères, résidences d'artistes et autres initiatives et 
+        pratiques artistiques de la région. Une attention particulière est accordée au Golfe Persique en tant que lieu de changements sociaux, 
+        culturels et politiques rapides qui ont également un impact global et sont influencés par le monde artistique international. Grâce à une 
+        combinaison de conférences et de discussions en classe, de nouveaux terrains sont explorés en collaboration. Analyser les complexités 
+        des différentes cultures et acteurs d'un large éventail de pays qui sont souvent regroupés sans prêter beaucoup d'attention à leurs 
+        différences et à ce qui rend chacun unique, permet de transmettre aux étudiants la valeur de la connaissance et de l’échange, 
+        reconnaissant que les artistes et les institutions de ces pays prennent déjà leur place sur la scène artistique internationale.
