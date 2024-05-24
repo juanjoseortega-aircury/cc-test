@@ -5,11 +5,6 @@
 page_data:
   main:
     header: "Projets"
-    info: "Your Project page description."
-    text_color: "white"
-    # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
-    back_color: "lightblue"
 
   category:
     - title: "Ecrire"
@@ -96,7 +91,7 @@ page_data:
         en participation active, compréhension et une approche par les sentiments au même niveau que les connaissances partagées par 
         les conservateurs et les institutions elles-mêmes. Les thèmes de cette discussion et les motivations derrière la programmation 
         de Mainel montrent un profond souci du public, dont ils cherchent à enrichir et à responsabiliser la vie. 
-        Voir <a href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel </a>
+        Voir <a class="link" href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel </a>
 
     - type: id_archives
       project_name: "Archive Rise-Rosa-Rage - graphisme sociopolitique"

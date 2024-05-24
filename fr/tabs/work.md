@@ -66,27 +66,3 @@ lng_pair: workwithus
     <button id="btn-email"><a class="link" href="mailto:jobs@curacultura.art">jobs@curacultura.art</a></button>
     <p>Nous respectons votre temps et votre intérêt, nous répondrons donc toujours. Si nous sommes en retard, poussez-nous ! Ce sera uniquement parce que nous sommes particulièrement absorbés par un projet.</p>
 </div>
-<div>
-    <div class="photoTitle">
-        <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
-        <h2 class="title2">Nous recherchons</h2>
-    </div>
-    <ul id="lookingfor">
-        <li>Toute capacité mentionnée sur notre  <a class="link" href="offering.html"> page offre </a> </li>
-        <li>Graphistes (pour expositions et/ou mise en page)</li>
-        <li>Spécialistes de l'éducation muséale </li>
-        <li>Spécialistes techniques et audiovisuels </li>
-        <li>Spécialistes en propriété intellectuelle et droit à l’image</li>
-        <li>Spécialistes en subventions, financements et commerciaux</li>
-        <li>Experts et passionnés sur tous les sujets </li>
-        <li>Traducteurs de toutes combinaisons de langues</li>
-        <li>Personnes de langue maternelle arabe</li>
-        <li>Personnes ayant un niveau élevé (minimum C1 ou équivalent) / locuteurs natifs de langues autres que l'anglais, l'espagnol et le français</li>
-    </ul>
-    <p>Le nécessaire requis:</p>
-    <ul>
-        <li> Des personnalités à l’écoute des autres.</li>
-        <li>Enthousiasme et passion pour la culture, et l’envie d’apporter des changements positifs dans la société à travers elle.</li>
-        <li> Maîtrise de l'anglais et/ou de l'espagnol.</li>
-    </ul>
-</div>

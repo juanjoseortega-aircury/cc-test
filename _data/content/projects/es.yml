@@ -129,7 +129,7 @@ page_data:
         temas de esta discusión como las motivaciones detrás de la
         programación de Mainel muestran un profundo cuidado por el
         público, cuyas vidas buscan enriquecer y empoderar. <br />
-        Ver <a href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel
+        Ver <a class="link" href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel
 
     - type: id_archives
       project_name: "Archivo Rise-Rosa-Rage de gráfica sociopolítica"
