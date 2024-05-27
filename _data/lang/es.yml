@@ -85,6 +85,7 @@ projects:
   publications: Publicaciones
   universities: Universidades
   selected: Proyectos seleccionados
+  logo: Logo de
 # for contacts layout
 contacts:
   title: Contacto
