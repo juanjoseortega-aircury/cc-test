@@ -46,13 +46,13 @@ lng_pair: workwithus
             <img class="imgMembers" src="/assets/img/home/Laura.webp" alt="Photo of Laura Garrido"/>
             <h3 class="name">Laura Garrido</h3>
             <h4 class="job">Spécialiste AV et nouvelles technologies</h4>
-            <p class="desc">Laura Garrido est directrice visuelle et productrice de médias numériques avec plus de 15 ans d'expérience dans les productions audiovisuelles et interactives pour les musées, les expositions, les événements et les marques. Forte d'une vaste expérience dans la gestion de projets audiovisuels au Moyen-Orient, en Espagne et en Amérique latine, Laura développe des expériences numériques depuis la phase de conception, de scénario, de planification et d'exécution, travaillant également sur des appels d'offres multimédias et interactifs pour les musées en tant que consultante. Il enseigne des cours de Motion Graphics et de Vidéo Mapping, entre autres matières connexes, et est en charge de la post-production de films, documentaires et séries depuis trois ans.</p>
+            <p class="desc">Laura Garrido est directrice visuelle et productrice de médias numériques avec plus de 15 ans d'expérience dans les productions audiovisuelles et interactives pour les musées, les expositions, les événements et les marques. Forte d'une vaste expérience dans la gestion de projets audiovisuels au Moyen-Orient, en Espagne et en Amérique latine, Laura développe des expériences numériques depuis la phase de conception, de scénario, de planification et d'exécution, travaillant également sur des appels d'offres multimédias et interactifs pour les musées en tant que consultante. Elle enseigne des cours de Motion Graphics et de Vidéo Mapping, entre autres matières connexes, et est en charge de la post-production de films, documentaires et séries depuis trois ans.</p>
         </div>
         <div class="containerMember">
             <img class="imgMembers" src="/assets/img/home/Susana.webp" alt="Photo of Susana Miralles"/>
             <h3 class="name">Susana Miralles</h3>
             <h4 class="job">Chef d'entreprise</h4>
-            <p class="desc">Susana apporte une vaste expérience en gestion d'entreprise, droit du travail, paie et sécurité sociale. Elle a étudié la gestion des systèmes informatiques à l'Université de Grenade et a travaillé comme administratrice à l'Université d'Almería. Elle aime enquêter et apprendre de nouvelles choses pour enrichir tout type d'entreprise avec laquelle il travaille. Elle est aussi titulaire d’une maîtrise en gestion et administration des entreprises à la Chambre de Commerce de Grenade.</p>
+            <p class="desc">Susana apporte une vaste expérience en gestion d'entreprise, droit du travail, paie et sécurité sociale. Elle a étudié la gestion des systèmes informatiques à l'Université de Grenade et a travaillé comme administratrice à l'Université d'Almería. Elle aime enquêter et apprendre de nouvelles choses pour enrichir tout type d'entreprise avec laquelle elle travaille. Elle est aussi titulaire d’une maîtrise en gestion et administration des entreprises à la Chambre de Commerce de Grenade.</p>
         </div>
     </div>
 </div>
