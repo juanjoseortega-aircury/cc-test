@@ -108,14 +108,16 @@ hr {
   Styles for sections in Offering page
  */
 $border-color: #a1a1a1;
-.link {
+.link, .title-link {
   color: #000000;
   text-decoration: underline;
   font-style: italic;
-  font-size: var(--text-size);
   &:hover {
     color: #000;
   }
+}
+.link {
+  font-size: var(--text-size);
 }
 .photoTitle{
   display: flex;

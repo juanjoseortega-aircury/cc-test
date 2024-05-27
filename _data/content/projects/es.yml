@@ -132,7 +132,7 @@ page_data:
         Ver <a class="link" href="https://mainel.org/noticias/expografias-coloquio-cvc-27/" target="blank"> Nuevas expografías: se puede interactuar con la obra incluso sin que esté físicamente presente · Fundación Mainel
 
     - type: id_archives
-      project_name: "Archivo Rise-Rosa-Rage de gráfica sociopolítica"
+      project_name: 'Archivo <a class="title-link" href="https://www.riserosarage.com/" target="_blank">Rise-Rosa-Rage</a> de gráfica sociopolítica'
       project_excerpt: "Curaduría, gestión y desarrollo de colecciones, catalogación"
       project_ubication: "Roma, Italia / En línea"
       img: ":Rise_Rosa_Rage.webp"

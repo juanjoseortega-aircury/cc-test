@@ -62,7 +62,7 @@ page_data:
 
 
     - type: id_archives
-      project_name: "Rise-Rosa-Rage Archive of Socio-Political Graphics "
+      project_name: '<a class="title-link" href="https://www.riserosarage.com/" target="_blank">Rise-Rosa-Rage</a> Archive of Socio-Political Graphics'
       project_excerpt: "Curatorial, Collections Management and Development, Cataloguing"
       project_ubication: "Rome, Italy / Online"
       img: ":Rise_Rosa_Rage.webp"
