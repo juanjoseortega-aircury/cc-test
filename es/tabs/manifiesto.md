@@ -24,6 +24,7 @@ lng_pair: id_manifesto
             <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
             <h2 class="title2">El Manifiesto viviente tal como está actualmente</h2>
         </div>
+        <p>Para ver el estado actual del Manifesto, pulsa <a a href="https://docs.google.com/document/d/1QXDIBoaxXdKw2pb41cW8jq4Ya6WUL368horh5p-4TDA/edit?usp=sharing" target="_blank" class="link">aquí</a>.</p>
          <p>Para contribuir, envíanos tu idea a través del formulario de nuestra <a class="link" href="contact.html">página de contacto</a>, seleccionando ‘Contribuir al Manifiesto’, o alternativamente, puede enviarnos un correo electrónico a  <a class="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.</p>
     <ul id="smallprint">
             <li>Al enviar una entrada al Manifiesto, acepto el almacenamiento, edición y uso posterior

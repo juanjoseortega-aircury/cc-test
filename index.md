@@ -48,7 +48,7 @@ img: ":home-heading.jpg"
         <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
         <h2 class="title2"> Philosophy  </h2>
     </div>
-    <p>Curating is Caring. This is the basis from which we work on all our projects, and with each other. We’re currently putting together a Manifesto about what this means in practice, and as caring also means listening and sharing, we’d like to invite you to contribute your ideas via our page <a class="link">A Collaborative Manifesto for Curating with Care</a>. You can see all the points collated to date on this non-editable <a class="link">Google doc</a>, where yours will be added after review to ensure we keep a safe space.</p>
+    <p>Curating is Caring. This is the basis from which we work on all our projects, and with each other. We’re currently putting together a Manifesto about what this means in practice, and as caring also means listening and sharing, we’d like to invite you to contribute your ideas for A Collaborative Manifesto for Curating with Care as explained on our page <a class="link" href="en/tabs/manifesto">Manifesto</a>. You can see all the points collated to date on this non-editable <a a href="https://docs.google.com/document/d/1QXDIBoaxXdKw2pb41cW8jq4Ya6WUL368horh5p-4TDA/edit?usp=sharing" target="_blank" class="link">Google doc</a>, where yours will be added after review to ensure we keep a safe space.</p>
 </div>
 {{ website_info_text_first }}
 {{ website_info_text_second }}

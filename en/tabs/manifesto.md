@@ -16,6 +16,7 @@ lng_pair: id_manifesto
             <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
             <h2 class="title2">The living Manifesto as it currently stands</h2>
         </div>
+        <p>To see the current state of our growing Manifesto, click <a a href="https://docs.google.com/document/d/1QXDIBoaxXdKw2pb41cW8jq4Ya6WUL368horh5p-4TDA/edit?usp=sharing" target="_blank" class="link">here</a>.</p>
         <p>To contribute, please send us your idea via the form on our <a class="link" href="./contact">Contact page</a>, selecting ‘Contribute to the Manifesto’, or alternatively, you can email us at <a class="link" href="mailto:{{site.data.conf.main.email.hola}}">{{site.data.conf.main.email.hola}}</a>.</p>
      <ul id="smallprint">
             <li>By submitting an entry to the Manifesto, I accept the storage, editing and onwards use by CuraCultura of this work. </li>
