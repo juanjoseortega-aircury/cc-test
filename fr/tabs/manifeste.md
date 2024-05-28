@@ -15,10 +15,14 @@ lng_pair: id_manifesto
             <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
             <h2 class="title2">Le Manifeste, un objet vivant tel qu’il se présente actuellement</h2>
         </div>
-        <p>Pour voir l’état actuel de notre Manifeste en pleine croissance, cliquez <a a href="https://docs.google.com/document/d/1QXDIBoaxXdKw2pb41cW8jq4Ya6WUL368horh5p-4TDA/edit?usp=sharing" target="_blank" class="link">ici</a>.</p>
+        <p>
+            Pour voir l’état actuel de notre Manifeste en pleine croissance, cliquez <a
+            href="{{ site.data.conf.main.links.manifesto_doc }}" target="_blank" class="link">ici</a>.
+        </p>
         <p>Pour contribuer, envoyez-nous votre idée via le formulaire de notre <a class="link" href="contact">page Contact</a>, en sélectionnant « Contribuer au Manifeste », ou bien vous pouvez nous envoyer un e-mail à   <a class="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.</p>
         <ul id="smallprint">
             <li>Les idées seront examinées avant tout pour garantir qu'elles répondent à l'engagement de CuraCultura. En soumettant une contribution au Manifeste, j'accepte le stockage, l'édition et l'utilisation ultérieure par CuraCultura de ce travail.</li>
             <li>En faveur de la gentillesse, de la justice, du respect, de l'inclusion et de la lutte contre la discrimination. Si une idée répond à ces valeurs, mais semble se répéter avec un article déjà inclus dans le Manifeste, nous éviterons de le dupliquer mais pourrons éventuellement modifier l’entrée existante pour refléter les inspirations proposées. Si la pertinence d'une entrée dans le Manifeste n'est pas claire, des éclaircissements seront recherchés avant de décider de son inclusion. CuraCultura n'a pas l'intention de dicter les paramètres du Manifeste, mais prendra occasionnellement une décision exécutive basée sur la force, l’impact et le potentiel de propagation des propositions. Toutes les idées seront conservées par CuraCultura, quelle que soit la répétition ou la pertinence du contenu. </li>
         </ul>
+    </div>
 </div>
