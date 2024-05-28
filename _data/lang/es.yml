@@ -63,14 +63,14 @@ about:
   images:
     logo: Curacultura imágen
   developers_text: |
-    CuraCultura quiere agradecer al equipo increíble de desarrolladores y diseñadores que han creado esta página web, liderados por Cristobal: 
-    Juanjo, Pablo y Alberto, algo que ha podido ser gracias al apoyo de la maravilla que es <a class="link" href="https://www.aircury.com/" target="blank">Aircury</a>. Sin vuestro talento y vuestro 
+    CuraCultura quiere agradecer al equipo increíble de desarrolladores y diseñadores que han creado esta página web, liderados por Cristobal:
+    Juanjo, Pablo y Alberto, algo que ha podido ser gracias al apoyo de la maravilla que es <a class="link" href="https://www.aircury.com/" target="blank">Aircury</a>. Sin vuestro talento y vuestro
     cuidado, no hubiéramos podido compartir nuestro trabajo y nuestras motivaciones con el mundo.
 
 # for manifesto layout
 manifesto:
-  title: Manifesto
-  button_name: Manifesto
+  title: Manifiesto
+  button_name: Manifiesto
 
 # for projects layout
 projects:
@@ -106,7 +106,7 @@ contact_form:
   email: Correo electrónico
   message: Mensaje
   alert: El formulario se ha enviado correctamente
-  reason: 
+  reason:
     text: Motivo de contacto
     discuss: Discutir un proyecto
     contribute: Contribuir en el Manifesto
@@ -127,7 +127,7 @@ cookie_consent:
       deny: &deny_button Rechazar
   panel_settings:
     title: *cookie_settings
-    msg: >      
+    msg: >
       Este sitio web utiliza cookies para optimizar la funcionalidad del sitio.
       Se activará con su aprobación. Haga clic en cada elemento a continuación para conocer la política de cookies.
     privacy_msg: Comprueba $privacy_link.

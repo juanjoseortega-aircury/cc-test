@@ -24,11 +24,20 @@ lng_pair: id_manifesto
             <img class="imgTitles" src="/assets/img/default/logo.webp" alt="Logo image">
             <h2 class="title2">El Manifiesto viviente tal como está actualmente</h2>
         </div>
-        <p>Para ver el estado actual del Manifesto, pulsa <a a href="https://docs.google.com/document/d/1QXDIBoaxXdKw2pb41cW8jq4Ya6WUL368horh5p-4TDA/edit?usp=sharing" target="_blank" class="link">aquí</a>.</p>
-         <p>Para contribuir, envíanos tu idea a través del formulario de nuestra <a class="link" href="contact.html">página de contacto</a>, seleccionando ‘Contribuir al Manifiesto’, o alternativamente, puede enviarnos un correo electrónico a  <a class="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.</p>
-    <ul id="smallprint">
-            <li>Al enviar una entrada al Manifiesto, acepto el almacenamiento, edición y uso posterior
-              por parte de CuraCultura de este trabajo.</li>
+        <p>
+            Para ver el estado actual del Manifesto, pulsa <a href="{{ site.data.conf.main.links.manifesto_doc }}"
+            target="_blank" class="link">aquí</a>.
+        </p>
+         <p>
+            Para contribuir, envíanos tu idea a través del formulario de nuestra <a class="link" href="contact.html">
+            página de contacto</a>, seleccionando ‘Contribuir al Manifiesto’, o alternativamente, puede enviarnos un
+            correo electrónico a <a class="link" href="mailto:hola@curacultura.art">hola@curacultura.art</a>.
+        </p>
+        <ul id="smallprint">
+            <li>
+                Al enviar una entrada al Manifiesto, acepto el almacenamiento, edición y uso posterior por parte de
+                CuraCultura de este trabajo.
+            </li>
             <li>Las ideas serán revisadas ante todo para garantizar que cumplan con la dedicación de
               CuraCultura a la bondad, la justicia, el respeto, la inclusión y la antidiscriminación. Si una idea
               cumple con estos comportamientos, pero repite en sentimiento un artículo ya incluido en el
@@ -39,3 +48,5 @@ lng_pair: id_manifesto
               ejecutiva en aras de su fuerza, impacto y potencial para difundir el bien. Todas las ideas serán
               almacenadas por CuraCultura independientemente de la repetición o idoneidad del contenido. </li>
         </ul>
+    </div>
+</div>
