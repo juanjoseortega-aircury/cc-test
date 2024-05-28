@@ -10,7 +10,7 @@ page_data:
     - title: "Ecrire"
       type: id_writing
       color: "gray"
-    - title: "Guérison"
+    - title: "Curation"
       type: id_curation
       color: "#62b462"
     - title: "Conférence"
