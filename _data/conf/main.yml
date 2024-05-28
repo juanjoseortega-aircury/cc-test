@@ -337,3 +337,9 @@ cookie_consent:
   side_nav_setting_button:
     enable: true
     tooltip: true
+
+###########################################################
+#                Links
+###########################################################
+links:
+  manifesto_doc: "https://docs.google.com/document/d/1QXDIBoaxXdKw2pb41cW8jq4Ya6WUL368horh5p-4TDA/edit?usp=sharing"
