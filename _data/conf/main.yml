@@ -200,6 +200,13 @@ contacts_open_in_new_tab: true
 contacts_mastodon_link_verification: false
 
 ###########################################################
+#                Contact form
+###########################################################
+# this will add contact form feature.
+contact_form:
+  key: f0ad7394-fc3f-46e0-ad77-44ff7953198c
+
+###########################################################
 #                Copyright text
 ###########################################################
 # this will add current year to the end of copyright_start_year which is defined in _data/owner/[language].yml
